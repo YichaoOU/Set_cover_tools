@@ -1,0 +1,283 @@
+#!/usr/bin/python -W ignore::DeprecationWarning
+from __future__ import division
+#### dataset is csv format, each row is a seq, each col is a motif; it is a boolean matrix, representing whether the motif is occurred on the sequence or not. The last column is the class, indicating foreground and background label. ####
+import shutil
+import uuid
+import argparse
+import pandas as pd
+import warnings
+with warnings.catch_warnings():
+	warnings.filterwarnings("ignore",category=DeprecationWarning)
+	import sklearn as sk
+	from sklearn.model_selection import StratifiedKFold as cv
+import re
+
+# import joblib
+from Emotif.utils import conf
+import numpy as np
+from grid_search import grid_search
+import logging
+from MS_CLF_PRED import MCP
+from MS_CLF_PRED import Motif_Selection
+import os
+
+
+
+parser = argparse.ArgumentParser(prog='Evams')
+#job id to make a folder to store all the data for a specific job
+parser.add_argument("-jid",  help="enter job ID")
+#path to configuration file
+parser.add_argument("-confFile",  help="enter the configuration file")
+parser.add_argument("-copy",  help="copy a sample configuration file into your current folder.")
+args = parser.parse_args()
+copy_flag = False
+try:
+	command = "cp /users/PHS0293/ohu0404/project/motif_selection_evaluation/motif_evaluation.conf "
+	command = command + "./" + args.copy
+	# print command
+	os.system(command)
+	copy_flag = True
+except:
+	1
+if copy_flag:
+	exit()
+try:
+	output_PWM_file = args.jid + "_all_motifs.pwm"
+except:
+	parser.print_help()
+	exit()
+
+
+
+
+
+
+
+logger = logging.getLogger(args.jid)
+hdlr = logging.FileHandler(args.jid+".log")
+formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+hdlr.setFormatter(formatter)
+logger.addHandler(hdlr) 
+logger.setLevel(logging.INFO)
+#make a config object
+confObj = conf.Conf()
+# 2d dict, first key: section name. 
+confDict = confObj.read(args.confFile) 
+logger.info('READ configuration file successfully')
+
+# output folder
+resultsDirName = args.jid
+try:
+	os.makedirs(resultsDirName)
+except:
+	logger.warning(resultsDirName+" folder exist!")
+	
+
+
+motif_matrix = confDict["input"]["motif_matrix"]
+data = pd.read_csv(motif_matrix,delimiter = ",",index_col = 0)
+try:
+	my_frac = confDict["input"]["subsample"]
+	data = data.groupby(list(data.columns)[-1]).apply(pd.DataFrame.sample, frac=float(my_frac)).reset_index(drop=True)
+	print "using subsample"
+	logger.info("using subsample")
+except:
+	print "use all samples"
+logger.info('READ data file successfully')
+motifs=list(data.columns)[:-1]
+X = data[motifs].values
+Y = data[list(data.columns)[-1]].values
+skf_outer = cv(n_splits=int(confDict["nested_CV"]["outer_cv_folds"]),shuffle=True)
+# skf_outer = cv(n_splits=int(confDict["nested_CV"]["outer_cv_folds"]))
+logger.info('begin outer CV successfully')
+count = 0
+scoring_matrix = pd.DataFrame(np.zeros(shape=[int(confDict["nested_CV"]["outer_cv_folds"])+2, 5]))
+scoring_matrix.columns = ['Sensitivity','Specificity','Accuracy','precision','f1']
+scoring_matrix.index = ["outer_CV_" + str(i) for i in range(1,int(confDict["nested_CV"]["outer_cv_folds"])+1)] + ['mean','std']
+scoring_matrix_file = "BEST_MODEL_EVALUATION.csv"
+outer_count = 0
+file_list = []
+parameter_list = []
+score_list = []
+for train_index_outer, test_index_outer in skf_outer.split(X,Y):
+	train_y_outer = Y[train_index_outer]
+	# train_y_outer = list(Y[train_index_outer])
+	print train_y_outer
+	print "train_y_outer"
+	train_x_outer = X[train_index_outer]
+	# test_y_outer = Y[test_index_outer]
+	# test_x_outer = X[test_index_outer]
+	outer_count += 1
+	count += 1
+	logger.info('begin '+str(count)+' iteration successfully')
+	skf_inner = cv(n_splits=int(confDict['nested_CV']['inner_cv_folds']),shuffle=True)
+	# skf_inner = cv(n_splits=int(confDict['nested_CV']['inner_cv_folds']))
+	
+	[best_parameters,best_scores] = grid_search(data,skf_inner.split(train_x_outer,train_y_outer),confDict,outer_count,file_list)
+	parameter_list.append(best_parameters)
+	# score_list.append(best_scores)
+	logger.info(str(count)+' iteration best inner scores: ' + " ".join(map(lambda x:str(x),best_scores)))
+	logger.info(best_parameters)
+	[se,sp,acc,precision,f1] = MCP(data,train_index_outer,test_index_outer,confDict['Motif_Selection']['program'],best_parameters,999,999)
+	logger.info(str(count)+' iteration outer scores: ' + " ".join(map(lambda x:str(x),[se,sp,acc,precision,f1])))
+	scoring_matrix.set_value("outer_CV_" + str(outer_count),"Sensitivity",se)
+	scoring_matrix.set_value("outer_CV_" + str(outer_count),"Specificity",sp)
+	scoring_matrix.set_value("outer_CV_" + str(outer_count),"Accuracy",acc)
+	scoring_matrix.set_value("outer_CV_" + str(outer_count),"precision",precision)
+	scoring_matrix.set_value("outer_CV_" + str(outer_count),"f1",f1)
+	score_list.append([se,sp,acc,precision,f1])
+
+mean_value = list(scoring_matrix.iloc[range(int(confDict["nested_CV"]["outer_cv_folds"]))].mean(axis=0))	
+std_value = list(scoring_matrix.iloc[range(int(confDict["nested_CV"]["outer_cv_folds"]))].std(axis=0))	
+scoring_matrix.loc['mean'] = mean_value	
+scoring_matrix.loc['std'] = std_value	
+scoring_matrix.to_csv(scoring_matrix_file)
+
+metric_number = int(confDict['nested_CV']['metric'])
+max_score = [0,0]
+for i in range(len(score_list)):
+	score = score_list[i]
+	if score[metric_number] > max_score[0]:
+		max_score[0] = score[metric_number]
+		max_score[1] = i
+	
+logger.info("BEST PARAMS:")
+logger.info(parameter_list[max_score[1]])
+
+logger.info("Evaluation SCORE:" + " ".join(map(lambda x:str(x),mean_value)))
+logger.info("Evaluation STD:" + " ".join(map(lambda x:str(x),std_value)))
+
+
+file_list.append(scoring_matrix_file)
+file_list.append(args.jid+".log")
+
+
+
+
+
+
+
+def csv_to_mhit(csv_file,my_class_label):
+	mhit_file = str(uuid.uuid1())
+	out_file = open(mhit_file,"wb")
+	motif_name = []
+	mhit_dict = {}
+	flag = True
+	count = 0 
+	foreNumSeqs=0
+	with open(csv_file) as f:
+		for line in f:
+			if flag:
+				motif_name = line.strip().split(",")[1:-1]
+				for m in motif_name:
+					mhit_dict[m] = []
+				flag = False
+				continue
+			
+			label = line.strip().split(",")[-1]
+			seq_id = line.split(",")[0]
+			if float(label) == my_class_label:
+				count += 1
+				# print >>out_file,">" + line.split(",")[0]
+				my_index = 0
+				for m in line.split(",")[1:-1]:
+					if float(m) == 1:
+						# print >>out_file,motif_name[my_index]
+						mhit_dict[motif_name[my_index]].append(seq_id)
+					my_index+= 1
+	foreNumSeqs = count
+	for m in mhit_dict:
+		print >>out_file,">" + m
+		print >>out_file,"\n".join(mhit_dict[m])
+	out_file.close()
+	return [mhit_file,foreNumSeqs]
+
+
+def single_motif_rank(jid,csv_file):
+	#Motif obj dict between motif name and its object
+	# motifObjDict = {}
+	outFileName = jid + "_SE_SP_ACC.csv"
+	[pos_mhit,totalNumPosSeqs] = csv_to_mhit(csv_file,1)
+	[neg_mhit,totalNumNegSeqs] = csv_to_mhit(csv_file,-1)
+	
+	foreMotifDict = readHitFile(pos_mhit)
+	backMotifDict = readHitFile(neg_mhit)
+
+	os.remove(pos_mhit)
+	os.remove(neg_mhit)
+	outFile = open(outFileName, 'wb')
+	outFile.write('Motif,ForeCov,ForeNumSeqs,BackCov,BackNumSeqs,TP,FN,FP,TN,SN,SP,ACC\n')
+	for motifName in foreMotifDict:
+		posNumSeqs = len(foreMotifDict[motifName])
+		posCov = round( 100*(posNumSeqs/totalNumPosSeqs), 1)
+		if motifName in backMotifDict:
+			negNumSeqs = len(backMotifDict[motifName])
+			negCov = round( 100*(negNumSeqs/totalNumNegSeqs), 1)
+		else:
+			negNumSeqs = 0
+			negCov= 0
+		TP = int(posNumSeqs)
+		FN = int(totalNumPosSeqs - TP)
+		FP = int(negNumSeqs)
+		TN = int(totalNumNegSeqs - FP)
+		SN, SP, ACC = findAccMeas(TP, FN, FP, TN, totalNumPosSeqs, totalNumNegSeqs)
+		
+		lineList = [motifName, str(posCov), str(posNumSeqs), str(negCov), str(negNumSeqs), str(TP), str(FN), str(FP), str(TN), str(SN), str(SP), str(ACC)]
+		lineStr = ','.join(lineList)
+		outFile.write(lineStr + '\n')
+		# motifObjDict[motifName] = MyMotif(TP, TN, FN, FP, SN, SP, ACC, float(posCov), float(negCov), float(posNumSeqs), float(negNumSeqs))
+		
+	outFile.close()
+	
+	# print 'number of motifs in dictionary:', len(motifObjDict)
+	return outFileName
+
+def findAccMeas(TP, FN, FP, TN, P, N):
+	"""
+	Find different measures
+	Sn = TP / (TP + FN)
+	Sp = TN / (FP + TN)
+	Acc =  True positive + True negative / Total population OR TP + TN / P + N
+	precision = Tp/Tp+FP
+	"""
+	sn = TP/(TP + FN)
+	sp = TN / (FP + TN)
+	acc = (TP+TN) / (P+N)
+	
+	return (sn*100), (100*sp), (100*acc)
+def readHitFile(hitFile):
+	"""Read the hit file and make a dict between motifnames and their seqs """
+	motifDict = {}
+	motifName = ''
+	with open(hitFile, 'rb') as handler:
+		for line in handler:
+			line = line.strip()
+			if re.search(r'>', line):
+				motifName = line[1:]
+				if motifName not in motifDict:
+					motifDict[motifName] = []
+				continue
+			motifDict[motifName].append(line)
+	
+	print 'len of motifDict:', len(motifDict)
+	return motifDict
+
+if confDict['output']['motif_stat'] == "True":
+	motif_stat_file = single_motif_rank(args.jid,motif_matrix)
+	file_list.append(motif_stat_file)
+print "line 265"
+from copy import deepcopy as dp
+my_parameters = dp(parameter_list[max_score[1]])
+MS_output_file =  args.jid + ".final_selected_motif.list"
+my_parameters['input'] = motif_matrix
+my_parameters['output'] = MS_output_file
+print "line 271"
+Motif_Selection(confDict['Motif_Selection']['program'],my_parameters)	
+print "line 273"
+file_list.append(MS_output_file)
+for file in file_list:
+	shutil.move(file, resultsDirName)
+
+
+
+
