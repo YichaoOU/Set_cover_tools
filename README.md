@@ -2,7 +2,7 @@
 
 ### What is motif selection?
 
-`Motif selection is a part of the motif discovery problem. The input is a list of motifs and the output is a small set of biologically relevant motifs.`
+Motif selection is a part of the motif discovery problem. The input is a list of motifs and the output is a small set of biologically relevant motifs.
 
 ### The set cover algorithms
 
@@ -22,7 +22,7 @@ To compile the code, please first download the METSlib framework. Then:
 
 To run the code: `tabu_MS -in input_matrix -out output_file_name -t 0.2`
 
-3. Relax integer linear
+3. Relax integer linear programming
 
 This algorithm is developed by Dr. David Juedes. 
 
