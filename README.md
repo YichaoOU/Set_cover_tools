@@ -2,13 +2,13 @@
 
 ### What is motif selection?
 
-Motif selection is a part of the motif discovery problem. The input is a list of motifs and the output is a small set of biologically relevant motifs.
+The motif selection problem seeks to identify a minimal set of regulatory motifs that characterize sequences of interest (e.g. ChIP-seq binding regions).
 
 ### The set cover algorithms
 
 1. Greedy approach
 
-This algorithm is developed by Rami. I created a wrapper for his code inside the Greedy folder.
+This algorithm is developed by Rami Al-Ouran. I created a wrapper for his code inside the Greedy folder.
 
 Al-Ouran, Rami, et al. "Discovering gene regulatory elements using coverage-based heuristics." IEEE/ACM transactions on computational biology and bioinformatics 15.4 (2018): 1290-1300.
 
@@ -22,9 +22,9 @@ To compile the code, please first download the METSlib framework. Then:
 
 To run the code: `tabu_MS -in input_matrix -out output_file_name -t 0.2`
 
-3. Relax integer linear programming
+3. Relaxed integer linear programming
 
-This algorithm is developed by Dr. David Juedes. 
+This algorithm is developed by David Juedes. 
 
 To compile the code, please first download the GLPK framework. Then:
 
