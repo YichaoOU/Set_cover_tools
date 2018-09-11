@@ -4,6 +4,12 @@
 
 The motif selection problem seeks to identify a minimal set of regulatory motifs that characterize sequences of interest (e.g. ChIP-seq binding regions).
 
+### Dependencies
+
+- Pandas
+
+- Emotif Alpha: https://github.com/YichaoOU/Emotif_Alpha
+
 ### The set cover algorithms
 
 1. Greedy approach
