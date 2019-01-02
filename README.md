@@ -10,6 +10,10 @@ The motif selection problem seeks to identify a minimal set of regulatory motifs
 
 - Emotif Alpha: https://github.com/YichaoOU/Emotif_Alpha
 
+### Data folder
+
+This folder contains all raw inputs (i.e., binary matrices) and the Fisher exact test p-values for every motif.
+
 ### The set cover algorithms
 
 1. Greedy approach
