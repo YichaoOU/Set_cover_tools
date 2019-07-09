@@ -1,45 +1,67 @@
 # The set cover algorithms for motif selection.
 
-### What is motif selection?
+## What is motif selection?
 
-The motif selection problem seeks to identify a minimal set of regulatory motifs that characterize sequences of interest (e.g. ChIP-seq binding regions).
+The motif selection problem seeks to identify a minimal set of regulatory motifs that characterize sequences of interest (e.g. ChIP-seq binding regions). The output motifs represent putative binding sites for primary transcription factors (ChIP-ed factors) and co-factors.
 
-### Dependencies
+## Getting started
 
-- Pandas
+Please see the [documentation](https://set-cover-tools.readthedocs.io/en/latest/index.html) for more details.
+
+The following example has been tested in Ubuntu x64.
+
+**Step 0. Download the GLPK library**
+
+https://www.gnu.org/software/glpk/
+
+**Step 1. Compile the C code**
+
+.. code:: bash
+
+	cd RILP
+
+	g++ -std=c++11 RIPL_simplex2_07_31.cc -o msdc -L/PATH/glpk/lib -I/PATH/glpk/include -lglpk
+
+**Step 2. Run the RILP method**
+
+.. code:: bash
+
+	./msdc foreground.list background.list motif_mapping.fimo
+
+**Output**
+
+The output is a list of selected motifs defined in `motif_mapping.fimo`.
 
 ### Data folder
 
 This folder contains all raw inputs (i.e., binary matrices) and the Fisher exact test p-values for every motif.
 
-### The set cover algorithms
+### To replicate our results
 
-1. Greedy approach
+Please use the detailed installation steps below
 
-This algorithm is developed by Rami Al-Ouran. I created a wrapper for his code inside the Greedy folder.
+#### **Install Anaconda Python 2.7 version**
 
-Al-Ouran, Rami, et al. "Discovering gene regulatory elements using coverage-based heuristics." IEEE/ACM transactions on computational biology and bioinformatics 15.4 (2018): 1290-1300.
+https://www.anaconda.com/distribution/
 
-2. Tabu search
+#### **Create Conda environment**
 
-This algorithm is developed by Yating Liu. 
+`conda create -n set_cover python=2.7`
 
-To compile the code, please first download the METSlib framework. Then:
+`conda activate set_cover` or `source activate set_cover`
 
-`g++ -I/PATH/metslib-0.5 main.cc`
+#### **Install dependencies**
 
-To run the code: `tabu_MS -in input_matrix -out output_file_name -t 0.2`
+* **Pandas:** `conda install -c anaconda pandas`
+* **Joblib:** `conda install -c anaconda joblib`
+* **scikit-learn:** `conda install -c anaconda scikit-learn`
 
-3. Relaxed integer linear programming
+#### **Run the nested cross-validation framework**
 
-This algorithm is developed by David Juedes. 
+`cd Evams`
 
-To compile the code, please first download the GLPK framework. Then:
+`Evams2 -h`
 
-`g++ -std=c++11 RIPL_simplex2_07_31.cc -o msdc -L/PATH/glpk/lib -I/PATH/glpk/include -lglpk`
+`Evams2 -jid test -confFile example.conf`
 
-I created a wrapper for his code: `python MSDC_wrapper.py input_matrix output_file_name pos_k neg_j`
-
-### The nested cross-validation framework
-
-The code is in the Evams (short for Evaluation of Motif Selection) folder
+In `example.conf`, please change input to individual files in the Data folder.
