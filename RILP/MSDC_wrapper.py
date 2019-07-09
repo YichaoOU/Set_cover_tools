@@ -66,7 +66,7 @@ temp_output = str(uuid.uuid1())
 k = sys.argv[3]
 j = sys.argv[4]
 
-command = "/users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/msdc " + fore_list + " " + back_list + " " + motif_mapping + " ." + k + " ." + j + " > " + temp_output
+command = "msdc " + fore_list + " " + back_list + " " + motif_mapping + " ." + k + " ." + j + " > " + temp_output
 os.system(command)
 parse_output(temp_output,output)
 

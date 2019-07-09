@@ -8,8 +8,6 @@ The motif selection problem seeks to identify a minimal set of regulatory motifs
 
 - Pandas
 
-- Emotif Alpha: https://github.com/YichaoOU/Emotif_Alpha
-
 ### Data folder
 
 This folder contains all raw inputs (i.e., binary matrices) and the Fisher exact test p-values for every motif.
