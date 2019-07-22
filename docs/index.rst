@@ -26,7 +26,7 @@ The greedy set cover solution
 
 This is our first generation solution. For more details, see: https://github.com/RamiOran/SeqCov
 
-Contrust to the first generation solution, our current methods introduce a background set, which ideally, we wish to (1) cover as much of the foreground as possible, (2) cover as little of the background as possible, and (3) select the smallest set of motifs.
+Contrast to the first generation solution, our current methods introduce a background set, which ideally, we wish to (1) cover as much of the foreground as possible, (2) cover as little of the background as possible, and (3) select the smallest set of motifs. See below:
 
 The tabu search method
 """""""""
