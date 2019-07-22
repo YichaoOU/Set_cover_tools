@@ -2,13 +2,8 @@ Relaxed Integer Linear Programming
 ==================================
 
 
-Summary
-^^^^^^^
-
-
-
-Installation
-^^^^^^^^^^^^
+Usage
+-----
 
 
 **Step 0. Download the GLPK library**
@@ -22,6 +17,12 @@ https://www.gnu.org/software/glpk/
 	g++ -std=c++11 RIPL_simplex2_07_31.cc -o msdc -L/PATH/glpk/lib -I/PATH/glpk/include -lglpk
 
 **Step 2. Run the RILP method**
+
+.. code:: bash
+
+	./msdc foreground.list background.list motif_mapping.fimo
+
+You can also use the python wrapper:
 
 .. code:: bash
 
