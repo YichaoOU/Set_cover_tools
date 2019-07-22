@@ -1,0 +1,12 @@
+#PBS -N ${job_name}
+#PBS -l walltime=20:00:00
+#PBS -l nodes=1:ppn=8
+#PBS -j oe
+#PBS -l mem=16GB
+
+
+
+
+cd /users/PHS0293/ohu0404/project/motif_selection_paper/2017_10_3_new_result/Greedy/${folder}
+
+Evams2 -jid ${TF_group} -confFile /users/PHS0293/ohu0404/project/motif_selection_paper/2017_10_3_new_result/Greedy/${conf} 

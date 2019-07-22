@@ -1,0 +1,4258 @@
+-in
+1.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.1.0.02.0.2.0.5.MS_input.csv
+Output file = 1.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5330Num of background seq : 6670
+=====================================================
+current cost: 16.5848
+Objective function: 17.5848
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2010
+Background covered sequences: 878
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2175
+Background covered sequences: 498
+==========
+Best solution: 17.5848
+Num of features: 2
+Total foreground coverage: 0.596248
+Total background coverage: 0.173463
+using subsample
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.1.0.02.0.2.0.5.MS_input.csv -out 1.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+1.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.1.0.2.0.02.0.5.MS_input.csv
+Output file = 1.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5330Num of background seq : 6670
+Input file = 1.1.0.6.0.02.0.5.MS_input.csv
+Output file = 1.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5330Num of background seq : 6670
+Input file = 1.1.0.4.0.02.0.5.MS_input.csv
+Output file = 1.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5330Num of background seq : 6670
+=====================================================
+current cost: 16.5848
+Objective function: 17.5848
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2010
+Background covered sequences: 878
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2175
+Background covered sequences: 498
+==========
+Best solution: 17.5848
+Num of features: 2
+Total foreground coverage: 0.596248
+Total background coverage: 0.173463
+=====================================================
+current cost: 16.5848
+Objective function: 17.5848
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2010
+Background covered sequences: 878
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2175
+Background covered sequences: 498
+==========
+Best solution: 17.5848
+Num of features: 2
+Total foreground coverage: 0.596248
+Total background coverage: 0.173463
+=====================================================
+current cost: 16.7073
+Objective function: 17.7073
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2175
+Background covered sequences: 498
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1907
+Background covered sequences: 891
+==========
+Best solution: 17.7073
+Num of features: 2
+Total foreground coverage: 0.59606
+Total background coverage: 0.177811
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.1.0.2.0.02.0.5.MS_input.csv -out 1.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.1.0.4.0.02.0.5.MS_input.csv -out 1.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+1.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.2.0.02.0.2.0.5.MS_input.csv
+Output file = 1.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+=====================================================
+current cost: 16.5872
+Objective function: 17.5872
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2002
+Background covered sequences: 988
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2197
+Background covered sequences: 497
+==========
+Best solution: 17.5872
+Num of features: 2
+Total foreground coverage: 0.614074
+Total background coverage: 0.191377
+[[0.5846441947565543, 0.8162162162162162, 0.71316666666666662, 0.718361711919006, 0.644641750980797], [0.5846441947565543, 0.8162162162162162, 0.71316666666666662, 0.718361711919006, 0.644641750980797], [0.5936329588014981, 0.8219219219219219, 0.72033333333333338, 0.7277318640955005, 0.653877887788779]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.02.0.2.0.5.MS_input.csv -out 1.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+1.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.2.0.2.0.02.0.5.MS_input.csv
+Output file = 1.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+Input file = 1.2.0.6.0.02.0.5.MS_input.csv
+Output file = 1.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+Input file = 1.2.0.4.0.02.0.5.MS_input.csv
+Output file = 1.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+=====================================================
+current cost: 16.5872
+Objective function: 17.5872
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2197
+Background covered sequences: 497
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2002
+Background covered sequences: 988
+==========
+Best solution: 17.5872
+Num of features: 2
+Total foreground coverage: 0.614074
+Total background coverage: 0.191377
+=====================================================
+current cost: 16.5872
+Objective function: 17.5872
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2197
+Background covered sequences: 497
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2002
+Background covered sequences: 988
+==========
+Best solution: 17.5872
+Num of features: 2
+Total foreground coverage: 0.614074
+Total background coverage: 0.191377
+=====================================================
+current cost: 16.5872
+Objective function: 17.5872
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2197
+Background covered sequences: 497
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2002
+Background covered sequences: 988
+==========
+Best solution: 17.5872
+Num of features: 2
+Total foreground coverage: 0.614074
+Total background coverage: 0.191377
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.2.0.02.0.5.MS_input.csv -out 1.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.4.0.02.0.5.MS_input.csv -out 1.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+1.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.3.0.02.0.2.0.5.MS_input.csv
+Output file = 1.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 16.7083
+Objective function: 17.7083
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1998
+Background covered sequences: 1002
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 511
+==========
+Best solution: 17.7083
+Num of features: 2
+Total foreground coverage: 0.611977
+Total background coverage: 0.193766
+[[0.6082047421904403, 0.8037690696978762, 0.71716666666666662, 0.7112676056338029, 0.6557110975857171], [0.6082047421904403, 0.8037690696978762, 0.71716666666666662, 0.7112676056338029, 0.6557110975857171], [0.6082047421904403, 0.8037690696978762, 0.71716666666666662, 0.7112676056338029, 0.6557110975857171]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.02.0.2.0.5.MS_input.csv -out 1.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+1.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+1.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.3.0.4.0.02.0.5.MS_input.csv
+Output file = 1.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5327Num of background seq : 6673
+Input file = 1.3.0.6.0.02.0.5.MS_input.csv
+Output file = 1.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5327Num of background seq : 6673
+Input file = 1.3.0.2.0.02.0.5.MS_input.csv
+Output file = 1.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 16.7083
+Objective function: 17.7083
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1998
+Background covered sequences: 1002
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 511
+==========
+Best solution: 17.7083
+Num of features: 2
+Total foreground coverage: 0.611977
+Total background coverage: 0.193766
+=====================================================
+current cost: 16.7083
+Objective function: 17.7083
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1998
+Background covered sequences: 1002
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 511
+==========
+Best solution: 17.7083
+Num of features: 2
+Total foreground coverage: 0.611977
+Total background coverage: 0.193766
+=====================================================
+current cost: 16.7415
+Objective function: 17.7415
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1892
+Background covered sequences: 913
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 511
+==========
+Best solution: 17.7415
+Num of features: 2
+Total foreground coverage: 0.59771
+Total background coverage: 0.180728
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.2.0.02.0.5.MS_input.csv -out 1.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.6.0.02.0.5.MS_input.csv -out 1.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.4.0.02.0.5.MS_input.csv -out 1.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.6.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.6.0.5.MS_input.csv
+Output file = 999.999.0.02.0.6.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.729
+Objective function: 17.729
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3689
+Background covered sequences: 670
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 3157
+Background covered sequences: 1208
+==========
+Best solution: 17.729
+Num of features: 2
+Total foreground coverage: 0.594778
+Total background coverage: 0.177333
+-in
+2.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.1.0.02.0.2.0.5.MS_input.csv
+Output file = 2.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+=====================================================
+current cost: 16.7689
+Objective function: 17.7689
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2160
+Background covered sequences: 517
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1011
+==========
+Best solution: 17.7689
+Num of features: 2
+Total foreground coverage: 0.610609
+Total background coverage: 0.194644
+[[0.6124205013093902, 0.8085362188157499, 0.72116666666666662, 0.7198768689533861, 0.6618152415605417], [0.6124205013093902, 0.8085362188157499, 0.72116666666666662, 0.7198768689533861, 0.6618152415605417], [0.590347923681257, 0.8277727682596934, 0.72199999999999998, 0.7336122733612274, 0.6542288557213931]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.6.0.5.MS_input.csv -out 999.999.0.02.0.6.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.02.0.2.0.5.MS_input.csv -out 2.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.1.0.4.0.02.0.5.MS_input.csv
+Output file = 2.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+Input file = 2.1.0.2.0.02.0.5.MS_input.csv
+Output file = 2.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+Input file = 2.1.0.6.0.02.0.5.MS_input.csv
+Output file = 2.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+=====================================================
+current cost: 16.7689
+Objective function: 17.7689
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1011
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2160
+Background covered sequences: 517
+==========
+Best solution: 17.7689
+Num of features: 2
+Total foreground coverage: 0.610609
+Total background coverage: 0.194644
+=====================================================
+current cost: 16.7689
+Objective function: 17.7689
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1011
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2160
+Background covered sequences: 517
+==========
+Best solution: 17.7689
+Num of features: 2
+Total foreground coverage: 0.610609
+Total background coverage: 0.194644
+=====================================================
+current cost: 16.7689
+Objective function: 17.7689
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1011
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2160
+Background covered sequences: 517
+==========
+Best solution: 17.7689
+Num of features: 2
+Total foreground coverage: 0.610609
+Total background coverage: 0.194644
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.2.0.02.0.5.MS_input.csv -out 2.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.4.0.02.0.5.MS_input.csv -out 2.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+2.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.2.0.02.0.2.0.5.MS_input.csv
+Output file = 2.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5347Num of background seq : 6653
+=====================================================
+current cost: 16.6312
+Objective function: 17.6312
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2221
+Background covered sequences: 507
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1989
+Background covered sequences: 903
+==========
+Best solution: 17.6312
+Num of features: 2
+Total foreground coverage: 0.598279
+Total background coverage: 0.177213
+[[0.6151266766020864, 0.8103136308805791, 0.72299999999999998, 0.7241228070175438, 0.6651893634165995], [0.6151266766020864, 0.8103136308805791, 0.72299999999999998, 0.7241228070175438, 0.6651893634165995], [0.6151266766020864, 0.8103136308805791, 0.72299999999999998, 0.7241228070175438, 0.6651893634165995]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.02.0.2.0.5.MS_input.csv -out 2.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.2.0.4.0.02.0.5.MS_input.csv
+Output file = 2.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5347Num of background seq : 6653
+Input file = 2.2.0.6.0.02.0.5.MS_input.csv
+Output file = 2.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5347Num of background seq : 6653
+Input file = 2.2.0.2.0.02.0.5.MS_input.csv
+Output file = 2.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5347Num of background seq : 6653
+=====================================================
+current cost: 16.6312
+Objective function: 17.6312
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1989
+Background covered sequences: 903
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2221
+Background covered sequences: 507
+==========
+Best solution: 17.6312
+Num of features: 2
+Total foreground coverage: 0.598279
+Total background coverage: 0.177213
+=====================================================
+current cost: 16.5452
+Objective function: 17.5452
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2038
+Background covered sequences: 987
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2221
+Background covered sequences: 507
+==========
+Best solution: 17.5452
+Num of features: 2
+Total foreground coverage: 0.616046
+Total background coverage: 0.191793
+=====================================================
+current cost: 16.5452
+Objective function: 17.5452
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2038
+Background covered sequences: 987
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2221
+Background covered sequences: 507
+==========
+Best solution: 17.5452
+Num of features: 2
+Total foreground coverage: 0.616046
+Total background coverage: 0.191793
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.2.0.02.0.5.MS_input.csv -out 2.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.3.0.02.0.2.0.5.MS_input.csv
+Output file = 2.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 16.5563
+Objective function: 17.5563
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1896
+Background covered sequences: 887
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2189
+Background covered sequences: 482
+==========
+Best solution: 17.5563
+Num of features: 2
+Total foreground coverage: 0.598838
+Total background coverage: 0.174996
+[[0.5804749340369393, 0.8237227367792053, 0.71616666666666662, 0.7230046948356808, 0.6439473134016308], [0.604221635883905, 0.8046011353450851, 0.71599999999999997, 0.7102348249889233, 0.6529531568228106], [0.604221635883905, 0.8046011353450851, 0.71599999999999997, 0.7102348249889233, 0.6529531568228106]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.02.0.2.0.5.MS_input.csv -out 2.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.3.0.2.0.02.0.5.MS_input.csv
+Output file = 2.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+Input file = 2.3.0.4.0.02.0.5.MS_input.csv
+Output file = 2.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+Input file = 2.3.0.6.0.02.0.5.MS_input.csv
+Output file = 2.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 16.5563
+Objective function: 17.5563
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2189
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1896
+Background covered sequences: 887
+==========
+Best solution: 17.5563
+Num of features: 2
+Total foreground coverage: 0.598838
+Total background coverage: 0.174996
+=====================================================
+current cost: 16.5563
+Objective function: 17.5563
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2189
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1896
+Background covered sequences: 887
+==========
+Best solution: 17.5563
+Num of features: 2
+Total foreground coverage: 0.598838
+Total background coverage: 0.174996
+=====================================================
+current cost: 16.5563
+Objective function: 17.5563
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2189
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1896
+Background covered sequences: 887
+==========
+Best solution: 17.5563
+Num of features: 2
+Total foreground coverage: 0.598838
+Total background coverage: 0.174996
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.2.0.02.0.5.MS_input.csv -out 2.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.4.0.02.0.5.MS_input.csv -out 2.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.681
+Objective function: 17.681
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3397
+Background covered sequences: 1346
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3689
+Background covered sequences: 680
+==========
+Best solution: 17.681
+Num of features: 2
+Total foreground coverage: 0.611222
+Total background coverage: 0.192
+-in
+3.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.1.0.02.0.2.0.5.MS_input.csv
+Output file = 3.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+=====================================================
+current cost: 16.5554
+Objective function: 17.5554
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2188
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1891
+Background covered sequences: 889
+==========
+Best solution: 17.5554
+Num of features: 2
+Total foreground coverage: 0.598646
+Total background coverage: 0.174772
+[[0.5880585805482539, 0.816302067725502, 0.71499999999999997, 0.7186782927948601, 0.6468401486988848], [0.5880585805482539, 0.816302067725502, 0.71499999999999997, 0.7186782927948601, 0.6468401486988848], [0.5880585805482539, 0.816302067725502, 0.71499999999999997, 0.7186782927948601, 0.6468401486988848]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.02.0.2.0.5.MS_input.csv -out 3.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+3.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.1.0.2.0.02.0.5.MS_input.csv
+Output file = 3.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+Input file = 3.1.0.6.0.02.0.5.MS_input.csv
+Output file = 3.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+Input file = 3.1.0.4.0.02.0.5.MS_input.csv
+Output file = 3.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+=====================================================
+current cost: 16.5554
+Objective function: 17.5554
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2188
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1891
+Background covered sequences: 889
+==========
+Best solution: 17.5554
+Num of features: 2
+Total foreground coverage: 0.598646
+Total background coverage: 0.174772
+=====================================================
+current cost: 16.5467
+Objective function: 17.5467
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2188
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1769
+Background covered sequences: 814
+==========
+Best solution: 17.5467
+Num of features: 2
+Total foreground coverage: 0.589242
+Total background coverage: 0.165046
+=====================================================
+current cost: 16.5554
+Objective function: 17.5554
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2188
+Background covered sequences: 482
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1891
+Background covered sequences: 889
+==========
+Best solution: 17.5554
+Num of features: 2
+Total foreground coverage: 0.598646
+Total background coverage: 0.174772
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.2.0.02.0.5.MS_input.csv -out 3.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.6.0.02.0.5.MS_input.csv -out 3.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+3.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.2.0.02.0.2.0.5.MS_input.csv
+Output file = 3.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 16.7104
+Objective function: 17.7104
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2155
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 1006
+==========
+Best solution: 17.7104
+Num of features: 2
+Total foreground coverage: 0.612849
+Total background coverage: 0.194716
+[[0.5885203130823705, 0.8157974072957491, 0.71416666666666662, 0.7210045662100457, 0.6480607428688693], [0.5769660827431979, 0.824238769972867, 0.71366666666666667, 0.7264195213514781, 0.643124221022019], [0.5885203130823705, 0.8157974072957491, 0.71416666666666662, 0.7210045662100457, 0.6480607428688693]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.02.0.2.0.5.MS_input.csv -out 3.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+3.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.2.0.2.0.02.0.5.MS_input.csv
+Output file = 3.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5339Num of background seq : 6661
+Input file = 3.2.0.6.0.02.0.5.MS_input.csv
+Output file = 3.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5339Num of background seq : 6661
+Input file = 3.2.0.4.0.02.0.5.MS_input.csv
+Output file = 3.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 16.7104
+Objective function: 17.7104
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2155
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 1006
+==========
+Best solution: 17.7104
+Num of features: 2
+Total foreground coverage: 0.612849
+Total background coverage: 0.194716
+=====================================================
+current cost: 16.7104
+Objective function: 17.7104
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 1006
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2155
+Background covered sequences: 509
+==========
+Best solution: 17.7104
+Num of features: 2
+Total foreground coverage: 0.612849
+Total background coverage: 0.194716
+=====================================================
+current cost: 16.7104
+Objective function: 17.7104
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2155
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 1006
+==========
+Best solution: 17.7104
+Num of features: 2
+Total foreground coverage: 0.612849
+Total background coverage: 0.194716
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.2.0.02.0.5.MS_input.csv -out 3.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.4.0.02.0.5.MS_input.csv -out 3.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.6.0.02.0.5.MS_input.csv -out 3.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+3.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.3.0.02.0.2.0.5.MS_input.csv
+Output file = 3.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 16.7631
+Objective function: 17.7631
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2012
+Background covered sequences: 995
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2227
+Background covered sequences: 515
+==========
+Best solution: 17.7631
+Num of features: 2
+Total foreground coverage: 0.610591
+Total background coverage: 0.194411
+[[0.6106726794438181, 0.8104222821203954, 0.72183333333333333, 0.7196634189548273, 0.6607033949989836], [0.6106726794438181, 0.8104222821203954, 0.72183333333333333, 0.7196634189548273, 0.6607033949989836], [0.6106726794438181, 0.8104222821203954, 0.72183333333333333, 0.7196634189548273, 0.6607033949989836]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.02.0.2.0.5.MS_input.csv -out 3.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+3.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.3.0.2.0.02.0.5.MS_input.csv
+Output file = 3.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5344Num of background seq : 6656
+Input file = 3.3.0.6.0.02.0.5.MS_input.csv
+Output file = 3.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5344Num of background seq : 6656
+Input file = 3.3.0.4.0.02.0.5.MS_input.csv
+Output file = 3.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 16.7631
+Objective function: 17.7631
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2012
+Background covered sequences: 995
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2227
+Background covered sequences: 515
+==========
+Best solution: 17.7631
+Num of features: 2
+Total foreground coverage: 0.610591
+Total background coverage: 0.194411
+=====================================================
+current cost: 16.7631
+Objective function: 17.7631
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2012
+Background covered sequences: 995
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2227
+Background covered sequences: 515
+==========
+Best solution: 17.7631
+Num of features: 2
+Total foreground coverage: 0.610591
+Total background coverage: 0.194411
+=====================================================
+current cost: 16.7631
+Objective function: 17.7631
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2012
+Background covered sequences: 995
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2227
+Background covered sequences: 515
+==========
+Best solution: 17.7631
+Num of features: 2
+Total foreground coverage: 0.610591
+Total background coverage: 0.194411
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.2.0.02.0.5.MS_input.csv -out 3.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.4.0.02.0.5.MS_input.csv -out 3.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.6.0.02.0.5.MS_input.csv -out 3.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.705
+Objective function: 17.705
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 3164
+Background covered sequences: 1202
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3702
+Background covered sequences: 676
+==========
+Best solution: 17.705
+Num of features: 2
+Total foreground coverage: 0.596
+Total background coverage: 0.177667
+-in
+4.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.1.0.02.0.2.0.5.MS_input.csv
+Output file = 4.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+=====================================================
+current cost: 16.6579
+Objective function: 17.6579
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 908
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2176
+Background covered sequences: 492
+==========
+Best solution: 17.6579
+Num of features: 2
+Total foreground coverage: 0.599289
+Total background coverage: 0.17921
+[[0.615210843373494, 0.8098086124401914, 0.72366666666666668, 0.7198237885462555, 0.6634185952090945], [0.615210843373494, 0.8098086124401914, 0.72366666666666668, 0.7198237885462555, 0.6634185952090945], [0.615210843373494, 0.8098086124401914, 0.72366666666666668, 0.7198237885462555, 0.6634185952090945]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.02.0.2.0.5.MS_input.csv -out 4.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.1.0.2.0.02.0.5.MS_input.csv
+Output file = 4.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+Input file = 4.1.0.6.0.02.0.5.MS_input.csv
+Output file = 4.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+Input file = 4.1.0.4.0.02.0.5.MS_input.csv
+Output file = 4.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5343Num of background seq : 6657
+=====================================================
+current cost: 16.6579
+Objective function: 17.6579
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2176
+Background covered sequences: 492
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 908
+==========
+Best solution: 17.6579
+Num of features: 2
+Total foreground coverage: 0.599289
+Total background coverage: 0.17921
+=====================================================
+current cost: 16.6579
+Objective function: 17.6579
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2176
+Background covered sequences: 492
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 908
+==========
+Best solution: 17.6579
+Num of features: 2
+Total foreground coverage: 0.599289
+Total background coverage: 0.17921
+=====================================================
+current cost: 16.6579
+Objective function: 17.6579
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2176
+Background covered sequences: 492
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 908
+==========
+Best solution: 17.6579
+Num of features: 2
+Total foreground coverage: 0.599289
+Total background coverage: 0.17921
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.2.0.02.0.5.MS_input.csv -out 4.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.4.0.02.0.5.MS_input.csv -out 4.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+4.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.2.0.02.0.2.0.5.MS_input.csv
+Output file = 4.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.8039
+Objective function: 17.8039
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2196
+Background covered sequences: 522
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1758
+Background covered sequences: 832
+==========
+Best solution: 17.8039
+Num of features: 2
+Total foreground coverage: 0.588335
+Total background coverage: 0.173665
+[[0.5871283402333459, 0.8247083457971881, 0.71950000000000003, 0.7269338303821062, 0.6495940037476577], [0.5871283402333459, 0.8247083457971881, 0.71950000000000003, 0.7269338303821062, 0.6495940037476577], [0.5871283402333459, 0.8247083457971881, 0.71950000000000003, 0.7269338303821062, 0.6495940037476577]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.02.0.2.0.5.MS_input.csv -out 4.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.2.0.2.0.02.0.5.MS_input.csv
+Output file = 4.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 4.2.0.4.0.02.0.5.MS_input.csv
+Output file = 4.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 4.2.0.6.0.02.0.5.MS_input.csv
+Output file = 4.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.8039
+Objective function: 17.8039
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2196
+Background covered sequences: 522
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1758
+Background covered sequences: 832
+==========
+Best solution: 17.8039
+Num of features: 2
+Total foreground coverage: 0.588335
+Total background coverage: 0.173665
+=====================================================
+current cost: 16.8039
+Objective function: 17.8039
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2196
+Background covered sequences: 522
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1758
+Background covered sequences: 832
+==========
+Best solution: 17.8039
+Num of features: 2
+Total foreground coverage: 0.588335
+Total background coverage: 0.173665
+=====================================================
+current cost: 16.8039
+Objective function: 17.8039
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2196
+Background covered sequences: 522
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1758
+Background covered sequences: 832
+==========
+Best solution: 17.8039
+Num of features: 2
+Total foreground coverage: 0.588335
+Total background coverage: 0.173665
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.2.0.02.0.5.MS_input.csv -out 4.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.4.0.02.0.5.MS_input.csv -out 4.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+4.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.3.0.02.0.2.0.5.MS_input.csv
+Output file = 4.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 16.5488
+Objective function: 17.5488
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 492
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2015
+Background covered sequences: 991
+==========
+Best solution: 17.5488
+Num of features: 2
+Total foreground coverage: 0.613333
+Total background coverage: 0.189213
+[[0.5787106446776612, 0.8415366146458584, 0.72466666666666668, 0.7451737451737451, 0.6514767932489451], [0.5787106446776612, 0.8415366146458584, 0.72466666666666668, 0.7451737451737451, 0.6514767932489451], [0.5787106446776612, 0.8415366146458584, 0.72466666666666668, 0.7451737451737451, 0.6514767932489451]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.02.0.2.0.5.MS_input.csv -out 4.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.3.0.4.0.02.0.5.MS_input.csv
+Output file = 4.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5325Num of background seq : 6675
+Input file = 4.3.0.2.0.02.0.5.MS_input.csv
+Output file = 4.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5325Num of background seq : 6675
+Input file = 4.3.0.6.0.02.0.5.MS_input.csv
+Output file = 4.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 16.5488
+Objective function: 17.5488
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2015
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 492
+==========
+Best solution: 17.5488
+Num of features: 2
+Total foreground coverage: 0.613333
+Total background coverage: 0.189213
+=====================================================
+current cost: 16.5488
+Objective function: 17.5488
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2015
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 492
+==========
+Best solution: 17.5488
+Num of features: 2
+Total foreground coverage: 0.613333
+Total background coverage: 0.189213
+=====================================================
+current cost: 16.5488
+Objective function: 17.5488
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2015
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 492
+==========
+Best solution: 17.5488
+Num of features: 2
+Total foreground coverage: 0.613333
+Total background coverage: 0.189213
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.2.0.02.0.5.MS_input.csv -out 4.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.4.0.02.0.5.MS_input.csv -out 4.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.6.0.02.0.5.MS_input.csv -out 4.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.741
+Objective function: 17.741
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3684
+Background covered sequences: 670
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 3161
+Background covered sequences: 1213
+==========
+Best solution: 17.741
+Num of features: 2
+Total foreground coverage: 0.595111
+Total background coverage: 0.178111
+-in
+5.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.1.0.02.0.2.0.5.MS_input.csv
+Output file = 5.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5333Num of background seq : 6667
+=====================================================
+current cost: 16.5686
+Objective function: 17.5686
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2185
+Background covered sequences: 488
+==========
+Best solution: 17.5686
+Num of features: 2
+Total foreground coverage: 0.612976
+Total background coverage: 0.189591
+[[0.6097196261682243, 0.7993984962406016, 0.71483333333333332, 0.7097476066144474, 0.6559420872712648], [0.6097196261682243, 0.7993984962406016, 0.71483333333333332, 0.7097476066144474, 0.6559420872712648], [0.6097196261682243, 0.7993984962406016, 0.71483333333333332, 0.7097476066144474, 0.6559420872712648]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.02.0.2.0.5.MS_input.csv -out 5.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+5.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.1.0.2.0.02.0.5.MS_input.csv
+Output file = 5.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5333Num of background seq : 6667
+Input file = 5.1.0.6.0.02.0.5.MS_input.csv
+Output file = 5.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5333Num of background seq : 6667
+Input file = 5.1.0.4.0.02.0.5.MS_input.csv
+Output file = 5.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5333Num of background seq : 6667
+=====================================================
+current cost: 16.5686
+Objective function: 17.5686
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2185
+Background covered sequences: 488
+==========
+Best solution: 17.5686
+Num of features: 2
+Total foreground coverage: 0.612976
+Total background coverage: 0.189591
+=====================================================
+current cost: 16.5686
+Objective function: 17.5686
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2185
+Background covered sequences: 488
+==========
+Best solution: 17.5686
+Num of features: 2
+Total foreground coverage: 0.612976
+Total background coverage: 0.189591
+=====================================================
+current cost: 16.5686
+Objective function: 17.5686
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2011
+Background covered sequences: 991
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2185
+Background covered sequences: 488
+==========
+Best solution: 17.5686
+Num of features: 2
+Total foreground coverage: 0.612976
+Total background coverage: 0.189591
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.2.0.02.0.5.MS_input.csv -out 5.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.4.0.02.0.5.MS_input.csv -out 5.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.6.0.02.0.5.MS_input.csv -out 5.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+5.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.2.0.02.0.2.0.5.MS_input.csv
+Output file = 5.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.4424
+Objective function: 17.4424
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 872
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2204
+Background covered sequences: 493
+==========
+Best solution: 17.4424
+Num of features: 2
+Total foreground coverage: 0.602026
+Total background coverage: 0.173965
+[[0.6104236970378702, 0.8001800180018002, 0.71583333333333332, 0.7096774193548387, 0.656319290465632], [0.6104236970378702, 0.8001800180018002, 0.71583333333333332, 0.7096774193548387, 0.656319290465632], [0.6104236970378702, 0.8001800180018002, 0.71583333333333332, 0.7096774193548387, 0.656319290465632]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.02.0.2.0.5.MS_input.csv -out 5.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+5.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.2.0.2.0.02.0.5.MS_input.csv
+Output file = 5.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 5.2.0.6.0.02.0.5.MS_input.csv
+Output file = 5.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 5.2.0.4.0.02.0.5.MS_input.csv
+Output file = 5.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.4424
+Objective function: 17.4424
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 872
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2204
+Background covered sequences: 493
+==========
+Best solution: 17.4424
+Num of features: 2
+Total foreground coverage: 0.602026
+Total background coverage: 0.173965
+=====================================================
+current cost: 16.4424
+Objective function: 17.4424
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 872
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2204
+Background covered sequences: 493
+==========
+Best solution: 17.4424
+Num of features: 2
+Total foreground coverage: 0.602026
+Total background coverage: 0.173965
+=====================================================
+current cost: 16.4424
+Objective function: 17.4424
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1902
+Background covered sequences: 872
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2204
+Background covered sequences: 493
+==========
+Best solution: 17.4424
+Num of features: 2
+Total foreground coverage: 0.602026
+Total background coverage: 0.173965
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.2.0.02.0.5.MS_input.csv -out 5.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.4.0.02.0.5.MS_input.csv -out 5.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.6.0.02.0.5.MS_input.csv -out 5.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+5.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.3.0.02.0.2.0.5.MS_input.csv
+Output file = 5.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5335Num of background seq : 6665
+=====================================================
+current cost: 16.9425
+Objective function: 17.9425
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 525
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1743
+Background covered sequences: 813
+==========
+Best solution: 17.9425
+Num of features: 2
+Total foreground coverage: 0.581631
+Total background coverage: 0.172093
+[[0.5817091454272864, 0.8142256902761105, 0.71083333333333332, 0.7148779364348227, 0.6414548460425707], [0.5817091454272864, 0.8142256902761105, 0.71083333333333332, 0.7148779364348227, 0.6414548460425707], [0.5817091454272864, 0.8142256902761105, 0.71083333333333332, 0.7148779364348227, 0.6414548460425707]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.02.0.2.0.5.MS_input.csv -out 5.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+5.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.3.0.6.0.02.0.5.MS_input.csv
+Output file = 5.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5335Num of background seq : 6665
+Input file = 5.3.0.4.0.02.0.5.MS_input.csv
+Output file = 5.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5335Num of background seq : 6665
+Input file = 5.3.0.2.0.02.0.5.MS_input.csv
+Output file = 5.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5335Num of background seq : 6665
+=====================================================
+current cost: 16.9425
+Objective function: 17.9425
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 525
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1743
+Background covered sequences: 813
+==========
+Best solution: 17.9425
+Num of features: 2
+Total foreground coverage: 0.581631
+Total background coverage: 0.172093
+=====================================================
+current cost: 16.9425
+Objective function: 17.9425
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 525
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1743
+Background covered sequences: 813
+==========
+Best solution: 17.9425
+Num of features: 2
+Total foreground coverage: 0.581631
+Total background coverage: 0.172093
+=====================================================
+current cost: 16.9425
+Objective function: 17.9425
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 525
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1743
+Background covered sequences: 813
+==========
+Best solution: 17.9425
+Num of features: 2
+Total foreground coverage: 0.581631
+Total background coverage: 0.172093
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.2.0.02.0.5.MS_input.csv -out 5.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.4.0.02.0.5.MS_input.csv -out 5.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.804
+Objective function: 17.804
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3357
+Background covered sequences: 1363
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3699
+Background covered sequences: 696
+==========
+Best solution: 17.804
+Num of features: 2
+Total foreground coverage: 0.609778
+Total background coverage: 0.195111
+-in
+6.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.1.0.02.0.2.0.5.MS_input.csv
+Output file = 6.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5318Num of background seq : 6682
+=====================================================
+current cost: 16.639
+Objective function: 17.639
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1987
+Background covered sequences: 1006
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 503
+==========
+Best solution: 17.639
+Num of features: 2
+Total foreground coverage: 0.612636
+Total background coverage: 0.191859
+[[0.5921200750469043, 0.8383808095952024, 0.72899999999999998, 0.7453944260746339, 0.6599749058971143], [0.5921200750469043, 0.8383808095952024, 0.72899999999999998, 0.7453944260746339, 0.6599749058971143], [0.5921200750469043, 0.8383808095952024, 0.72899999999999998, 0.7453944260746339, 0.6599749058971143]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.02.0.2.0.5.MS_input.csv -out 6.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.1.0.2.0.02.0.5.MS_input.csv
+Output file = 6.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5318Num of background seq : 6682
+Input file = 6.1.0.6.0.02.0.5.MS_input.csv
+Output file = 6.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5318Num of background seq : 6682
+Input file = 6.1.0.4.0.02.0.5.MS_input.csv
+Output file = 6.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5318Num of background seq : 6682
+=====================================================
+current cost: 16.639
+Objective function: 17.639
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1987
+Background covered sequences: 1006
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 503
+==========
+Best solution: 17.639
+Num of features: 2
+Total foreground coverage: 0.612636
+Total background coverage: 0.191859
+=====================================================
+current cost: 16.639
+Objective function: 17.639
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1987
+Background covered sequences: 1006
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 503
+==========
+Best solution: 17.639
+Num of features: 2
+Total foreground coverage: 0.612636
+Total background coverage: 0.191859
+=====================================================
+current cost: 16.639
+Objective function: 17.639
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1987
+Background covered sequences: 1006
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 503
+==========
+Best solution: 17.639
+Num of features: 2
+Total foreground coverage: 0.612636
+Total background coverage: 0.191859
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.2.0.02.0.5.MS_input.csv -out 6.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.4.0.02.0.5.MS_input.csv -out 6.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.6.0.02.0.5.MS_input.csv -out 6.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+6.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.2.0.02.0.2.0.5.MS_input.csv
+Output file = 6.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5350Num of background seq : 6650
+=====================================================
+current cost: 16.5937
+Objective function: 17.5937
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2230
+Background covered sequences: 493
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1753
+Background covered sequences: 817
+==========
+Best solution: 17.5937
+Num of features: 2
+Total foreground coverage: 0.591028
+Total background coverage: 0.168571
+[[0.6111111111111112, 0.8047016274864376, 0.71816666666666662, 0.7166593790992567, 0.659690078486617], [0.6111111111111112, 0.8047016274864376, 0.71816666666666662, 0.7166593790992567, 0.659690078486617], [0.6111111111111112, 0.8047016274864376, 0.71816666666666662, 0.7166593790992567, 0.659690078486617]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.02.0.2.0.5.MS_input.csv -out 6.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.2.0.6.0.02.0.5.MS_input.csv
+Output file = 6.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5350Num of background seq : 6650
+Input file = 6.2.0.2.0.02.0.5.MS_input.csv
+Output file = 6.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5350Num of background seq : 6650
+Input file = 6.2.0.4.0.02.0.5.MS_input.csv
+Output file = 6.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5350Num of background seq : 6650
+=====================================================
+current cost: 16.5937
+Objective function: 17.5937
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2230
+Background covered sequences: 493
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1753
+Background covered sequences: 817
+==========
+Best solution: 17.5937
+Num of features: 2
+Total foreground coverage: 0.591028
+Total background coverage: 0.168571
+=====================================================
+current cost: 16.5937
+Objective function: 17.5937
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2230
+Background covered sequences: 493
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1753
+Background covered sequences: 817
+==========
+Best solution: 17.5937
+Num of features: 2
+Total foreground coverage: 0.591028
+Total background coverage: 0.168571
+=====================================================
+current cost: 16.5937
+Objective function: 17.5937
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2230
+Background covered sequences: 493
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1753
+Background covered sequences: 817
+==========
+Best solution: 17.5937
+Num of features: 2
+Total foreground coverage: 0.591028
+Total background coverage: 0.168571
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.2.0.02.0.5.MS_input.csv -out 6.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.4.0.02.0.5.MS_input.csv -out 6.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.6.0.02.0.5.MS_input.csv -out 6.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+6.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.3.0.02.0.2.0.5.MS_input.csv
+Output file = 6.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.7442
+Objective function: 17.7442
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2148
+Background covered sequences: 510
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1965
+Background covered sequences: 861
+==========
+Best solution: 17.7442
+Num of features: 2
+Total foreground coverage: 0.590398
+Total background coverage: 0.173515
+[[0.5732075471698114, 0.8313432835820895, 0.71733333333333338, 0.7288867562380038, 0.6417405999155049], [0.5732075471698114, 0.8313432835820895, 0.71733333333333338, 0.7288867562380038, 0.6417405999155049], [0.5732075471698114, 0.8313432835820895, 0.71733333333333338, 0.7288867562380038, 0.6417405999155049]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.02.0.2.0.5.MS_input.csv -out 6.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.3.0.6.0.02.0.5.MS_input.csv
+Output file = 6.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 6.3.0.4.0.02.0.5.MS_input.csv
+Output file = 6.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 6.3.0.2.0.02.0.5.MS_input.csv
+Output file = 6.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.7442
+Objective function: 17.7442
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2148
+Background covered sequences: 510
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1965
+Background covered sequences: 861
+==========
+Best solution: 17.7442
+Num of features: 2
+Total foreground coverage: 0.590398
+Total background coverage: 0.173515
+=====================================================
+current cost: 16.7442
+Objective function: 17.7442
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2148
+Background covered sequences: 510
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1965
+Background covered sequences: 861
+==========
+Best solution: 17.7442
+Num of features: 2
+Total foreground coverage: 0.590398
+Total background coverage: 0.173515
+=====================================================
+current cost: 16.7442
+Objective function: 17.7442
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2148
+Background covered sequences: 510
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1965
+Background covered sequences: 861
+==========
+Best solution: 17.7442
+Num of features: 2
+Total foreground coverage: 0.590398
+Total background coverage: 0.173515
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.2.0.02.0.5.MS_input.csv -out 6.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.4.0.02.0.5.MS_input.csv -out 6.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.822
+Objective function: 17.822
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3658
+Background covered sequences: 684
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 3154
+Background covered sequences: 1203
+==========
+Best solution: 17.822
+Num of features: 2
+Total foreground coverage: 0.592778
+Total background coverage: 0.178778
+-in
+7.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.1.0.02.0.2.0.5.MS_input.csv
+Output file = 7.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5322Num of background seq : 6678
+=====================================================
+current cost: 16.7886
+Objective function: 17.7886
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1892
+Background covered sequences: 906
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2166
+Background covered sequences: 527
+==========
+Best solution: 17.7886
+Num of features: 2
+Total foreground coverage: 0.59658
+Total background coverage: 0.181342
+[[0.5963268365817092, 0.8163265306122449, 0.71850000000000003, 0.7221970040853382, 0.653253951960583], [0.5963268365817092, 0.8163265306122449, 0.71850000000000003, 0.7221970040853382, 0.653253951960583], [0.5963268365817092, 0.8163265306122449, 0.71850000000000003, 0.7221970040853382, 0.653253951960583]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.02.0.2.0.5.MS_input.csv -out 7.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.1.0.2.0.02.0.5.MS_input.csv
+Output file = 7.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5322Num of background seq : 6678
+Input file = 7.1.0.6.0.02.0.5.MS_input.csv
+Output file = 7.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5322Num of background seq : 6678
+Input file = 7.1.0.4.0.02.0.5.MS_input.csv
+Output file = 7.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5322Num of background seq : 6678
+=====================================================
+current cost: 16.7886
+Objective function: 17.7886
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2166
+Background covered sequences: 527
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1892
+Background covered sequences: 906
+==========
+Best solution: 17.7886
+Num of features: 2
+Total foreground coverage: 0.59658
+Total background coverage: 0.181342
+=====================================================
+current cost: 16.7886
+Objective function: 17.7886
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2166
+Background covered sequences: 527
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1892
+Background covered sequences: 906
+==========
+Best solution: 17.7886
+Num of features: 2
+Total foreground coverage: 0.59658
+Total background coverage: 0.181342
+=====================================================
+current cost: 16.7886
+Objective function: 17.7886
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2166
+Background covered sequences: 527
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1892
+Background covered sequences: 906
+==========
+Best solution: 17.7886
+Num of features: 2
+Total foreground coverage: 0.59658
+Total background coverage: 0.181342
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.2.0.02.0.5.MS_input.csv -out 7.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.4.0.02.0.5.MS_input.csv -out 7.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.6.0.02.0.5.MS_input.csv -out 7.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+7.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.2.0.02.0.2.0.5.MS_input.csv
+Output file = 7.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5362Num of background seq : 6638
+=====================================================
+current cost: 16.5583
+Objective function: 17.5583
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2225
+Background covered sequences: 490
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2004
+Background covered sequences: 972
+==========
+Best solution: 17.5583
+Num of features: 2
+Total foreground coverage: 0.612831
+Total background coverage: 0.189063
+[[0.59260642270351, 0.8290186634557496, 0.72350000000000003, 0.7364269141531322, 0.6567349472377405], [0.59260642270351, 0.8290186634557496, 0.72350000000000003, 0.7364269141531322, 0.6567349472377405], [0.59260642270351, 0.8290186634557496, 0.72350000000000003, 0.7364269141531322, 0.6567349472377405]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.02.0.2.0.5.MS_input.csv -out 7.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.2.0.2.0.02.0.5.MS_input.csv
+Output file = 7.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5362Num of background seq : 6638
+Input file = 7.2.0.6.0.02.0.5.MS_input.csv
+Output file = 7.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5362Num of background seq : 6638
+Input file = 7.2.0.4.0.02.0.5.MS_input.csv
+Output file = 7.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5362Num of background seq : 6638
+=====================================================
+current cost: 16.5583
+Objective function: 17.5583
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2004
+Background covered sequences: 972
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2225
+Background covered sequences: 490
+==========
+Best solution: 17.5583
+Num of features: 2
+Total foreground coverage: 0.612831
+Total background coverage: 0.189063
+=====================================================
+current cost: 16.5583
+Objective function: 17.5583
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2004
+Background covered sequences: 972
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2225
+Background covered sequences: 490
+==========
+Best solution: 17.5583
+Num of features: 2
+Total foreground coverage: 0.612831
+Total background coverage: 0.189063
+=====================================================
+current cost: 16.5583
+Objective function: 17.5583
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2004
+Background covered sequences: 972
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2225
+Background covered sequences: 490
+==========
+Best solution: 17.5583
+Num of features: 2
+Total foreground coverage: 0.612831
+Total background coverage: 0.189063
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.2.0.02.0.5.MS_input.csv -out 7.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.3.0.02.0.2.0.5.MS_input.csv
+Output file = 7.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+=====================================================
+current cost: 16.5163
+Objective function: 17.5163
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1976
+Background covered sequences: 884
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2179
+Background covered sequences: 489
+==========
+Best solution: 17.5163
+Num of features: 2
+Total foreground coverage: 0.59857
+Total background coverage: 0.17325
+[[0.6106899166034875, 0.7992266508030934, 0.71633333333333338, 0.7047244094488189, 0.6543460601137286], [0.6106899166034875, 0.7992266508030934, 0.71633333333333338, 0.7047244094488189, 0.6543460601137286], [0.6106899166034875, 0.7992266508030934, 0.71633333333333338, 0.7047244094488189, 0.6543460601137286]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.02.0.2.0.5.MS_input.csv -out 7.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.3.0.4.0.02.0.5.MS_input.csv
+Output file = 7.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+Input file = 7.3.0.6.0.02.0.5.MS_input.csv
+Output file = 7.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+Input file = 7.3.0.2.0.02.0.5.MS_input.csv
+Output file = 7.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5316Num of background seq : 6684
+=====================================================
+current cost: 16.5163
+Objective function: 17.5163
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2179
+Background covered sequences: 489
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1976
+Background covered sequences: 884
+==========
+Best solution: 17.5163
+Num of features: 2
+Total foreground coverage: 0.59857
+Total background coverage: 0.17325
+=====================================================
+current cost: 16.5163
+Objective function: 17.5163
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2179
+Background covered sequences: 489
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1976
+Background covered sequences: 884
+==========
+Best solution: 17.5163
+Num of features: 2
+Total foreground coverage: 0.59857
+Total background coverage: 0.17325
+=====================================================
+current cost: 16.5163
+Objective function: 17.5163
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2179
+Background covered sequences: 489
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1976
+Background covered sequences: 884
+==========
+Best solution: 17.5163
+Num of features: 2
+Total foreground coverage: 0.59857
+Total background coverage: 0.17325
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.2.0.02.0.5.MS_input.csv -out 7.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.4.0.02.0.5.MS_input.csv -out 7.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.6.0.02.0.5.MS_input.csv -out 7.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.693
+Objective function: 17.693
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3367
+Background covered sequences: 1328
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3677
+Background covered sequences: 678
+==========
+Best solution: 17.693
+Num of features: 2
+Total foreground coverage: 0.609
+Total background coverage: 0.190222
+-in
+8.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.1.0.02.0.2.0.5.MS_input.csv
+Output file = 8.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5342Num of background seq : 6658
+=====================================================
+current cost: 16.5379
+Objective function: 17.5379
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2040
+Background covered sequences: 993
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2194
+Background covered sequences: 515
+==========
+Best solution: 17.5379
+Num of features: 2
+Total foreground coverage: 0.617372
+Total background coverage: 0.192851
+[[0.5801043219076006, 0.8157418576598311, 0.71033333333333337, 0.7181734317343174, 0.6417971970321518], [0.5801043219076006, 0.8157418576598311, 0.71033333333333337, 0.7181734317343174, 0.6417971970321518], [0.5801043219076006, 0.8157418576598311, 0.71033333333333337, 0.7181734317343174, 0.6417971970321518]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.1.0.02.0.2.0.5.MS_input.csv -out 8.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+8.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+8.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+8.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.1.0.2.0.02.0.5.MS_input.csv
+Output file = 8.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5342Num of background seq : 6658
+Input file = 8.1.0.4.0.02.0.5.MS_input.csv
+Output file = 8.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5342Num of background seq : 6658
+Input file = 8.1.0.6.0.02.0.5.MS_input.csv
+Output file = 8.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5342Num of background seq : 6658
+=====================================================
+current cost: 16.5379
+Objective function: 17.5379
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2040
+Background covered sequences: 993
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2194
+Background covered sequences: 515
+==========
+Best solution: 17.5379
+Num of features: 2
+Total foreground coverage: 0.617372
+Total background coverage: 0.192851
+=====================================================
+current cost: 16.5379
+Objective function: 17.5379
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2040
+Background covered sequences: 993
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2194
+Background covered sequences: 515
+==========
+Best solution: 17.5379
+Num of features: 2
+Total foreground coverage: 0.617372
+Total background coverage: 0.192851
+=====================================================
+current cost: 16.5379
+Objective function: 17.5379
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2040
+Background covered sequences: 993
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2194
+Background covered sequences: 515
+==========
+Best solution: 17.5379
+Num of features: 2
+Total foreground coverage: 0.617372
+Total background coverage: 0.192851
+-in
+8.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.2.0.02.0.2.0.5.MS_input.csv
+Output file = 8.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+=====================================================
+current cost: 16.6614
+Objective function: 17.6614
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1889
+Background covered sequences: 911
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 496
+==========
+Best solution: 17.6614
+Num of features: 2
+Total foreground coverage: 0.59921
+Total background coverage: 0.179261
+[[0.6015801354401806, 0.8067025733093955, 0.71583333333333332, 0.7122494432071269, 0.6522537222108913], [0.6015801354401806, 0.8067025733093955, 0.71583333333333332, 0.7122494432071269, 0.6522537222108913], [0.6015801354401806, 0.8067025733093955, 0.71583333333333332, 0.7122494432071269, 0.6522537222108913]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.02.0.2.0.5.MS_input.csv -out 8.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+8.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+-in
+8.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+8.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.2.0.2.0.02.0.5.MS_input.csv
+Output file = 8.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+Input file = 8.2.0.4.0.02.0.5.MS_input.csv
+Output file = 8.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+Input file = 8.2.0.6.0.02.0.5.MS_input.csv
+Output file = 8.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5317Num of background seq : 6683
+=====================================================
+current cost: 16.6614
+Objective function: 17.6614
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 496
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1889
+Background covered sequences: 911
+==========
+Best solution: 17.6614
+Num of features: 2
+Total foreground coverage: 0.59921
+Total background coverage: 0.179261
+=====================================================
+current cost: 16.6614
+Objective function: 17.6614
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1889
+Background covered sequences: 911
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 496
+==========
+Best solution: 17.6614
+Num of features: 2
+Total foreground coverage: 0.59921
+Total background coverage: 0.179261
+=====================================================
+current cost: 16.6614
+Objective function: 17.6614
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1889
+Background covered sequences: 911
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2198
+Background covered sequences: 496
+==========
+Best solution: 17.6614
+Num of features: 2
+Total foreground coverage: 0.59921
+Total background coverage: 0.179261
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.2.0.02.0.5.MS_input.csv -out 8.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.4.0.02.0.5.MS_input.csv -out 8.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.6.0.02.0.5.MS_input.csv -out 8.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+8.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.3.0.02.0.2.0.5.MS_input.csv
+Output file = 8.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5341Num of background seq : 6659
+=====================================================
+current cost: 16.58
+Objective function: 17.58
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2178
+Background covered sequences: 495
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1995
+Background covered sequences: 854
+==========
+Best solution: 17.58
+Num of features: 2
+Total foreground coverage: 0.593709
+Total background coverage: 0.170746
+[[0.5874021617592248, 0.8248417244498041, 0.71866666666666668, 0.7306444135373203, 0.6512396694214877], [0.5874021617592248, 0.8248417244498041, 0.71866666666666668, 0.7306444135373203, 0.6512396694214877], [0.5874021617592248, 0.8248417244498041, 0.71866666666666668, 0.7306444135373203, 0.6512396694214877]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.02.0.2.0.5.MS_input.csv -out 8.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+8.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+8.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+-in
+8.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.3.0.2.0.02.0.5.MS_input.csv
+Output file = 8.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5341Num of background seq : 6659
+Input file = 8.3.0.4.0.02.0.5.MS_input.csv
+Output file = 8.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5341Num of background seq : 6659
+Input file = 8.3.0.6.0.02.0.5.MS_input.csv
+Output file = 8.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5341Num of background seq : 6659
+=====================================================
+current cost: 16.58
+Objective function: 17.58
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2178
+Background covered sequences: 495
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1995
+Background covered sequences: 854
+==========
+Best solution: 17.58
+Num of features: 2
+Total foreground coverage: 0.593709
+Total background coverage: 0.170746
+=====================================================
+current cost: 16.58
+Objective function: 17.58
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2178
+Background covered sequences: 495
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1995
+Background covered sequences: 854
+==========
+Best solution: 17.58
+Num of features: 2
+Total foreground coverage: 0.593709
+Total background coverage: 0.170746
+=====================================================
+current cost: 16.58
+Objective function: 17.58
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2178
+Background covered sequences: 495
+==========
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1995
+Background covered sequences: 854
+==========
+Best solution: 17.58
+Num of features: 2
+Total foreground coverage: 0.593709
+Total background coverage: 0.170746
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.2.0.02.0.5.MS_input.csv -out 8.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.4.0.02.0.5.MS_input.csv -out 8.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.663
+Objective function: 17.663
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3380
+Background covered sequences: 1344
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3709
+Background covered sequences: 669
+==========
+Best solution: 17.663
+Num of features: 2
+Total foreground coverage: 0.610778
+Total background coverage: 0.190889
+-in
+9.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.1.0.02.0.2.0.5.MS_input.csv
+Output file = 9.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 16.6681
+Objective function: 17.6681
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2005
+Background covered sequences: 996
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2173
+Background covered sequences: 494
+==========
+Best solution: 17.6681
+Num of features: 2
+Total foreground coverage: 0.610455
+Total background coverage: 0.190755
+[[0.5896953742008274, 0.8108350793175696, 0.71283333333333332, 0.7127272727272728, 0.6454002881251286], [0.5896953742008274, 0.8108350793175696, 0.71283333333333332, 0.7127272727272728, 0.6454002881251286], [0.5896953742008274, 0.8108350793175696, 0.71283333333333332, 0.7127272727272728, 0.6454002881251286]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.1.0.02.0.2.0.5.MS_input.csv -out 9.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+9.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.1.0.2.0.02.0.5.MS_input.csv
+Output file = 9.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+Input file = 9.1.0.4.0.02.0.5.MS_input.csv
+Output file = 9.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+Input file = 9.1.0.6.0.02.0.5.MS_input.csv
+Output file = 9.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 16.6681
+Objective function: 17.6681
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2005
+Background covered sequences: 996
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2173
+Background covered sequences: 494
+==========
+Best solution: 17.6681
+Num of features: 2
+Total foreground coverage: 0.610455
+Total background coverage: 0.190755
+=====================================================
+current cost: 16.6681
+Objective function: 17.6681
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2005
+Background covered sequences: 996
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2173
+Background covered sequences: 494
+==========
+Best solution: 17.6681
+Num of features: 2
+Total foreground coverage: 0.610455
+Total background coverage: 0.190755
+=====================================================
+current cost: 16.6681
+Objective function: 17.6681
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2005
+Background covered sequences: 996
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2173
+Background covered sequences: 494
+==========
+Best solution: 17.6681
+Num of features: 2
+Total foreground coverage: 0.610455
+Total background coverage: 0.190755
+-in
+9.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.2.0.02.0.2.0.5.MS_input.csv
+Output file = 9.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5310Num of background seq : 6690
+=====================================================
+current cost: 16.6349
+Objective function: 17.6349
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1000
+==========
+Best solution: 17.6349
+Num of features: 2
+Total foreground coverage: 0.614501
+Total background coverage: 0.193572
+[[0.6154712730003755, 0.8025172310458496, 0.71950000000000003, 0.7132288946910357, 0.6607538802660754], [0.6154712730003755, 0.8025172310458496, 0.71950000000000003, 0.7132288946910357, 0.6607538802660754], [0.6154712730003755, 0.8025172310458496, 0.71950000000000003, 0.7132288946910357, 0.6607538802660754]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.02.0.2.0.5.MS_input.csv -out 9.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+9.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+9.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+-in
+9.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.2.0.4.0.02.0.5.MS_input.csv
+Output file = 9.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5310Num of background seq : 6690
+Input file = 9.2.0.6.0.02.0.5.MS_input.csv
+Output file = 9.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5310Num of background seq : 6690
+Input file = 9.2.0.2.0.02.0.5.MS_input.csv
+Output file = 9.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5310Num of background seq : 6690
+=====================================================
+current cost: 16.6349
+Objective function: 17.6349
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1000
+==========
+Best solution: 17.6349
+Num of features: 2
+Total foreground coverage: 0.614501
+Total background coverage: 0.193572
+=====================================================
+current cost: 16.6349
+Objective function: 17.6349
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1000
+==========
+Best solution: 17.6349
+Num of features: 2
+Total foreground coverage: 0.614501
+Total background coverage: 0.193572
+=====================================================
+current cost: 16.6349
+Objective function: 17.6349
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2181
+Background covered sequences: 509
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1996
+Background covered sequences: 1000
+==========
+Best solution: 17.6349
+Num of features: 2
+Total foreground coverage: 0.614501
+Total background coverage: 0.193572
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.4.0.02.0.5.MS_input.csv -out 9.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.2.0.02.0.5.MS_input.csv -out 9.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.6.0.02.0.5.MS_input.csv -out 9.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+9.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.3.0.02.0.2.0.5.MS_input.csv
+Output file = 9.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5353Num of background seq : 6647
+=====================================================
+current cost: 16.6962
+Objective function: 17.6962
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2216
+Background covered sequences: 503
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1888
+Background covered sequences: 883
+==========
+Best solution: 17.6962
+Num of features: 2
+Total foreground coverage: 0.597235
+Total background coverage: 0.178577
+[[0.6074349442379182, 0.8081570996978852, 0.71816666666666662, 0.7201410312913178, 0.6590038314176245], [0.6074349442379182, 0.8081570996978852, 0.71816666666666662, 0.7201410312913178, 0.6590038314176245], [0.6074349442379182, 0.8081570996978852, 0.71816666666666662, 0.7201410312913178, 0.6590038314176245]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.02.0.2.0.5.MS_input.csv -out 9.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+9.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.3.0.6.0.02.0.5.MS_input.csv
+Output file = 9.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5353Num of background seq : 6647
+Input file = 9.3.0.2.0.02.0.5.MS_input.csv
+Output file = 9.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5353Num of background seq : 6647
+Input file = 9.3.0.4.0.02.0.5.MS_input.csv
+Output file = 9.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5353Num of background seq : 6647
+=====================================================
+current cost: 16.7475
+Objective function: 17.7475
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2216
+Background covered sequences: 503
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 2033
+Background covered sequences: 1006
+==========
+Best solution: 17.7475
+Num of features: 2
+Total foreground coverage: 0.611433
+Total background coverage: 0.194674
+=====================================================
+current cost: 16.6962
+Objective function: 17.6962
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2216
+Background covered sequences: 503
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1888
+Background covered sequences: 883
+==========
+Best solution: 17.6962
+Num of features: 2
+Total foreground coverage: 0.597235
+Total background coverage: 0.178577
+=====================================================
+current cost: 16.7538
+Objective function: 17.7538
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2216
+Background covered sequences: 503
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_1
+Foreground Covered sequences: 1734
+Background covered sequences: 793
+==========
+Best solution: 17.7538
+Num of features: 2
+Total foreground coverage: 0.583972
+Total background coverage: 0.167444
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.4.0.02.0.5.MS_input.csv -out 9.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.2.0.02.0.5.MS_input.csv -out 9.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.6.0.02.0.5.MS_input.csv -out 9.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.4.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.4.0.5.MS_input.csv
+Output file = 999.999.0.02.0.4.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.726
+Objective function: 17.726
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3681
+Background covered sequences: 684
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3381
+Background covered sequences: 1341
+==========
+Best solution: 17.726
+Num of features: 2
+Total foreground coverage: 0.610111
+Total background coverage: 0.192556
+-in
+10.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.1.0.02.0.2.0.5.MS_input.csv
+Output file = 10.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5308Num of background seq : 6692
+=====================================================
+current cost: 16.6481
+Objective function: 17.6481
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2163
+Background covered sequences: 504
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1879
+Background covered sequences: 859
+==========
+Best solution: 17.6481
+Num of features: 2
+Total foreground coverage: 0.593632
+Total background coverage: 0.173192
+[[0.5912353607857952, 0.8234416940053684, 0.72099999999999997, 0.7255447380621233, 0.6515403830141548], [0.6135247449943332, 0.81031911720847, 0.72350000000000003, 0.7185840707964601, 0.6619115549215405], [0.5874574990555346, 0.8291082612585744, 0.72250000000000003, 0.730733082706767, 0.6513089005235603]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.4.0.5.MS_input.csv -out 999.999.0.02.0.4.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.02.0.2.0.5.MS_input.csv -out 10.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+10.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.1.0.2.0.02.0.5.MS_input.csv
+Output file = 10.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5308Num of background seq : 6692
+Input file = 10.1.0.6.0.02.0.5.MS_input.csv
+Output file = 10.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5308Num of background seq : 6692
+Input file = 10.1.0.4.0.02.0.5.MS_input.csv
+Output file = 10.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5308Num of background seq : 6692
+=====================================================
+current cost: 16.6481
+Objective function: 17.6481
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1879
+Background covered sequences: 859
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2163
+Background covered sequences: 504
+==========
+Best solution: 17.6481
+Num of features: 2
+Total foreground coverage: 0.593632
+Total background coverage: 0.173192
+=====================================================
+current cost: 16.6481
+Objective function: 17.6481
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2163
+Background covered sequences: 504
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1879
+Background covered sequences: 859
+==========
+Best solution: 17.6481
+Num of features: 2
+Total foreground coverage: 0.593632
+Total background coverage: 0.173192
+=====================================================
+current cost: 16.6481
+Objective function: 17.6481
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1879
+Background covered sequences: 859
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2163
+Background covered sequences: 504
+==========
+Best solution: 17.6481
+Num of features: 2
+Total foreground coverage: 0.593632
+Total background coverage: 0.173192
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.2.0.02.0.5.MS_input.csv -out 10.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.4.0.02.0.5.MS_input.csv -out 10.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+10.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.2.0.02.0.2.0.5.MS_input.csv
+Output file = 10.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.5011
+Objective function: 17.5011
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2007
+Background covered sequences: 892
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2215
+Background covered sequences: 503
+==========
+Best solution: 17.5011
+Num of features: 2
+Total foreground coverage: 0.60165
+Total background coverage: 0.175765
+[[0.5984398216939079, 0.8125755743651754, 0.71650000000000003, 0.7220977140295831, 0.6544789762340036], [0.5984398216939079, 0.8125755743651754, 0.71650000000000003, 0.7220977140295831, 0.6544789762340036], [0.5984398216939079, 0.8125755743651754, 0.71650000000000003, 0.7220977140295831, 0.6544789762340036]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.02.0.2.0.5.MS_input.csv -out 10.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+10.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+10.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.2.0.4.0.02.0.5.MS_input.csv
+Output file = 10.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 10.2.0.6.0.02.0.5.MS_input.csv
+Output file = 10.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+Input file = 10.2.0.2.0.02.0.5.MS_input.csv
+Output file = 10.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5332Num of background seq : 6668
+=====================================================
+current cost: 16.5011
+Objective function: 17.5011
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2007
+Background covered sequences: 892
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2215
+Background covered sequences: 503
+==========
+Best solution: 17.5011
+Num of features: 2
+Total foreground coverage: 0.60165
+Total background coverage: 0.175765
+=====================================================
+current cost: 16.5011
+Objective function: 17.5011
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2007
+Background covered sequences: 892
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2215
+Background covered sequences: 503
+==========
+Best solution: 17.5011
+Num of features: 2
+Total foreground coverage: 0.60165
+Total background coverage: 0.175765
+=====================================================
+current cost: 16.5011
+Objective function: 17.5011
+ESRRA_ESR1_T-47D_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 2007
+Background covered sequences: 892
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2215
+Background covered sequences: 503
+==========
+Best solution: 17.5011
+Num of features: 2
+Total foreground coverage: 0.60165
+Total background coverage: 0.175765
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.2.0.02.0.5.MS_input.csv -out 10.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.4.0.02.0.5.MS_input.csv -out 10.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.6.0.02.0.5.MS_input.csv -out 10.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+10.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.3.0.02.0.2.0.5.MS_input.csv
+Output file = 10.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5360Num of background seq : 6640
+=====================================================
+current cost: 16.7069
+Objective function: 17.7069
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 499
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1886
+Background covered sequences: 881
+==========
+Best solution: 17.7069
+Num of features: 2
+Total foreground coverage: 0.595522
+Total background coverage: 0.177259
+[[0.5738380809595203, 0.820828331332533, 0.71099999999999997, 0.7194548872180451, 0.6384487072560467], [0.5738380809595203, 0.820828331332533, 0.71099999999999997, 0.7194548872180451, 0.6384487072560467], [0.5738380809595203, 0.820828331332533, 0.71099999999999997, 0.7194548872180451, 0.6384487072560467]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.02.0.2.0.5.MS_input.csv -out 10.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+10.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.3.0.6.0.02.0.5.MS_input.csv
+Output file = 10.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5360Num of background seq : 6640
+Input file = 10.3.0.2.0.02.0.5.MS_input.csv
+Output file = 10.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5360Num of background seq : 6640
+Input file = 10.3.0.4.0.02.0.5.MS_input.csv
+Output file = 10.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :5360Num of background seq : 6640
+=====================================================
+current cost: 16.7069
+Objective function: 17.7069
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 499
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1886
+Background covered sequences: 881
+==========
+Best solution: 17.7069
+Num of features: 2
+Total foreground coverage: 0.595522
+Total background coverage: 0.177259
+=====================================================
+current cost: 16.7069
+Objective function: 17.7069
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 499
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 1886
+Background covered sequences: 881
+==========
+Best solution: 17.7069
+Num of features: 2
+Total foreground coverage: 0.595522
+Total background coverage: 0.177259
+=====================================================
+current cost: 16.7071
+Objective function: 17.7071
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 1991
+Background covered sequences: 979
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 2192
+Background covered sequences: 499
+==========
+Best solution: 17.7071
+Num of features: 2
+Total foreground coverage: 0.608769
+Total background coverage: 0.190512
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.2.0.02.0.5.MS_input.csv -out 10.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.4.0.02.0.5.MS_input.csv -out 10.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.6.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.6.0.5.MS_input.csv
+Output file = 999.999.0.02.0.6.0.5.MS_output.list
+alpha = 0.5
+beta = 54
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 16.69
+Objective function: 17.69
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Estradiol-10nM-v041610.2_AlignACE_2
+Foreground Covered sequences: 3172
+Background covered sequences: 1195
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 3694
+Background covered sequences: 670
+==========
+Best solution: 17.69
+Num of features: 2
+Total foreground coverage: 0.595222
+Total background coverage: 0.176333
+-in
+/users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/ESRRA.Motif_Selection_Paper.csv
+-out
+-t
+-max
+-d
+Input file = /users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/ESRRA.Motif_Selection_Paper.csv
+Output file = ESRRA.final_selected_motif.list
+alpha = 0.5
+beta = 54
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 54Num of foreground seq :10000Num of background seq : 10000
+=====================================================
+current cost: 16.7356
+Objective function: 17.7356
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_AlignACE_3
+Foreground Covered sequences: 3756
+Background covered sequences: 1501
+==========
+ESRRA_ESR1_ECC-1_encode-Myers_seq_hsa_Genistein-100nM-v041610.2_MEME_3
+Foreground Covered sequences: 4098
+Background covered sequences: 753
+==========
+Best solution: 17.7356
+Num of features: 2
+Total foreground coverage: 0.6102
+Total background coverage: 0.193
+[[0.5946969696969697, 0.8208333333333333, 0.72133333333333338, 0.7228360957642725, 0.6525353283458022], [0.5946969696969697, 0.8208333333333333, 0.72133333333333338, 0.7228360957642725, 0.6525353283458022], [0.6189393939393939, 0.8020833333333334, 0.72150000000000003, 0.7107438016528925, 0.6616724033205101]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.6.0.5.MS_input.csv -out 999.999.0.02.0.6.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+len of motifDict: 54
+len of motifDict: 54
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in /users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/ESRRA.Motif_Selection_Paper.csv -out ESRRA.final_selected_motif.list -t 0.2 -max 400 -d 0.02
+
+-----------------------
+Resources requested:
+mem=60gb
+nodes=1:ppn=3
+-----------------------
+Resources used:
+cput=02:55:42
+walltime=01:45:38
+mem=12.938GB
+vmem=14.999GB
+-----------------------
+Resource units charged (estimate):
+2.464 RUs
+-----------------------

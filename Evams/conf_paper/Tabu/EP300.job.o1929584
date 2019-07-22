@@ -1,0 +1,4307 @@
+-in
+1.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.1.0.02.0.2.0.5.MS_input.csv
+Output file = 1.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 27.8802
+Objective function: 28.8802
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1165
+Background covered sequences: 321
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 912
+==========
+Best solution: 28.8802
+Num of features: 2
+Total foreground coverage: 0.438436
+Total background coverage: 0.17488
+using subsample
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.1.0.02.0.2.0.5.MS_input.csv -out 1.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+1.1.0.4.0.02.0.5.MS_input.csv
+-out
+1.1.0.2.0.02.0.5.MS_input.csv
+-t
+-out
+-t
+-max
+-max
+-d
+-d
+-in
+1.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.1.0.4.0.02.0.5.MS_input.csv
+Output file = 1.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+Input file = 1.1.0.2.0.02.0.5.MS_input.csv
+Output file = 1.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+Input file = 1.1.0.6.0.02.0.5.MS_input.csv
+Output file = 1.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 27.8802
+Objective function: 28.8802
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1165
+Background covered sequences: 321
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 912
+==========
+Best solution: 28.8802
+Num of features: 2
+Total foreground coverage: 0.438436
+Total background coverage: 0.17488
+=====================================================
+current cost: 27.8802
+Objective function: 28.8802
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1165
+Background covered sequences: 321
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 912
+==========
+Best solution: 28.8802
+Num of features: 2
+Total foreground coverage: 0.438436
+Total background coverage: 0.17488
+=====================================================
+current cost: 27.8802
+Objective function: 28.8802
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1165
+Background covered sequences: 321
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 912
+==========
+Best solution: 28.8802
+Num of features: 2
+Total foreground coverage: 0.438436
+Total background coverage: 0.17488
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.1.0.2.0.02.0.5.MS_input.csv -out 1.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/use-in
+1.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.2.0.02.0.2.0.5.MS_input.csv
+Output file = 1.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5312Num of background seq : 6688
+=====================================================
+current cost: 28.2465
+Objective function: 29.2465
+EP300_EP300_GM12878_encode-Myers_seq_hsa_AlignACE_2
+Foreground Covered sequences: 1027
+Background covered sequences: 584
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1174
+Background covered sequences: 345
+==========
+Best solution: 29.2465
+Num of features: 2
+Total foreground coverage: 0.386295
+Total background coverage: 0.132775
+[[0.4269578313253012, 0.8199760765550239, 0.64600000000000002, 0.6532258064516129, 0.5163934426229507], [0.4269578313253012, 0.8199760765550239, 0.64600000000000002, 0.6532258064516129, 0.5163934426229507], [0.4269578313253012, 0.8199760765550239, 0.64600000000000002, 0.6532258064516129, 0.5163934426229507]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.02.0.2.0.5.MS_input.csv -out 1.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+1.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+-in
+1.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+1.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+Input file = 1.2.0.4.0.02.0.5.MS_input.csv
+Output file = 1.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5312Num of background seq : 6688
+Input file = 1.2.0.6.0.02.0.5.MS_input.csv
+Output file = 1.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5312Num of background seq : 6688
+Input file = 1.2.0.2.0.02.0.5.MS_input.csv
+Output file = 1.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5312Num of background seq : 6688
+=====================================================
+current cost: 28.2465
+Objective function: 29.2465
+EP300_EP300_GM12878_encode-Myers_seq_hsa_AlignACE_2
+Foreground Covered sequences: 1027
+Background covered sequences: 584
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1174
+Background covered sequences: 345
+==========
+Best solution: 29.2465
+Num of features: 2
+Total foreground coverage: 0.386295
+Total background coverage: 0.132775
+=====================================================
+current cost: 28.2502
+Objective function: 29.2502
+EP300_EP300_H1-hESC_encode-Myers_seq_hsa_v041610.2_AlignACE_1
+Foreground Covered sequences: 1061
+Background covered sequences: 632
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1174
+Background covered sequences: 345
+==========
+Best solution: 29.2502
+Num of features: 2
+Total foreground coverage: 0.393072
+Total background coverage: 0.139653
+=====================================================
+current cost: 28.2502
+Objective function: 29.2502
+EP300_EP300_H1-hESC_encode-Myers_seq_hsa_v041610.2_AlignACE_1
+Foreground Covered sequences: 1061
+Background covered sequences: 632
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1174
+Background covered sequences: 345
+==========
+Best solution: 29.2502
+Num of features: 2
+Total foreground coverage: 0.393072
+Total background coverage: 0.139653
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.2.0.02.0.5.MS_input.csv -out 1.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.4.0.02.0.5.MS_input.csv -out 1.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.2.0.6.0.02.0.5.MS_input.csv -out 1.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+1.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 1.3.0.02.0.2.0.5.MS_input.csv
+Output file = 1.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 28.1633
+Objective function: 29.1633
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1382
+Background covered sequences: 914
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 335
+==========
+Best solution: 29.1633
+Num of features: 2
+Total foreground coverage: 0.433383
+Total background coverage: 0.177584
+[[0.37611607142857145, 0.8565821256038647, 0.64133333333333331, 0.680349932705249, 0.48442740776233834], [0.38058035714285715, 0.8568840579710145, 0.64349999999999996, 0.6833667334669339, 0.48888888888888893], [0.38058035714285715, 0.8568840579710145, 0.64349999999999996, 0.6833667334669339, 0.48888888888888893]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.02.0.2.0.5.MS_input.csv -out 1.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+-in
+1.3.0.6.0.02.0.5.MS_input.csv
+-out
+1.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-t
+1.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-max
+-d
+-d
+-max
+-d
+Input file = 1.3.0.4.0.02.0.5.MS_input.csv
+Output file = 1.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+Input file = 1.3.0.6.0.02.0.5.MS_input.csv
+Output file = 1.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+Input file = 1.3.0.2.0.02.0.5.MS_input.csv
+Output file = 1.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5344Num of background seq : 6656
+=====================================================
+current cost: 28.1633
+Objective function: 29.1633
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 335
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1382
+Background covered sequences: 914
+==========
+Best solution: 29.1633
+Num of features: 2
+Total foreground coverage: 0.433383
+Total background coverage: 0.177584
+=====================================================
+current cost: 28.1633
+Objective function: 29.1633
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1382
+Background covered sequences: 914
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 335
+==========
+Best solution: 29.1633
+Num of features: 2
+Total foreground coverage: 0.433383
+Total background coverage: 0.177584
+=====================================================
+current cost: 28.1633
+Objective function: 29.1633
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1382
+Background covered sequences: 914
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 335
+==========
+Best solution: 29.1633
+Num of features: 2
+Total foreground coverage: 0.433383
+Total background coverage: 0.177584
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.2.0.02.0.5.MS_input.csv -out 1.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.4.0.02.0.5.MS_input.csv -out 1.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 1.3.0.6.0.02.0.5.MS_input.csv -out 1.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.4.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.4.0.5.MS_input.csv
+Output file = 999.999.0.02.0.4.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.1722
+Objective function: 29.1722
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2298
+Background covered sequences: 1248
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1972
+Background covered sequences: 439
+==========
+Best solution: 29.1722
+Num of features: 2
+Total foreground coverage: 0.432778
+Total background coverage: 0.177222
+-in
+2.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.1.0.02.0.2.0.5.MS_input.csv
+Output file = 2.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5345Num of background seq : 6655
+=====================================================
+current cost: 27.7129
+Objective function: 28.7129
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1218
+Background covered sequences: 356
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1394
+Background covered sequences: 911
+==========
+Best solution: 28.7129
+Num of features: 2
+Total foreground coverage: 0.448457
+Total background coverage: 0.180316
+[[0.4427710843373494, 0.8211722488038278, 0.65366666666666662, 0.6629086809470124, 0.5309255079006773], [0.4427710843373494, 0.8211722488038278, 0.65366666666666662, 0.6629086809470124, 0.5309255079006773], [0.4427710843373494, 0.8211722488038278, 0.65366666666666662, 0.6629086809470124, 0.5309255079006773]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.4.0.5.MS_input.csv -out 999.999.0.02.0.4.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.02.0.2.0.5.MS_input.csv -out 2.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+-in
+2.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+2.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+2.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.1.0.4.0.02.0.5.MS_input.csv
+Output file = 2.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5345Num of background seq : 6655
+Input file = 2.1.0.6.0.02.0.5.MS_input.csv
+Output file = 2.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5345Num of background seq : 6655
+Input file = 2.1.0.2.0.02.0.5.MS_input.csv
+Output file = 2.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5345Num of background seq : 6655
+=====================================================
+current cost: 27.7129
+Objective function: 28.7129
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1218
+Background covered sequences: 356
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1394
+Background covered sequences: 911
+==========
+Best solution: 28.7129
+Num of features: 2
+Total foreground coverage: 0.448457
+Total background coverage: 0.180316
+=====================================================
+current cost: 27.7575
+Objective function: 28.7575
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1394
+Background covered sequences: 911
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1193
+Background covered sequences: 336
+==========
+Best solution: 28.7575
+Num of features: 2
+Total foreground coverage: 0.444528
+Total background coverage: 0.177611
+=====================================================
+current cost: 27.7575
+Objective function: 28.7575
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1394
+Background covered sequences: 911
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1193
+Background covered sequences: 336
+==========
+Best solution: 28.7575
+Num of features: 2
+Total foreground coverage: 0.444528
+Total background coverage: 0.177611
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.2.0.02.0.5.MS_input.csv -out 2.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.4.0.02.0.5.MS_input.csv -out 2.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.1.0.6.0.02.0.5.MS_input.csv -out 2.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+2.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.2.0.02.0.2.0.5.MS_input.csv
+Output file = 2.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 27.9822
+Objective function: 28.9822
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1191
+Background covered sequences: 336
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 404
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1352
+Background covered sequences: 895
+==========
+Best solution: 28.9822
+Num of features: 3
+Total foreground coverage: 0.508634
+Total background coverage: 0.220474
+[[0.42523540489642186, 0.818236173393124, 0.64433333333333331, 0.6499712147380541, 0.5141165755919855], [0.42033898305084744, 0.8212257100149477, 0.64383333333333337, 0.6511085180863477, 0.5108720531013963], [0.42033898305084744, 0.8212257100149477, 0.64383333333333337, 0.6511085180863477, 0.5108720531013963]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.02.0.2.0.5.MS_input.csv -out 2.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.2.0.6.0.02.0.5.MS_input.csv
+Output file = 2.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 2.2.0.2.0.02.0.5.MS_input.csv
+Output file = 2.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 2.2.0.4.0.02.0.5.MS_input.csv
+Output file = 2.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 27.9822
+Objective function: 28.9822
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1352
+Background covered sequences: 895
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 404
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1191
+Background covered sequences: 336
+==========
+Best solution: 28.9822
+Num of features: 3
+Total foreground coverage: 0.508634
+Total background coverage: 0.220474
+=====================================================
+current cost: 27.9962
+Objective function: 28.9962
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1352
+Background covered sequences: 895
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1153
+Background covered sequences: 301
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 404
+==========
+Best solution: 28.9962
+Num of features: 3
+Total foreground coverage: 0.503003
+Total background coverage: 0.215228
+=====================================================
+current cost: 27.9962
+Objective function: 28.9962
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1352
+Background covered sequences: 895
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1153
+Background covered sequences: 301
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 404
+==========
+Best solution: 28.9962
+Num of features: 3
+Total foreground coverage: 0.503003
+Total background coverage: 0.215228
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.2.0.02.0.5.MS_input.csv -out 2.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.4.0.02.0.5.MS_input.csv -out 2.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.2.0.6.0.02.0.5.MS_input.csv -out 2.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+2.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.3.0.02.0.2.0.5.MS_input.csv
+Output file = 2.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.3135
+Objective function: 29.3135
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1390
+Background covered sequences: 938
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1177
+Background covered sequences: 378
+==========
+Best solution: 29.3135
+Num of features: 2
+Total foreground coverage: 0.437958
+Total background coverage: 0.186273
+[[0.5138473053892215, 0.7554086538461539, 0.64783333333333337, 0.6278006401463192, 0.5651368594360979], [0.5089820359281437, 0.7566105769230769, 0.64633333333333332, 0.6267281105990783, 0.5617513424204874], [0.5089820359281437, 0.7566105769230769, 0.64633333333333332, 0.6267281105990783, 0.5617513424204874]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.02.0.2.0.5.MS_input.csv -out 2.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+2.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+2.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-in
+-d
+2.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 2.3.0.6.0.02.0.5.MS_input.csv
+Output file = 2.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 2.3.0.4.0.02.0.5.MS_input.csv
+Output file = 2.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 2.3.0.2.0.02.0.5.MS_input.csv
+Output file = 2.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.3135
+Objective function: 29.3135
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1177
+Background covered sequences: 378
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1390
+Background covered sequences: 938
+==========
+Best solution: 29.3135
+Num of features: 2
+Total foreground coverage: 0.437958
+Total background coverage: 0.186273
+=====================================================
+current cost: 28.3135
+Objective function: 29.3135
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1177
+Background covered sequences: 378
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1390
+Background covered sequences: 938
+==========
+Best solution: 29.3135
+Num of features: 2
+Total foreground coverage: 0.437958
+Total background coverage: 0.186273
+=====================================================
+current cost: 28.3135
+Objective function: 29.3135
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1177
+Background covered sequences: 378
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1390
+Background covered sequences: 938
+==========
+Best solution: 29.3135
+Num of features: 2
+Total foreground coverage: 0.437958
+Total background coverage: 0.186273
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.2.0.02.0.5.MS_input.csv -out 2.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.4.0.02.0.5.MS_input.csv -out 2.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 2.3.0.6.0.02.0.5.MS_input.csv -out 2.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 27.9613
+Objective function: 28.9613
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2332
+Background covered sequences: 1249
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2054
+Background covered sequences: 489
+==========
+Best solution: 28.9613
+Num of features: 2
+Total foreground coverage: 0.444556
+Total background coverage: 0.183222
+-in
+3.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.1.0.02.0.2.0.5.MS_input.csv
+Output file = 3.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5359Num of background seq : 6641
+=====================================================
+current cost: 28.1288
+Objective function: 29.1288
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1173
+Background covered sequences: 325
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1371
+Background covered sequences: 898
+==========
+Best solution: 29.1288
+Num of features: 2
+Total foreground coverage: 0.43217
+Total background coverage: 0.175425
+[[0.44631500187055745, 0.8301773369401864, 0.65916666666666668, 0.6786120591581343, 0.5384788986684722], [0.44631500187055745, 0.8301773369401864, 0.65916666666666668, 0.6786120591581343, 0.5384788986684722], [0.44631500187055745, 0.8301773369401864, 0.65916666666666668, 0.6786120591581343, 0.5384788986684722]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.02.0.2.0.5.MS_input.csv -out 3.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+-in
+3.1.0.6.0.02.0.5.MS_input.csv
+-out
+3.1.0.4.0.02.0.5.MS_input.csv
+-t
+-out
+3.1.0.2.0.02.0.5.MS_input.csv
+-t
+-out
+-t
+-max
+-d
+-max
+-d
+-max
+-d
+Input file = 3.1.0.6.0.02.0.5.MS_input.csv
+Output file = 3.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5359Num of background seq : 6641
+Input file = 3.1.0.2.0.02.0.5.MS_input.csv
+Output file = 3.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5359Num of background seq : 6641
+Input file = 3.1.0.4.0.02.0.5.MS_input.csv
+Output file = 3.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5359Num of background seq : 6641
+=====================================================
+current cost: 28.1288
+Objective function: 29.1288
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1371
+Background covered sequences: 898
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1173
+Background covered sequences: 325
+==========
+Best solution: 29.1288
+Num of features: 2
+Total foreground coverage: 0.43217
+Total background coverage: 0.175425
+=====================================================
+current cost: 28.1288
+Objective function: 29.1288
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1371
+Background covered sequences: 898
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1173
+Background covered sequences: 325
+==========
+Best solution: 29.1288
+Num of features: 2
+Total foreground coverage: 0.43217
+Total background coverage: 0.175425
+=====================================================
+current cost: 28.1288
+Objective function: 29.1288
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1371
+Background covered sequences: 898
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1173
+Background covered sequences: 325
+==========
+Best solution: 29.1288
+Num of features: 2
+Total foreground coverage: 0.43217
+Total background coverage: 0.175425
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.2.0.02.0.5.MS_input.csv -out 3.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.4.0.02.0.5.MS_input.csv -out 3.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.1.0.6.0.02.0.5.MS_input.csv -out 3.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+3.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.2.0.02.0.2.0.5.MS_input.csv
+Output file = 3.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5289Num of background seq : 6711
+=====================================================
+current cost: 28.2068
+Objective function: 29.2068
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1197
+Background covered sequences: 367
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1337
+Background covered sequences: 929
+==========
+Best solution: 29.2068
+Num of features: 2
+Total foreground coverage: 0.43789
+Total background coverage: 0.183281
+[[0.43960620976902687, 0.8210777016969336, 0.65316666666666667, 0.6589103291713961, 0.527367703838292], [0.43960620976902687, 0.8210777016969336, 0.65316666666666667, 0.6589103291713961, 0.527367703838292], [0.43960620976902687, 0.8210777016969336, 0.65316666666666667, 0.6589103291713961, 0.527367703838292]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.02.0.2.0.5.MS_input.csv -out 3.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+3.2.0.4.0.02.0.5.MS_input.csv
+-out
+3.2.0.2.0.02.0.5.MS_input.csv
+-t
+-out
+-t
+-max
+-max
+-d
+-d
+-in
+3.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.2.0.2.0.02.0.5.MS_input.csv
+Output file = 3.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5289Num of background seq : 6711
+Input file = 3.2.0.6.0.02.0.5.MS_input.csv
+Output file = 3.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5289Num of background seq : 6711
+Input file = 3.2.0.4.0.02.0.5.MS_input.csv
+Output file = 3.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5289Num of background seq : 6711
+=====================================================
+current cost: 28.2068
+Objective function: 29.2068
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1197
+Background covered sequences: 367
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1337
+Background covered sequences: 929
+==========
+Best solution: 29.2068
+Num of features: 2
+Total foreground coverage: 0.43789
+Total background coverage: 0.183281
+=====================================================
+current cost: 28.2651
+Objective function: 29.2651
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1165
+Background covered sequences: 346
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1337
+Background covered sequences: 929
+==========
+Best solution: 29.2651
+Num of features: 2
+Total foreground coverage: 0.433163
+Total background coverage: 0.180152
+=====================================================
+current cost: 28.2651
+Objective function: 29.2651
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1165
+Background covered sequences: 346
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1337
+Background covered sequences: 929
+==========
+Best solution: 29.2651
+Num of features: 2
+Total foreground coverage: 0.433163
+Total background coverage: 0.180152
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.2.0.02.0.5.MS_input.csv -out 3.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.4.0.02.0.5.MS_input.csv -out 3.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.2.0.6.0.02.0.5.MS_input.csv -out 3.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+3.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.3.0.02.0.2.0.5.MS_input.csv
+Output file = 3.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5352Num of background seq : 6648
+=====================================================
+current cost: 27.767
+Objective function: 28.767
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1428
+Background covered sequences: 917
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1184
+Background covered sequences: 356
+==========
+Best solution: 28.767
+Num of features: 2
+Total foreground coverage: 0.446562
+Total background coverage: 0.179904
+[[0.4463297676134268, 0.8242626938279112, 0.65349999999999997, 0.6767337807606264, 0.5378973105134474], [0.44300995942456656, 0.8263910003040438, 0.65316666666666667, 0.677765237020316, 0.5358019183582421], [0.44300995942456656, 0.8263910003040438, 0.65316666666666667, 0.677765237020316, 0.5358019183582421]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.02.0.2.0.5.MS_input.csv -out 3.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+3.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+3.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+3.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 3.3.0.6.0.02.0.5.MS_input.csv
+Output file = 3.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5352Num of background seq : 6648
+Input file = 3.3.0.4.0.02.0.5.MS_input.csv
+Output file = 3.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5352Num of background seq : 6648
+Input file = 3.3.0.2.0.02.0.5.MS_input.csv
+Output file = 3.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5352Num of background seq : 6648
+=====================================================
+current cost: 27.767
+Objective function: 28.767
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1184
+Background covered sequences: 356
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1428
+Background covered sequences: 917
+==========
+Best solution: 28.767
+Num of features: 2
+Total foreground coverage: 0.446562
+Total background coverage: 0.179904
+=====================================================
+current cost: 27.767
+Objective function: 28.767
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1184
+Background covered sequences: 356
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1428
+Background covered sequences: 917
+==========
+Best solution: 28.767
+Num of features: 2
+Total foreground coverage: 0.446562
+Total background coverage: 0.179904
+=====================================================
+current cost: 27.767
+Objective function: 28.767
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1184
+Background covered sequences: 356
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1428
+Background covered sequences: 917
+==========
+Best solution: 28.767
+Num of features: 2
+Total foreground coverage: 0.446562
+Total background coverage: 0.179904
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 3.3.0.2.0.02.0.5.MS_input.csv -out 3.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.156
+Objective function: 29.156
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2292
+Background covered sequences: 1240
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2033
+Background covered sequences: 483
+==========
+Best solution: 29.156
+Num of features: 2
+Total foreground coverage: 0.437444
+Total background coverage: 0.181444
+-in
+4.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.1.0.02.0.2.0.5.MS_input.csv
+Output file = 4.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 27.9991
+Objective function: 28.9991
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1421
+Background covered sequences: 927
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1169
+Background covered sequences: 370
+==========
+Best solution: 28.9991
+Num of features: 2
+Total foreground coverage: 0.443903
+Total background coverage: 0.183606
+[[0.42900302114803623, 0.8174224343675418, 0.64600000000000002, 0.6498855835240275, 0.5168334849863512], [0.42900302114803623, 0.8174224343675418, 0.64600000000000002, 0.6498855835240275, 0.5168334849863512], [0.42900302114803623, 0.8174224343675418, 0.64600000000000002, 0.6498855835240275, 0.5168334849863512]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.02.0.2.0.5.MS_input.csv -out 4.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.1.0.6.0.02.0.5.MS_input.csv
+Output file = 4.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+Input file = 4.1.0.2.0.02.0.5.MS_input.csv
+Output file = 4.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+Input file = 4.1.0.4.0.02.0.5.MS_input.csv
+Output file = 4.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 27.9991
+Objective function: 28.9991
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1169
+Background covered sequences: 370
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1421
+Background covered sequences: 927
+==========
+Best solution: 28.9991
+Num of features: 2
+Total foreground coverage: 0.443903
+Total background coverage: 0.183606
+=====================================================
+current cost: 27.9991
+Objective function: 28.9991
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1169
+Background covered sequences: 370
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1421
+Background covered sequences: 927
+==========
+Best solution: 28.9991
+Num of features: 2
+Total foreground coverage: 0.443903
+Total background coverage: 0.183606
+=====================================================
+current cost: 27.9991
+Objective function: 28.9991
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1169
+Background covered sequences: 370
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1421
+Background covered sequences: 927
+==========
+Best solution: 28.9991
+Num of features: 2
+Total foreground coverage: 0.443903
+Total background coverage: 0.183606
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.2.0.02.0.5.MS_input.csv -out 4.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.4.0.02.0.5.MS_input.csv -out 4.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.1.0.6.0.02.0.5.MS_input.csv -out 4.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+4.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.2.0.02.0.2.0.5.MS_input.csv
+Output file = 4.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.039
+Objective function: 29.039
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1160
+Background covered sequences: 320
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1372
+Background covered sequences: 908
+==========
+Best solution: 29.039
+Num of features: 2
+Total foreground coverage: 0.43364
+Total background coverage: 0.174434
+[[0.43442314919203306, 0.8247978436657682, 0.65166666666666662, 0.6639862148190695, 0.5252158109950023], [0.43442314919203306, 0.8247978436657682, 0.65166666666666662, 0.6639862148190695, 0.5252158109950023], [0.43442314919203306, 0.8247978436657682, 0.65166666666666662, 0.6639862148190695, 0.5252158109950023]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.02.0.2.0.5.MS_input.csv -out 4.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-in
+-max
+-d
+4.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.2.0.2.0.02.0.5.MS_input.csv
+Output file = 4.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 4.2.0.6.0.02.0.5.MS_input.csv
+Output file = 4.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 4.2.0.4.0.02.0.5.MS_input.csv
+Output file = 4.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.039
+Objective function: 29.039
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1160
+Background covered sequences: 320
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1372
+Background covered sequences: 908
+==========
+Best solution: 29.039
+Num of features: 2
+Total foreground coverage: 0.43364
+Total background coverage: 0.174434
+=====================================================
+current cost: 28.039
+Objective function: 29.039
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1160
+Background covered sequences: 320
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1372
+Background covered sequences: 908
+==========
+Best solution: 29.039
+Num of features: 2
+Total foreground coverage: 0.43364
+Total background coverage: 0.174434
+=====================================================
+current cost: 28.039
+Objective function: 29.039
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1160
+Background covered sequences: 320
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1372
+Background covered sequences: 908
+==========
+Best solution: 29.039
+Num of features: 2
+Total foreground coverage: 0.43364
+Total background coverage: 0.174434
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.2.0.02.0.5.MS_input.csv -out 4.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.4.0.02.0.5.MS_input.csv -out 4.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.2.0.6.0.02.0.5.MS_input.csv -out 4.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+4.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.3.0.02.0.2.0.5.MS_input.csv
+Output file = 4.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5334Num of background seq : 6666
+=====================================================
+current cost: 28.0583
+Objective function: 29.0583
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1217
+Background covered sequences: 353
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1343
+Background covered sequences: 909
+==========
+Best solution: 29.0583
+Num of features: 2
+Total foreground coverage: 0.437945
+Total background coverage: 0.179268
+[[0.43658810325476993, 0.8190562067929065, 0.64866666666666661, 0.6596947427925381, 0.5254389914452949], [0.43658810325476993, 0.8190562067929065, 0.64866666666666661, 0.6596947427925381, 0.5254389914452949], [0.43658810325476993, 0.8190562067929065, 0.64866666666666661, 0.6596947427925381, 0.5254389914452949]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.02.0.2.0.5.MS_input.csv -out 4.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+4.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+4.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 4.3.0.6.0.02.0.5.MS_input.csv
+Output file = 4.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5334Num of background seq : 6666
+Input file = 4.3.0.4.0.02.0.5.MS_input.csv
+Output file = 4.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5334Num of background seq : 6666
+Input file = 4.3.0.2.0.02.0.5.MS_input.csv
+Output file = 4.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5334Num of background seq : 6666
+=====================================================
+current cost: 28.0583
+Objective function: 29.0583
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1217
+Background covered sequences: 353
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1343
+Background covered sequences: 909
+==========
+Best solution: 29.0583
+Num of features: 2
+Total foreground coverage: 0.437945
+Total background coverage: 0.179268
+=====================================================
+current cost: 28.0583
+Objective function: 29.0583
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1217
+Background covered sequences: 353
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1343
+Background covered sequences: 909
+==========
+Best solution: 29.0583
+Num of features: 2
+Total foreground coverage: 0.437945
+Total background coverage: 0.179268
+=====================================================
+current cost: 28.0583
+Objective function: 29.0583
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1217
+Background covered sequences: 353
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1343
+Background covered sequences: 909
+==========
+Best solution: 29.0583
+Num of features: 2
+Total foreground coverage: 0.437945
+Total background coverage: 0.179268
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.2.0.02.0.5.MS_input.csv -out 4.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.4.0.02.0.5.MS_input.csv -out 4.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 4.3.0.6.0.02.0.5.MS_input.csv -out 4.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.0871
+Objective function: 29.0871
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2018
+Background covered sequences: 484
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2303
+Background covered sequences: 1226
+==========
+Best solution: 29.0871
+Num of features: 2
+Total foreground coverage: 0.438111
+Total background coverage: 0.180222
+-in
+5.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.1.0.02.0.2.0.5.MS_input.csv
+Output file = 5.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 27.9525
+Objective function: 28.9525
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 371
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1379
+Background covered sequences: 900
+==========
+Best solution: 28.9525
+Num of features: 2
+Total foreground coverage: 0.440751
+Total background coverage: 0.179176
+[[0.4463615903975994, 0.8161367726454709, 0.65183333333333338, 0.6600110926234054, 0.5325576191541732], [0.4463615903975994, 0.8161367726454709, 0.65183333333333338, 0.6600110926234054, 0.5325576191541732], [0.4463615903975994, 0.8161367726454709, 0.65183333333333338, 0.6600110926234054, 0.5325576191541732]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.02.0.2.0.5.MS_input.csv -out 5.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+-in
+5.1.0.2.0.02.0.5.MS_input.csv
+-out
+5.1.0.4.0.02.0.5.MS_input.csv
+-t
+-out
+-t
+-max
+5.1.0.6.0.02.0.5.MS_input.csv
+-max
+-out
+-d
+-d
+-t
+-max
+-d
+Input file = 5.1.0.6.0.02.0.5.MS_input.csv
+Output file = 5.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+Input file = 5.1.0.4.0.02.0.5.MS_input.csv
+Output file = 5.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+Input file = 5.1.0.2.0.02.0.5.MS_input.csv
+Output file = 5.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 27.9525
+Objective function: 28.9525
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 371
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1379
+Background covered sequences: 900
+==========
+Best solution: 28.9525
+Num of features: 2
+Total foreground coverage: 0.440751
+Total background coverage: 0.179176
+=====================================================
+current cost: 27.9638
+Objective function: 28.9638
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1165
+Background covered sequences: 355
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1379
+Background covered sequences: 900
+==========
+Best solution: 28.9638
+Num of features: 2
+Total foreground coverage: 0.437746
+Total background coverage: 0.176479
+=====================================================
+current cost: 27.9638
+Objective function: 28.9638
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1165
+Background covered sequences: 355
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1379
+Background covered sequences: 900
+==========
+Best solution: 28.9638
+Num of features: 2
+Total foreground coverage: 0.437746
+Total background coverage: 0.176479
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.2.0.02.0.5.MS_input.csv -out 5.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.4.0.02.0.5.MS_input.csv -out 5.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.1.0.6.0.02.0.5.MS_input.csv -out 5.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+5.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.2.0.02.0.2.0.5.MS_input.csv
+Output file = 5.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5347Num of background seq : 6653
+=====================================================
+current cost: 28.0963
+Objective function: 29.0963
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1383
+Background covered sequences: 936
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1166
+Background covered sequences: 318
+==========
+Best solution: 29.0963
+Num of features: 2
+Total foreground coverage: 0.437255
+Total background coverage: 0.179618
+[[0.4407476635514019, 0.8159398496240602, 0.64866666666666661, 0.6582914572864321, 0.5279892521271832], [0.43401869158878503, 0.8189473684210526, 0.64733333333333332, 0.6585365853658537, 0.523208652546192], [0.43401869158878503, 0.8189473684210526, 0.64733333333333332, 0.6585365853658537, 0.523208652546192]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.02.0.2.0.5.MS_input.csv -out 5.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+5.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+5.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+-max
+-d
+5.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.2.0.2.0.02.0.5.MS_input.csv
+Output file = 5.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5347Num of background seq : 6653
+Input file = 5.2.0.4.0.02.0.5.MS_input.csv
+Output file = 5.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5347Num of background seq : 6653
+Input file = 5.2.0.6.0.02.0.5.MS_input.csv
+Output file = 5.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5347Num of background seq : 6653
+=====================================================
+current cost: 28.0963
+Objective function: 29.0963
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1383
+Background covered sequences: 936
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1166
+Background covered sequences: 318
+==========
+Best solution: 29.0963
+Num of features: 2
+Total foreground coverage: 0.437255
+Total background coverage: 0.179618
+=====================================================
+current cost: 28.0963
+Objective function: 29.0963
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1383
+Background covered sequences: 936
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1166
+Background covered sequences: 318
+==========
+Best solution: 29.0963
+Num of features: 2
+Total foreground coverage: 0.437255
+Total background coverage: 0.179618
+=====================================================
+current cost: 28.0963
+Objective function: 29.0963
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1383
+Background covered sequences: 936
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1166
+Background covered sequences: 318
+==========
+Best solution: 29.0963
+Num of features: 2
+Total foreground coverage: 0.437255
+Total background coverage: 0.179618
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.2.0.02.0.5.MS_input.csv -out 5.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.4.0.02.0.5.MS_input.csv -out 5.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.2.0.6.0.02.0.5.MS_input.csv -out 5.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+5.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.3.0.02.0.2.0.5.MS_input.csv
+Output file = 5.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 28.033
+Objective function: 29.033
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 908
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1195
+Background covered sequences: 352
+==========
+Best solution: 29.033
+Num of features: 2
+Total foreground coverage: 0.438626
+Total background coverage: 0.179257
+[[0.4293252921221259, 0.8293994622049596, 0.65249999999999997, 0.6660818713450293, 0.5221178088471236], [0.4293252921221259, 0.8293994622049596, 0.65249999999999997, 0.6660818713450293, 0.5221178088471236], [0.4293252921221259, 0.8293994622049596, 0.65249999999999997, 0.6660818713450293, 0.5221178088471236]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.02.0.2.0.5.MS_input.csv -out 5.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+5.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+5.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+5.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 5.3.0.4.0.02.0.5.MS_input.csv
+Output file = 5.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 5.3.0.6.0.02.0.5.MS_input.csv
+Output file = 5.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 5.3.0.2.0.02.0.5.MS_input.csv
+Output file = 5.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 28.033
+Objective function: 29.033
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1195
+Background covered sequences: 352
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 908
+==========
+Best solution: 29.033
+Num of features: 2
+Total foreground coverage: 0.438626
+Total background coverage: 0.179257
+=====================================================
+current cost: 28.033
+Objective function: 29.033
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1195
+Background covered sequences: 352
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 908
+==========
+Best solution: 29.033
+Num of features: 2
+Total foreground coverage: 0.438626
+Total background coverage: 0.179257
+=====================================================
+current cost: 28.033
+Objective function: 29.033
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1195
+Background covered sequences: 352
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 908
+==========
+Best solution: 29.033
+Num of features: 2
+Total foreground coverage: 0.438626
+Total background coverage: 0.179257
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.2.0.02.0.5.MS_input.csv -out 5.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.4.0.02.0.5.MS_input.csv -out 5.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 5.3.0.6.0.02.0.5.MS_input.csv -out 5.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.0627
+Objective function: 29.0627
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2029
+Background covered sequences: 481
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2303
+Background covered sequences: 1227
+==========
+Best solution: 29.0627
+Num of features: 2
+Total foreground coverage: 0.438333
+Total background coverage: 0.179778
+-in
+6.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.1.0.02.0.2.0.5.MS_input.csv
+Output file = 6.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 28.0646
+Objective function: 29.0646
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1370
+Background covered sequences: 927
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1177
+Background covered sequences: 324
+==========
+Best solution: 29.0646
+Num of features: 2
+Total foreground coverage: 0.435451
+Total background coverage: 0.176947
+[[0.44498502994011974, 0.8161057692307693, 0.65083333333333337, 0.6601887840088839, 0.531634249944109], [0.44498502994011974, 0.8161057692307693, 0.65083333333333337, 0.6601887840088839, 0.531634249944109], [0.44498502994011974, 0.8161057692307693, 0.65083333333333337, 0.6601887840088839, 0.531634249944109]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.02.0.2.0.5.MS_input.csv -out 6.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.1.0.2.0.02.0.5.MS_input.csv
+Output file = 6.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 6.1.0.6.0.02.0.5.MS_input.csv
+Output file = 6.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 6.1.0.4.0.02.0.5.MS_input.csv
+Output file = 6.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 28.0646
+Objective function: 29.0646
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1370
+Background covered sequences: 927
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1177
+Background covered sequences: 324
+==========
+Best solution: 29.0646
+Num of features: 2
+Total foreground coverage: 0.435451
+Total background coverage: 0.176947
+=====================================================
+current cost: 28.0646
+Objective function: 29.0646
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1177
+Background covered sequences: 324
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1370
+Background covered sequences: 927
+==========
+Best solution: 29.0646
+Num of features: 2
+Total foreground coverage: 0.435451
+Total background coverage: 0.176947
+=====================================================
+current cost: 28.0646
+Objective function: 29.0646
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1370
+Background covered sequences: 927
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1177
+Background covered sequences: 324
+==========
+Best solution: 29.0646
+Num of features: 2
+Total foreground coverage: 0.435451
+Total background coverage: 0.176947
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.2.0.02.0.5.MS_input.csv -out 6.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.4.0.02.0.5.MS_input.csv -out 6.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.1.0.6.0.02.0.5.MS_input.csv -out 6.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+6.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.2.0.02.0.2.0.5.MS_input.csv
+Output file = 6.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.0086
+Objective function: 29.0086
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1349
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 350
+==========
+Best solution: 29.0086
+Num of features: 2
+Total foreground coverage: 0.437019
+Total background coverage: 0.176982
+[[0.4329703342095381, 0.8240934971531315, 0.65049999999999997, 0.6626436781609195, 0.5237338178514649], [0.4329703342095381, 0.8240934971531315, 0.65049999999999997, 0.6626436781609195, 0.5237338178514649], [0.4329703342095381, 0.8240934971531315, 0.65049999999999997, 0.6626436781609195, 0.5237338178514649]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.02.0.2.0.5.MS_input.csv -out 6.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.2.0.2.0.02.0.5.MS_input.csv
+-out
+-in
+-t
+-max
+-d
+6.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.2.0.6.0.02.0.5.MS_input.csv
+Output file = 6.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 6.2.0.2.0.02.0.5.MS_input.csv
+Output file = 6.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+Input file = 6.2.0.4.0.02.0.5.MS_input.csv
+Output file = 6.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5327Num of background seq : 6673
+=====================================================
+current cost: 28.0086
+Objective function: 29.0086
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1349
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 350
+==========
+Best solution: 29.0086
+Num of features: 2
+Total foreground coverage: 0.437019
+Total background coverage: 0.176982
+=====================================================
+current cost: 28.0086
+Objective function: 29.0086
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1349
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 350
+==========
+Best solution: 29.0086
+Num of features: 2
+Total foreground coverage: 0.437019
+Total background coverage: 0.176982
+=====================================================
+current cost: 28.0086
+Objective function: 29.0086
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1349
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1187
+Background covered sequences: 350
+==========
+Best solution: 29.0086
+Num of features: 2
+Total foreground coverage: 0.437019
+Total background coverage: 0.176982
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.2.0.2.0.02.0.5.MS_input.csv -out 6.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.3.0.02.0.2.0.5.MS_input.csv
+Output file = 6.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5336Num of background seq : 6664
+=====================================================
+current cost: 27.9568
+Objective function: 28.9568
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 337
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1417
+Background covered sequences: 926
+==========
+Best solution: 28.9568
+Num of features: 2
+Total foreground coverage: 0.441529
+Total background coverage: 0.180072
+[[0.4481855592966704, 0.8115419296663661, 0.64966666666666661, 0.6564383561643835, 0.5326811916407292], [0.4481855592966704, 0.8115419296663661, 0.64966666666666661, 0.6564383561643835, 0.5326811916407292], [0.4481855592966704, 0.8115419296663661, 0.64966666666666661, 0.6564383561643835, 0.5326811916407292]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.02.0.2.0.5.MS_input.csv -out 6.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+6.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+6.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 6.3.0.4.0.02.0.5.MS_input.csv
+Output file = 6.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5336Num of background seq : 6664
+Input file = 6.3.0.2.0.02.0.5.MS_input.csv
+Output file = 6.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5336Num of background seq : 6664
+Input file = 6.3.0.6.0.02.0.5.MS_input.csv
+Output file = 6.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5336Num of background seq : 6664
+=====================================================
+current cost: 27.9568
+Objective function: 28.9568
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 337
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1417
+Background covered sequences: 926
+==========
+Best solution: 28.9568
+Num of features: 2
+Total foreground coverage: 0.441529
+Total background coverage: 0.180072
+=====================================================
+current cost: 27.9568
+Objective function: 28.9568
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 337
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1417
+Background covered sequences: 926
+==========
+Best solution: 28.9568
+Num of features: 2
+Total foreground coverage: 0.441529
+Total background coverage: 0.180072
+=====================================================
+current cost: 27.9568
+Objective function: 28.9568
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 337
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1417
+Background covered sequences: 926
+==========
+Best solution: 28.9568
+Num of features: 2
+Total foreground coverage: 0.441529
+Total background coverage: 0.180072
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.2.0.02.0.5.MS_input.csv -out 6.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.4.0.02.0.5.MS_input.csv -out 6.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 6.3.0.6.0.02.0.5.MS_input.csv -out 6.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.0708
+Objective function: 29.0708
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2034
+Background covered sequences: 481
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2301
+Background covered sequences: 1238
+==========
+Best solution: 29.0708
+Num of features: 2
+Total foreground coverage: 0.439
+Total background coverage: 0.180667
+-in
+7.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.1.0.02.0.2.0.5.MS_input.csv
+Output file = 7.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 28.3873
+Objective function: 29.3873
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 917
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1148
+Background covered sequences: 354
+==========
+Best solution: 29.3873
+Num of features: 2
+Total foreground coverage: 0.430418
+Total background coverage: 0.180754
+[[0.4264264264264264, 0.8261390887290168, 0.64866666666666661, 0.662004662004662, 0.5187214611872146], [0.4264264264264264, 0.8261390887290168, 0.64866666666666661, 0.662004662004662, 0.5187214611872146], [0.4264264264264264, 0.8261390887290168, 0.64866666666666661, 0.662004662004662, 0.5187214611872146]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.02.0.2.0.5.MS_input.csv -out 7.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+7.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+7.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+-in
+7.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.1.0.2.0.02.0.5.MS_input.csv
+Output file = 7.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+Input file = 7.1.0.4.0.02.0.5.MS_input.csv
+Output file = 7.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+Input file = 7.1.0.6.0.02.0.5.MS_input.csv
+Output file = 7.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5339Num of background seq : 6661
+=====================================================
+current cost: 28.3873
+Objective function: 29.3873
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1148
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 917
+==========
+Best solution: 29.3873
+Num of features: 2
+Total foreground coverage: 0.430418
+Total background coverage: 0.180754
+=====================================================
+current cost: 28.3873
+Objective function: 29.3873
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1148
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 917
+==========
+Best solution: 29.3873
+Num of features: 2
+Total foreground coverage: 0.430418
+Total background coverage: 0.180754
+=====================================================
+current cost: 28.3873
+Objective function: 29.3873
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1148
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 917
+==========
+Best solution: 29.3873
+Num of features: 2
+Total foreground coverage: 0.430418
+Total background coverage: 0.180754
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.2.0.02.0.5.MS_input.csv -out 7.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.4.0.02.0.5.MS_input.csv -out 7.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.1.0.6.0.02.0.5.MS_input.csv -out 7.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+7.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.2.0.02.0.2.0.5.MS_input.csv
+Output file = 7.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5341Num of background seq : 6659
+=====================================================
+current cost: 27.9659
+Objective function: 28.9659
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1203
+Background covered sequences: 357
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 908
+==========
+Best solution: 28.9659
+Num of features: 2
+Total foreground coverage: 0.441116
+Total background coverage: 0.179907
+[[0.4487034949267193, 0.8274932614555256, 0.65949999999999998, 0.6745762711864407, 0.5389302640487476], [0.4487034949267193, 0.8274932614555256, 0.65949999999999998, 0.6745762711864407, 0.5389302640487476], [0.4487034949267193, 0.8274932614555256, 0.65949999999999998, 0.6745762711864407, 0.5389302640487476]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.02.0.2.0.5.MS_input.csv -out 7.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+7.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.2.0.6.0.02.0.5.MS_input.csv
+Output file = 7.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5341Num of background seq : 6659
+Input file = 7.2.0.4.0.02.0.5.MS_input.csv
+Output file = 7.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5341Num of background seq : 6659
+Input file = 7.2.0.2.0.02.0.5.MS_input.csv
+Output file = 7.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5341Num of background seq : 6659
+=====================================================
+current cost: 28.0146
+Objective function: 29.0146
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 908
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1156
+Background covered sequences: 321
+==========
+Best solution: 29.0146
+Num of features: 2
+Total foreground coverage: 0.434376
+Total background coverage: 0.174501
+=====================================================
+current cost: 27.9659
+Objective function: 28.9659
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1203
+Background covered sequences: 357
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 908
+==========
+Best solution: 28.9659
+Num of features: 2
+Total foreground coverage: 0.441116
+Total background coverage: 0.179907
+=====================================================
+current cost: 28.0146
+Objective function: 29.0146
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1386
+Background covered sequences: 908
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1156
+Background covered sequences: 321
+==========
+Best solution: 29.0146
+Num of features: 2
+Total foreground coverage: 0.434376
+Total background coverage: 0.174501
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.4.0.02.0.5.MS_input.csv -out 7.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.2.0.02.0.5.MS_input.csv -out 7.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.2.0.6.0.02.0.5.MS_input.csv -out 7.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+7.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 7.3.0.02.0.2.0.5.MS_input.csv
+Output file = 7.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5320Num of background seq : 6680
+=====================================================
+current cost: 27.776
+Objective function: 28.776
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1204
+Background covered sequences: 347
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1381
+Background covered sequences: 919
+==========
+Best solution: 28.776
+Num of features: 2
+Total foreground coverage: 0.446053
+Total background coverage: 0.179641
+[[0.4400150432493419, 0.8174199341514516, 0.65016666666666667, 0.6573033707865169, 0.5271457535480965], [0.4351259872132381, 0.8192158036516013, 0.64900000000000002, 0.6570130607609312, 0.5235294117647059], [0.4351259872132381, 0.8192158036516013, 0.64900000000000002, 0.6570130607609312, 0.5235294117647059]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.02.0.2.0.5.MS_input.csv -out 7.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+7.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-in
+-max
+-in
+-d
+7.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+7.3.0.6.0.02.0.5.MS_input.csv
+-d
+-out
+-t
+-max
+-d
+Input file = 7.3.0.4.0.02.0.5.MS_input.csv
+Output file = 7.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5320Num of background seq : 6680
+Input file = 7.3.0.6.0.02.0.5.MS_input.csv
+Output file = 7.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5320Num of background seq : 6680
+Input file = 7.3.0.2.0.02.0.5.MS_input.csv
+Output file = 7.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5320Num of background seq : 6680
+=====================================================
+current cost: 27.776
+Objective function: 28.776
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1204
+Background covered sequences: 347
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1381
+Background covered sequences: 919
+==========
+Best solution: 28.776
+Num of features: 2
+Total foreground coverage: 0.446053
+Total background coverage: 0.179641
+=====================================================
+current cost: 27.8385
+Objective function: 28.8385
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1381
+Background covered sequences: 919
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1183
+Background covered sequences: 332
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 400
+==========
+Best solution: 28.8385
+Num of features: 3
+Total foreground coverage: 0.51485
+Total background coverage: 0.222754
+=====================================================
+current cost: 27.8385
+Objective function: 28.8385
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1381
+Background covered sequences: 919
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1183
+Background covered sequences: 332
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 590
+Background covered sequences: 400
+==========
+Best solution: 28.8385
+Num of features: 3
+Total foreground coverage: 0.51485
+Total background coverage: 0.222754
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 7.3.0.2.0.02.0.5.MS_input.csv -out 7.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.0871
+Objective function: 29.0871
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2288
+Background covered sequences: 1228
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1994
+Background covered sequences: 451
+==========
+Best solution: 29.0871
+Num of features: 2
+Total foreground coverage: 0.434556
+Total background coverage: 0.176667
+-in
+8.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.1.0.02.0.2.0.5.MS_input.csv
+Output file = 8.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5338Num of background seq : 6662
+=====================================================
+current cost: 28.0945
+Objective function: 29.0945
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1190
+Background covered sequences: 343
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1365
+Background covered sequences: 899
+==========
+Best solution: 29.0945
+Num of features: 2
+Total foreground coverage: 0.434058
+Total background coverage: 0.176373
+[[0.43022388059701494, 0.8168674698795181, 0.64416666666666667, 0.6547416240772288, 0.5192524206259852], [0.4899253731343284, 0.7671686746987951, 0.64333333333333331, 0.6294343240651965, 0.550986151909358], [0.4899253731343284, 0.7671686746987951, 0.64333333333333331, 0.6294343240651965, 0.550986151909358]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.1.0.02.0.2.0.5.MS_input.csv -out 8.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+8.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-in
+-d
+-in
+8.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+8.1.0.4.0.02.0.5.MS_input.csv
+-out
+-max
+-t
+-d
+-max
+-d
+Input file = 8.1.0.6.0.02.0.5.MS_input.csv
+Output file = 8.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5338Num of background seq : 6662
+Input file = 8.1.0.2.0.02.0.5.MS_input.csv
+Output file = 8.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5338Num of background seq : 6662
+Input file = 8.1.0.4.0.02.0.5.MS_input.csv
+Output file = 8.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5338Num of background seq : 6662
+=====================================================
+current cost: 28.0945
+Objective function: 29.0945
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1190
+Background covered sequences: 343
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1365
+Background covered sequences: 899
+==========
+Best solution: 29.0945
+Num of features: 2
+Total foreground coverage: 0.434058
+Total background coverage: 0.176373
+=====================================================
+current cost: 28.0945
+Objective function: 29.0945
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1190
+Background covered sequences: 343
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1365
+Background covered sequences: 899
+==========
+Best solution: 29.0945
+Num of features: 2
+Total foreground coverage: 0.434058
+Total background coverage: 0.176373
+=====================================================
+current cost: 28.0945
+Objective function: 29.0945
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1190
+Background covered sequences: 343
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1365
+Background covered sequences: 899
+==========
+Best solution: 29.0945
+Num of features: 2
+Total foreground coverage: 0.434058
+Total background coverage: 0.176373
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.1.0.2.0.02.0.5.MS_input.csv -out 8.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.1.0.4.0.02.0.5.MS_input.csv -out 8.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+8.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.2.0.02.0.2.0.5.MS_input.csv
+Output file = 8.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 27.7839
+Objective function: 28.7839
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1412
+Background covered sequences: 926
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1173
+Background covered sequences: 334
+==========
+Best solution: 28.7839
+Num of features: 2
+Total foreground coverage: 0.44507
+Total background coverage: 0.178876
+[[0.4541697971450038, 0.8103654883163571, 0.65233333333333332, 0.6563517915309446, 0.5368561278863233], [0.4541697971450038, 0.8103654883163571, 0.65233333333333332, 0.6563517915309446, 0.5368561278863233], [0.4541697971450038, 0.8103654883163571, 0.65233333333333332, 0.6563517915309446, 0.5368561278863233]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.02.0.2.0.5.MS_input.csv -out 8.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+8.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-in
+-max
+-d
+8.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+8.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.2.0.2.0.02.0.5.MS_input.csv
+Output file = 8.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+Input file = 8.2.0.4.0.02.0.5.MS_input.csv
+Output file = 8.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+Input file = 8.2.0.6.0.02.0.5.MS_input.csv
+Output file = 8.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5325Num of background seq : 6675
+=====================================================
+current cost: 27.7839
+Objective function: 28.7839
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1173
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1412
+Background covered sequences: 926
+==========
+Best solution: 28.7839
+Num of features: 2
+Total foreground coverage: 0.44507
+Total background coverage: 0.178876
+=====================================================
+current cost: 27.7839
+Objective function: 28.7839
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1173
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1412
+Background covered sequences: 926
+==========
+Best solution: 28.7839
+Num of features: 2
+Total foreground coverage: 0.44507
+Total background coverage: 0.178876
+=====================================================
+current cost: 27.7839
+Objective function: 28.7839
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1173
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1412
+Background covered sequences: 926
+==========
+Best solution: 28.7839
+Num of features: 2
+Total foreground coverage: 0.44507
+Total background coverage: 0.178876
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.2.0.02.0.5.MS_input.csv -out 8.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.6.0.02.0.5.MS_input.csv -out 8.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.2.0.4.0.02.0.5.MS_input.csv -out 8.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+8.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.3.0.02.0.2.0.5.MS_input.csv
+Output file = 8.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 28.2714
+Objective function: 29.2714
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1359
+Background covered sequences: 919
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 354
+==========
+Best solution: 29.2714
+Num of features: 2
+Total foreground coverage: 0.434139
+Total background coverage: 0.1813
+[[0.4194392523364486, 0.8237593984962406, 0.64349999999999996, 0.6569086651053864, 0.511978097193703], [0.4194392523364486, 0.8237593984962406, 0.64349999999999996, 0.6569086651053864, 0.511978097193703], [0.4194392523364486, 0.8237593984962406, 0.64349999999999996, 0.6569086651053864, 0.511978097193703]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.02.0.2.0.5.MS_input.csv -out 8.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+8.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+8.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+8.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 8.3.0.2.0.02.0.5.MS_input.csv
+Output file = 8.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 8.3.0.6.0.02.0.5.MS_input.csv
+Output file = 8.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 8.3.0.4.0.02.0.5.MS_input.csv
+Output file = 8.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 28.2714
+Objective function: 29.2714
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1359
+Background covered sequences: 919
+==========
+Best solution: 29.2714
+Num of features: 2
+Total foreground coverage: 0.434139
+Total background coverage: 0.1813
+=====================================================
+current cost: 28.2714
+Objective function: 29.2714
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1359
+Background covered sequences: 919
+==========
+Best solution: 29.2714
+Num of features: 2
+Total foreground coverage: 0.434139
+Total background coverage: 0.1813
+=====================================================
+current cost: 28.2714
+Objective function: 29.2714
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1168
+Background covered sequences: 354
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1359
+Background covered sequences: 919
+==========
+Best solution: 29.2714
+Num of features: 2
+Total foreground coverage: 0.434139
+Total background coverage: 0.1813
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.2.0.02.0.5.MS_input.csv -out 8.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 8.3.0.4.0.02.0.5.MS_input.csv -out 8.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.1966
+Objective function: 29.1966
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2314
+Background covered sequences: 1243
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1957
+Background covered sequences: 449
+==========
+Best solution: 29.1966
+Num of features: 2
+Total foreground coverage: 0.433222
+Total background coverage: 0.178333
+-in
+9.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.1.0.02.0.2.0.5.MS_input.csv
+Output file = 9.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5321Num of background seq : 6679
+=====================================================
+current cost: 28.0465
+Objective function: 29.0465
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1177
+Background covered sequences: 333
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1367
+Background covered sequences: 921
+==========
+Best solution: 29.0465
+Num of features: 2
+Total foreground coverage: 0.436572
+Total background coverage: 0.177571
+[[0.44123169357867065, 0.8285885525921486, 0.65666666666666662, 0.6725815684029766, 0.5328798185941043], [0.44123169357867065, 0.8285885525921486, 0.65666666666666662, 0.6725815684029766, 0.5328798185941043], [0.44123169357867065, 0.8285885525921486, 0.65666666666666662, 0.6725815684029766, 0.5328798185941043]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.1.0.02.0.2.0.5.MS_input.csv -out 9.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+9.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+-in
+9.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+9.1.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.1.0.6.0.02.0.5.MS_input.csv
+Output file = 9.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5321Num of background seq : 6679
+Input file = 9.1.0.4.0.02.0.5.MS_input.csv
+Output file = 9.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5321Num of background seq : 6679
+Input file = 9.1.0.2.0.02.0.5.MS_input.csv
+Output file = 9.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5321Num of background seq : 6679
+=====================================================
+current cost: 28.0465
+Objective function: 29.0465
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1367
+Background covered sequences: 921
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1177
+Background covered sequences: 333
+==========
+Best solution: 29.0465
+Num of features: 2
+Total foreground coverage: 0.436572
+Total background coverage: 0.177571
+=====================================================
+current cost: 28.0465
+Objective function: 29.0465
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1367
+Background covered sequences: 921
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1177
+Background covered sequences: 333
+==========
+Best solution: 29.0465
+Num of features: 2
+Total foreground coverage: 0.436572
+Total background coverage: 0.177571
+=====================================================
+current cost: 28.0465
+Objective function: 29.0465
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1367
+Background covered sequences: 921
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1177
+Background covered sequences: 333
+==========
+Best solution: 29.0465
+Num of features: 2
+Total foreground coverage: 0.436572
+Total background coverage: 0.177571
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.1.0.2.0.02.0.5.MS_input.csv -out 9.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.1.0.6.0.02.0.5.MS_input.csv -out 9.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.1.0.4.0.02.0.5.MS_input.csv -out 9.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+9.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.2.0.02.0.2.0.5.MS_input.csv
+Output file = 9.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5342Num of background seq : 6658
+=====================================================
+current cost: 28.0874
+Objective function: 29.0874
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1400
+Background covered sequences: 917
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 346
+==========
+Best solution: 29.0874
+Num of features: 2
+Total foreground coverage: 0.437664
+Total background coverage: 0.179784
+[[0.43635684957073534, 0.8211382113821138, 0.64933333333333332, 0.6630743051616562, 0.5263394867176947], [0.43635684957073534, 0.8211382113821138, 0.64933333333333332, 0.6630743051616562, 0.5263394867176947], [0.43635684957073534, 0.8211382113821138, 0.64933333333333332, 0.6630743051616562, 0.5263394867176947]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.02.0.2.0.5.MS_input.csv -out 9.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+-in
+9.2.0.6.0.02.0.5.MS_input.csv
+-out
+9.2.0.2.0.02.0.5.MS_input.csv
+-t
+-out
+-t
+-max
+-max
+-d
+-d
+9.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.2.0.4.0.02.0.5.MS_input.csv
+Output file = 9.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5342Num of background seq : 6658
+Input file = 9.2.0.6.0.02.0.5.MS_input.csv
+Output file = 9.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5342Num of background seq : 6658
+Input file = 9.2.0.2.0.02.0.5.MS_input.csv
+Output file = 9.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5342Num of background seq : 6658
+=====================================================
+current cost: 28.0874
+Objective function: 29.0874
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 346
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1400
+Background covered sequences: 917
+==========
+Best solution: 29.0874
+Num of features: 2
+Total foreground coverage: 0.437664
+Total background coverage: 0.179784
+=====================================================
+current cost: 28.0874
+Objective function: 29.0874
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 346
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1400
+Background covered sequences: 917
+==========
+Best solution: 29.0874
+Num of features: 2
+Total foreground coverage: 0.437664
+Total background coverage: 0.179784
+=====================================================
+current cost: 28.0874
+Objective function: 29.0874
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_1
+Foreground Covered sequences: 1158
+Background covered sequences: 346
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1400
+Background covered sequences: 917
+==========
+Best solution: 29.0874
+Num of features: 2
+Total foreground coverage: 0.437664
+Total background coverage: 0.179784
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.2.0.2.0.02.0.5.MS_input.csv -out 9.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+9.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.3.0.02.0.2.0.5.MS_input.csv
+Output file = 9.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 27.9649
+Objective function: 28.9649
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1196
+Background covered sequences: 349
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 906
+==========
+Best solution: 28.9649
+Num of features: 2
+Total foreground coverage: 0.440135
+Total background coverage: 0.178898
+[[0.43416102332580886, 0.8255535607420706, 0.65216666666666667, 0.6643638457109959, 0.5251422070534698], [0.43416102332580886, 0.8255535607420706, 0.65216666666666667, 0.6643638457109959, 0.5251422070534698], [0.43416102332580886, 0.8255535607420706, 0.65216666666666667, 0.6643638457109959, 0.5251422070534698]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.02.0.2.0.5.MS_input.csv -out 9.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+9.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+9.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 9.3.0.2.0.02.0.5.MS_input.csv
+Output file = 9.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 9.3.0.4.0.02.0.5.MS_input.csv
+Output file = 9.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+Input file = 9.3.0.6.0.02.0.5.MS_input.csv
+Output file = 9.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5337Num of background seq : 6663
+=====================================================
+current cost: 27.9649
+Objective function: 28.9649
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1196
+Background covered sequences: 349
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 906
+==========
+Best solution: 28.9649
+Num of features: 2
+Total foreground coverage: 0.440135
+Total background coverage: 0.178898
+=====================================================
+current cost: 27.9649
+Objective function: 28.9649
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 906
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1196
+Background covered sequences: 349
+==========
+Best solution: 28.9649
+Num of features: 2
+Total foreground coverage: 0.440135
+Total background coverage: 0.178898
+=====================================================
+current cost: 27.9649
+Objective function: 28.9649
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1369
+Background covered sequences: 906
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1196
+Background covered sequences: 349
+==========
+Best solution: 28.9649
+Num of features: 2
+Total foreground coverage: 0.440135
+Total background coverage: 0.178898
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.2.0.02.0.5.MS_input.csv -out 9.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.4.0.02.0.5.MS_input.csv -out 9.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 9.3.0.6.0.02.0.5.MS_input.csv -out 9.3.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 28.2087
+Objective function: 29.2087
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1998
+Background covered sequences: 481
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2286
+Background covered sequences: 1227
+==========
+Best solution: 29.2087
+Num of features: 2
+Total foreground coverage: 0.434778
+Total background coverage: 0.180222
+-in
+10.1.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.1.0.02.0.2.0.5.MS_input.csv
+Output file = 10.1.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5322Num of background seq : 6678
+=====================================================
+current cost: 28.1812
+Objective function: 29.1812
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 923
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1186
+Background covered sequences: 366
+==========
+Best solution: 29.1812
+Num of features: 2
+Total foreground coverage: 0.439496
+Total background coverage: 0.184187
+[[0.4419827262485918, 0.8154030566376985, 0.64966666666666661, 0.656441717791411, 0.5282764811490126], [0.4419827262485918, 0.8154030566376985, 0.64966666666666661, 0.656441717791411, 0.5282764811490126], [0.4419827262485918, 0.8154030566376985, 0.64966666666666661, 0.656441717791411, 0.5282764811490126]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'tenure': '0.2', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.4', 'prob_cut': '0.5', 'delta': '0.02'}, {'tenure': '0.6', 'prob_cut': '0.5', 'delta': '0.02'}]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.02.0.2.0.5.MS_input.csv -out 10.1.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+-in
+10.1.0.4.0.02.0.5.MS_input.csv
+-out
+-in
+-t
+10.1.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-max
+-d
+10.1.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.1.0.4.0.02.0.5.MS_input.csv
+Output file = 10.1.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5322Num of background seq : 6678
+Input file = 10.1.0.2.0.02.0.5.MS_input.csv
+Output file = 10.1.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5322Num of background seq : 6678
+Input file = 10.1.0.6.0.02.0.5.MS_input.csv
+Output file = 10.1.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5322Num of background seq : 6678
+=====================================================
+current cost: 28.1812
+Objective function: 29.1812
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1186
+Background covered sequences: 366
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 923
+==========
+Best solution: 29.1812
+Num of features: 2
+Total foreground coverage: 0.439496
+Total background coverage: 0.184187
+=====================================================
+current cost: 28.1812
+Objective function: 29.1812
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1186
+Background covered sequences: 366
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 923
+==========
+Best solution: 29.1812
+Num of features: 2
+Total foreground coverage: 0.439496
+Total background coverage: 0.184187
+=====================================================
+current cost: 28.1812
+Objective function: 29.1812
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1186
+Background covered sequences: 366
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1374
+Background covered sequences: 923
+==========
+Best solution: 29.1812
+Num of features: 2
+Total foreground coverage: 0.439496
+Total background coverage: 0.184187
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.6.0.02.0.5.MS_input.csv -out 10.1.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.4.0.02.0.5.MS_input.csv -out 10.1.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.1.0.2.0.02.0.5.MS_input.csv -out 10.1.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+10.2.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.2.0.02.0.2.0.5.MS_input.csv
+Output file = 10.2.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5350Num of background seq : 6650
+=====================================================
+current cost: 27.7621
+Objective function: 28.7621
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1402
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1188
+Background covered sequences: 347
+==========
+Best solution: 28.7621
+Num of features: 2
+Total foreground coverage: 0.44243
+Total background coverage: 0.175639
+[[0.44324122479462286, 0.8260084286574353, 0.65516666666666667, 0.6725212464589235, 0.5343236551879361], [0.44324122479462286, 0.8260084286574353, 0.65516666666666667, 0.6725212464589235, 0.5343236551879361], [0.44324122479462286, 0.8260084286574353, 0.65516666666666667, 0.6725212464589235, 0.5343236551879361]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.02.0.2.0.5.MS_input.csv -out 10.2.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+10.2.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.2.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+10.2.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.2.0.2.0.02.0.5.MS_input.csv
+Output file = 10.2.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5350Num of background seq : 6650
+Input file = 10.2.0.4.0.02.0.5.MS_input.csv
+Output file = 10.2.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5350Num of background seq : 6650
+Input file = 10.2.0.6.0.02.0.5.MS_input.csv
+Output file = 10.2.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5350Num of background seq : 6650
+=====================================================
+current cost: 27.7621
+Objective function: 28.7621
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1402
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1188
+Background covered sequences: 347
+==========
+Best solution: 28.7621
+Num of features: 2
+Total foreground coverage: 0.44243
+Total background coverage: 0.175639
+=====================================================
+current cost: 27.7621
+Objective function: 28.7621
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1402
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1188
+Background covered sequences: 347
+==========
+Best solution: 28.7621
+Num of features: 2
+Total foreground coverage: 0.44243
+Total background coverage: 0.175639
+=====================================================
+current cost: 27.7621
+Objective function: 28.7621
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1402
+Background covered sequences: 891
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 1188
+Background covered sequences: 347
+==========
+Best solution: 28.7621
+Num of features: 2
+Total foreground coverage: 0.44243
+Total background coverage: 0.175639
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.2.0.02.0.5.MS_input.csv -out 10.2.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.6.0.02.0.5.MS_input.csv -out 10.2.0.6.0.02.0.5.MS_output.list -t 0.6 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.2.0.4.0.02.0.5.MS_input.csv -out 10.2.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+10.3.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.3.0.02.0.2.0.5.MS_input.csv
+Output file = 10.3.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 28.1052
+Objective function: 29.1052
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1360
+Background covered sequences: 930
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 585
+Background covered sequences: 396
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1175
+Background covered sequences: 334
+==========
+Best solution: 29.1052
+Num of features: 3
+Total foreground coverage: 0.509009
+Total background coverage: 0.224221
+[[0.43735849056603776, 0.808955223880597, 0.64483333333333337, 0.6442468037798778, 0.5210159586423916], [0.43735849056603776, 0.808955223880597, 0.64483333333333337, 0.6442468037798778, 0.5210159586423916], [0.43735849056603776, 0.808955223880597, 0.64483333333333337, 0.6442468037798778, 0.5210159586423916]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.02.0.2.0.5.MS_input.csv -out 10.3.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+-in
+10.3.0.4.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+-in
+-in
+10.3.0.6.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+10.3.0.2.0.02.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 10.3.0.6.0.02.0.5.MS_input.csv
+Output file = 10.3.0.6.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.6
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 10.3.0.4.0.02.0.5.MS_input.csv
+Output file = 10.3.0.4.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.4
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+Input file = 10.3.0.2.0.02.0.5.MS_input.csv
+Output file = 10.3.0.2.0.02.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :5328Num of background seq : 6672
+=====================================================
+current cost: 28.1052
+Objective function: 29.1052
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 585
+Background covered sequences: 396
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1175
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1360
+Background covered sequences: 930
+==========
+Best solution: 29.1052
+Num of features: 3
+Total foreground coverage: 0.509009
+Total background coverage: 0.224221
+=====================================================
+current cost: 28.1052
+Objective function: 29.1052
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 585
+Background covered sequences: 396
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1175
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1360
+Background covered sequences: 930
+==========
+Best solution: 29.1052
+Num of features: 3
+Total foreground coverage: 0.509009
+Total background coverage: 0.224221
+=====================================================
+current cost: 28.1052
+Objective function: 29.1052
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_AlignACE_1
+Foreground Covered sequences: 585
+Background covered sequences: 396
+==========
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_3
+Foreground Covered sequences: 1175
+Background covered sequences: 334
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 1360
+Background covered sequences: 930
+==========
+Best solution: 29.1052
+Num of features: 3
+Total foreground coverage: 0.509009
+Total background coverage: 0.224221
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.2.0.02.0.5.MS_input.csv -out 10.3.0.2.0.02.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 10.3.0.4.0.02.0.5.MS_input.csv -out 10.3.0.4.0.02.0.5.MS_output.list -t 0.4 -max 400 -d 0.02
+-in
+999.999.0.02.0.2.0.5.MS_input.csv
+-out
+-t
+-max
+-d
+Input file = 999.999.0.02.0.2.0.5.MS_input.csv
+Output file = 999.999.0.02.0.2.0.5.MS_output.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :9000Num of background seq : 9000
+=====================================================
+current cost: 27.8883
+Objective function: 28.8883
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2037
+Background covered sequences: 485
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2341
+Background covered sequences: 1222
+==========
+Best solution: 28.8883
+Num of features: 2
+Total foreground coverage: 0.443111
+Total background coverage: 0.179778
+-in
+/users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/EP300.Motif_Selection_Paper.csv
+-out
+-t
+-max
+-d
+Input file = /users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/EP300.Motif_Selection_Paper.csv
+Output file = EP300.final_selected_motif.list
+alpha = 0.5
+beta = 73
+tenure = 0.2
+max non-improving iteration = 400
+delta = 0.02
+penalty = 10000
+iterations (running the tabu-PNPSC program $iterations$ times) = 1
+NUM of motif: 73Num of foreground seq :10000Num of background seq : 10000
+=====================================================
+current cost: 28.0684
+Objective function: 29.0684
+EP300_EP300_HeLa-S3_encode-Snyder_seq_hsa_IgG-rab-N-15_MDscan_2
+Foreground Covered sequences: 2256
+Background covered sequences: 535
+==========
+EP300_EP300_T-47D_encode-Myers_seq_hsa_DMSO-0.02pct-v041610.2_AlignACE_1
+Foreground Covered sequences: 2562
+Background covered sequences: 1372
+==========
+Best solution: 29.0684
+Num of features: 2
+Total foreground coverage: 0.4392
+Total background coverage: 0.1808
+[[0.49700598802395207, 0.7746394230769231, 0.65100000000000002, 0.6390760346487007, 0.5591578947368421], [0.49700598802395207, 0.7746394230769231, 0.65100000000000002, 0.6390760346487007, 0.5591578947368421], [0.49700598802395207, 0.7746394230769231, 0.65100000000000002, 0.6390760346487007, 0.5591578947368421]]
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in 999.999.0.02.0.2.0.5.MS_input.csv -out 999.999.0.02.0.2.0.5.MS_output.list -t 0.2 -max 400 -d 0.02
+len of motifDict: 73
+len of motifDict: 73
+/users/PHS0293/ohu0404/project/tabu-PNPSC/tabu_MS -in /users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/EP300.Motif_Selection_Paper.csv -out EP300.final_selected_motif.list -t 0.2 -max 400 -d 0.02
+
+-----------------------
+Resources requested:
+mem=60gb
+nodes=1:ppn=3
+-----------------------
+Resources used:
+cput=05:19:38
+walltime=03:03:42
+mem=17.675GB
+vmem=19.325GB
+-----------------------
+Resource units charged (estimate):
+4.286 RUs
+-----------------------

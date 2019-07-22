@@ -1,0 +1,812 @@
+using subsample
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.1.0.5.MS_input.csv 1.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.1.0.5.MS_input.csv 1.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.2.4.0.5.MS_input.csv 1.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.5.1.0.5.MS_input.csv 1.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.5.0.5.MS_input.csv 1.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.4.1.0.5.MS_input.csv 1.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.4.3.0.5.MS_input.csv 1.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.2.1.0.5.MS_input.csv 1.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.2.5.0.5.MS_input.csv 1.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.4.5.0.5.MS_input.csv 1.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.2.2.0.5.MS_input.csv 1.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.3.2.0.5.MS_input.csv 1.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.4.4.0.5.MS_input.csv 1.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.3.0.5.MS_input.csv 1.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.3.4.0.5.MS_input.csv 1.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.5.2.0.5.MS_input.csv 1.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.4.0.5.MS_input.csv 1.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.3.3.0.5.MS_input.csv 1.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.5.4.0.5.MS_input.csv 1.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.2.3.0.5.MS_input.csv 1.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.3.5.0.5.MS_input.csv 1.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.5.3.0.5.MS_input.csv 1.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.1.2.0.5.MS_input.csv 1.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.3.1.0.5.MS_input.csv 1.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.4.2.0.5.MS_input.csv 1.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.1.5.5.0.5.MS_input.csv 1.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6383763837638377, 0.7586206896551724, 0.70338983050847459, 0.692, 0.6641074856046065], [0.6383763837638377, 0.7586206896551724, 0.70338983050847459, 0.692, 0.6641074856046065], [0.6383763837638377, 0.7586206896551724, 0.70338983050847459, 0.692, 0.6641074856046065], [0.6383763837638377, 0.7586206896551724, 0.70338983050847459, 0.692, 0.6641074856046065], [0.5571955719557196, 0.8620689655172413, 0.7220338983050848, 0.7743589743589744, 0.648068669527897], [0.5571955719557196, 0.8620689655172413, 0.7220338983050848, 0.7743589743589744, 0.648068669527897], [0.5571955719557196, 0.8620689655172413, 0.7220338983050848, 0.7743589743589744, 0.648068669527897], [0.5571955719557196, 0.8620689655172413, 0.7220338983050848, 0.7743589743589744, 0.648068669527897], [0.5571955719557196, 0.8620689655172413, 0.7220338983050848, 0.7743589743589744, 0.648068669527897]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.1.0.5.MS_input.csv 1.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.4.0.5.MS_input.csv 1.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.3.3.0.5.MS_input.csv 1.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.5.2.0.5.MS_input.csv 1.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.3.0.5.MS_input.csv 1.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.3.4.0.5.MS_input.csv 1.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.5.3.0.5.MS_input.csv 1.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.2.1.0.5.MS_input.csv 1.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.2.5.0.5.MS_input.csv 1.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.5.4.0.5.MS_input.csv 1.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.2.3.0.5.MS_input.csv 1.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.4.1.0.5.MS_input.csv 1.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.4.3.0.5.MS_input.csv 1.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.1.0.5.MS_input.csv 1.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.3.2.0.5.MS_input.csv 1.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.4.5.0.5.MS_input.csv 1.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.5.0.5.MS_input.csv 1.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.3.1.0.5.MS_input.csv 1.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.4.4.0.5.MS_input.csv 1.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.1.2.0.5.MS_input.csv 1.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.2.4.0.5.MS_input.csv 1.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.4.2.0.5.MS_input.csv 1.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.2.2.0.5.MS_input.csv 1.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.3.5.0.5.MS_input.csv 1.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.5.1.0.5.MS_input.csv 1.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.2.5.5.0.5.MS_input.csv 1.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6, 0.826865671641791, 0.72881355932203384, 0.7251184834123223, 0.6566523605150214], [0.6, 0.826865671641791, 0.72881355932203384, 0.7251184834123223, 0.6566523605150214], [0.6, 0.826865671641791, 0.72881355932203384, 0.7251184834123223, 0.6566523605150214], [0.6, 0.826865671641791, 0.72881355932203384, 0.7251184834123223, 0.6566523605150214], [0.5333333333333333, 0.9074626865671642, 0.74576271186440679, 0.8143712574850299, 0.6445497630331753], [0.5333333333333333, 0.9074626865671642, 0.74576271186440679, 0.8143712574850299, 0.6445497630331753], [0.5333333333333333, 0.9074626865671642, 0.74576271186440679, 0.8143712574850299, 0.6445497630331753], [0.5333333333333333, 0.9074626865671642, 0.74576271186440679, 0.8143712574850299, 0.6445497630331753], [0.5333333333333333, 0.9074626865671642, 0.74576271186440679, 0.8143712574850299, 0.6445497630331753]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.1.1.0.5.MS_input.csv 1.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.2.2.0.5.MS_input.csv 1.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.3.2.0.5.MS_input.csv 1.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.4.3.0.5.MS_input.csv 1.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.2.3.0.5.MS_input.csv 1.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.2.5.0.5.MS_input.csv 1.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.5.4.0.5.MS_input.csv 1.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.1.4.0.5.MS_input.csv 1.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.4.1.0.5.MS_input.csv 1.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.4.4.0.5.MS_input.csv 1.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.2.1.0.5.MS_input.csv 1.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.2.4.0.5.MS_input.csv 1.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.5.3.0.5.MS_input.csv 1.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.1.2.0.5.MS_input.csv 1.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.3.3.0.5.MS_input.csv 1.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.5.1.0.5.MS_input.csv 1.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.1.5.0.5.MS_input.csv 1.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.3.5.0.5.MS_input.csv 1.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.4.5.0.5.MS_input.csv 1.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.1.3.0.5.MS_input.csv 1.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.3.1.0.5.MS_input.csv 1.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.4.2.0.5.MS_input.csv 1.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 1.3.5.5.0.5.MS_input.csv 1.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5807692307692308, 0.793939393939394, 0.69999999999999996, 0.6894977168949772, 0.6304801670146138], [0.5807692307692308, 0.793939393939394, 0.69999999999999996, 0.6894977168949772, 0.6304801670146138], [0.5807692307692308, 0.793939393939394, 0.69999999999999996, 0.6894977168949772, 0.6304801670146138], [0.5807692307692308, 0.793939393939394, 0.69999999999999996, 0.6894977168949772, 0.6304801670146138], [0.47692307692307695, 0.8212121212121212, 0.66949152542372881, 0.6775956284153005, 0.5598194130925509], [0.47692307692307695, 0.8212121212121212, 0.66949152542372881, 0.6775956284153005, 0.5598194130925509], [0.47692307692307695, 0.8212121212121212, 0.66949152542372881, 0.6775956284153005, 0.5598194130925509], [0.47692307692307695, 0.8212121212121212, 0.66949152542372881, 0.6775956284153005, 0.5598194130925509], [0.47692307692307695, 0.8212121212121212, 0.66949152542372881, 0.6775956284153005, 0.5598194130925509]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.5.1.0.5.MS_input.csv 999.999.5.1.0.5.MS_output.list 5 1
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.1.1.1.0.5.MS_input.csv 2.1.1.1.0.5.MS_output.list 1 1
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6401515151515151, 0.7791411042944786, 0.7169491525423729, 0.7012448132780082, 0.6693069306930692], [0.6628787878787878, 0.7638036809815951, 0.71864406779661016, 0.6944444444444444, 0.6782945736434108], [0.6628787878787878, 0.7638036809815951, 0.71864406779661016, 0.6944444444444444, 0.6782945736434108], [0.6628787878787878, 0.7638036809815951, 0.71864406779661016, 0.6944444444444444, 0.6782945736434108], [0.6628787878787878, 0.7638036809815951, 0.71864406779661016, 0.6944444444444444, 0.6782945736434108], [0.553030303030303, 0.8650306748466258, 0.72542372881355932, 0.7684210526315789, 0.6431718061674009], [0.553030303030303, 0.8650306748466258, 0.72542372881355932, 0.7684210526315789, 0.6431718061674009], [0.553030303030303, 0.8650306748466258, 0.72542372881355932, 0.7684210526315789, 0.6431718061674009], [0.553030303030303, 0.8650306748466258, 0.72542372881355932, 0.7684210526315789, 0.6431718061674009], [0.553030303030303, 0.8650306748466258, 0.72542372881355932, 0.7684210526315789, 0.6431718061674009]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.1.1.0.5.MS_input.csv 2.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.2.1.0.5.MS_input.csv 2.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.2.4.0.5.MS_input.csv 2.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.5.3.0.5.MS_input.csv 2.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.2.3.0.5.MS_input.csv 2.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.4.1.0.5.MS_input.csv 2.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.5.1.0.5.MS_input.csv 2.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.1.3.0.5.MS_input.csv 2.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.3.1.0.5.MS_input.csv 2.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.4.3.0.5.MS_input.csv 2.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.1.4.0.5.MS_input.csv 2.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.3.5.0.5.MS_input.csv 2.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.4.4.0.5.MS_input.csv 2.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.2.2.0.5.MS_input.csv 2.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.3.4.0.5.MS_input.csv 2.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.4.2.0.5.MS_input.csv 2.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.1.2.0.5.MS_input.csv 2.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.3.3.0.5.MS_input.csv 2.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.4.5.0.5.MS_input.csv 2.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.1.5.0.5.MS_input.csv 2.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.2.5.0.5.MS_input.csv 2.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.2.5.4.0.5.MS_input.csv 2.2.5.4.0.5.MS_output.list 5 4
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6245210727969349, 0.7720364741641338, 0.70677966101694911, 0.6848739495798319, 0.6533066132264529], [0.6245210727969349, 0.7720364741641338, 0.70677966101694911, 0.6848739495798319, 0.6533066132264529], [0.6245210727969349, 0.7720364741641338, 0.70677966101694911, 0.6848739495798319, 0.6533066132264529], [0.5555555555555556, 0.817629179331307, 0.70169491525423733, 0.7073170731707317, 0.6223175965665235], [0.5555555555555556, 0.817629179331307, 0.70169491525423733, 0.7073170731707317, 0.6223175965665235], [0.5555555555555556, 0.817629179331307, 0.70169491525423733, 0.7073170731707317, 0.6223175965665235], [0.5555555555555556, 0.817629179331307, 0.70169491525423733, 0.7073170731707317, 0.6223175965665235], [0.5555555555555556, 0.817629179331307, 0.70169491525423733, 0.7073170731707317, 0.6223175965665235], [0.4789272030651341, 0.8541033434650456, 0.68813559322033901, 0.7225433526011561, 0.5760368663594471], [0.4789272030651341, 0.8541033434650456, 0.68813559322033901, 0.7225433526011561, 0.5760368663594471], [0.4789272030651341, 0.8541033434650456, 0.68813559322033901, 0.7225433526011561, 0.5760368663594471], [0.4789272030651341, 0.8541033434650456, 0.68813559322033901, 0.7225433526011561, 0.5760368663594471], [0.4789272030651341, 0.8541033434650456, 0.68813559322033901, 0.7225433526011561, 0.5760368663594471]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.1.0.5.MS_input.csv 2.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.2.3.0.5.MS_input.csv 2.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.4.1.0.5.MS_input.csv 2.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.5.2.0.5.MS_input.csv 2.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.4.0.5.MS_input.csv 2.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.3.5.0.5.MS_input.csv 2.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.5.4.0.5.MS_input.csv 2.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.5.0.5.MS_input.csv 2.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.3.3.0.5.MS_input.csv 2.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.5.3.0.5.MS_input.csv 2.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.2.2.0.5.MS_input.csv 2.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.2.4.0.5.MS_input.csv 2.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.5.1.0.5.MS_input.csv 2.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.2.0.5.MS_input.csv 2.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.3.2.0.5.MS_input.csv 2.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.4.3.0.5.MS_input.csv 2.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.3.0.5.MS_input.csv 2.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.3.4.0.5.MS_input.csv 2.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.4.5.0.5.MS_input.csv 2.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.1.1.0.5.MS_input.csv 2.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.2.5.0.5.MS_input.csv 2.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.4.4.0.5.MS_input.csv 2.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.2.1.0.5.MS_input.csv 2.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.3.1.0.5.MS_input.csv 2.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.4.2.0.5.MS_input.csv 2.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 2.3.5.5.0.5.MS_input.csv 2.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6704980842911877, 0.756838905775076, 0.71864406779661016, 0.6862745098039216, 0.6782945736434108], [0.6704980842911877, 0.756838905775076, 0.71864406779661016, 0.6862745098039216, 0.6782945736434108], [0.6704980842911877, 0.756838905775076, 0.71864406779661016, 0.6862745098039216, 0.6782945736434108], [0.6704980842911877, 0.756838905775076, 0.71864406779661016, 0.6862745098039216, 0.6782945736434108], [0.5517241379310345, 0.8085106382978723, 0.69491525423728817, 0.6956521739130435, 0.6153846153846154], [0.5517241379310345, 0.8085106382978723, 0.69491525423728817, 0.6956521739130435, 0.6153846153846154], [0.5517241379310345, 0.8085106382978723, 0.69491525423728817, 0.6956521739130435, 0.6153846153846154], [0.5517241379310345, 0.8085106382978723, 0.69491525423728817, 0.6956521739130435, 0.6153846153846154], [0.5517241379310345, 0.8085106382978723, 0.69491525423728817, 0.6956521739130435, 0.6153846153846154]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.1.0.5.MS_input.csv 3.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.1.0.5.MS_input.csv 3.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.2.5.0.5.MS_input.csv 3.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.4.4.0.5.MS_input.csv 3.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.2.2.0.5.MS_input.csv 3.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.3.5.0.5.MS_input.csv 3.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.5.2.0.5.MS_input.csv 3.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.3.0.5.MS_input.csv 3.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.3.2.0.5.MS_input.csv 3.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.5.1.0.5.MS_input.csv 3.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.5.0.5.MS_input.csv 3.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.4.1.0.5.MS_input.csv 3.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.4.2.0.5.MS_input.csv 3.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.2.0.5.MS_input.csv 3.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.3.3.0.5.MS_input.csv 3.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.5.3.0.5.MS_input.csv 3.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.2.3.0.5.MS_input.csv 3.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.3.4.0.5.MS_input.csv 3.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.5.4.0.5.MS_input.csv 3.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.1.4.0.5.MS_input.csv 3.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.3.1.0.5.MS_input.csv 3.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.4.5.0.5.MS_input.csv 3.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.2.1.0.5.MS_input.csv 3.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.1.2.4.0.5.MS_input.csv 3.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5572519083969466, 0.801829268292683, 0.6932203389830508, 0.6919431279620853, 0.6173361522198731], [0.5725190839694656, 0.7987804878048781, 0.69830508474576269, 0.6944444444444444, 0.6276150627615062], [0.5725190839694656, 0.7987804878048781, 0.69830508474576269, 0.6944444444444444, 0.6276150627615062], [0.5725190839694656, 0.7987804878048781, 0.69830508474576269, 0.6944444444444444, 0.6276150627615062], [0.5725190839694656, 0.7987804878048781, 0.69830508474576269, 0.6944444444444444, 0.6276150627615062], [0.4541984732824427, 0.8140243902439024, 0.65423728813559323, 0.6611111111111111, 0.5384615384615384], [0.4541984732824427, 0.8140243902439024, 0.65423728813559323, 0.6611111111111111, 0.5384615384615384], [0.4541984732824427, 0.8140243902439024, 0.65423728813559323, 0.6611111111111111, 0.5384615384615384], [0.4541984732824427, 0.8140243902439024, 0.65423728813559323, 0.6611111111111111, 0.5384615384615384], [0.4541984732824427, 0.8140243902439024, 0.65423728813559323, 0.6611111111111111, 0.5384615384615384]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.1.0.5.MS_input.csv 3.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.2.3.0.5.MS_input.csv 3.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.3.1.0.5.MS_input.csv 3.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.4.3.0.5.MS_input.csv 3.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.3.0.5.MS_input.csv 3.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.3.5.0.5.MS_input.csv 3.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.4.5.0.5.MS_input.csv 3.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.2.2.0.5.MS_input.csv 3.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.2.5.0.5.MS_input.csv 3.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.5.3.0.5.MS_input.csv 3.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.2.1.0.5.MS_input.csv 3.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.3.2.0.5.MS_input.csv 3.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.4.4.0.5.MS_input.csv 3.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.1.0.5.MS_input.csv 3.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.3.4.0.5.MS_input.csv 3.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.5.1.0.5.MS_input.csv 3.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.5.0.5.MS_input.csv 3.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.2.4.0.5.MS_input.csv 3.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.5.2.0.5.MS_input.csv 3.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.2.0.5.MS_input.csv 3.2python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.1.4.0.5.MS_input.csv 3.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.4.1.0.5.MS_input.csv 3.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.4.2.0.5.MS_input.csv 3.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.2.5.5.0.5.MS_input.csv 3.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6098484848484849, 0.803680981595092, 0.7169491525423729, 0.7155555555555555, 0.6584867075664622], [0.6098484848484849, 0.803680981595092, 0.7169491525423729, 0.7155555555555555, 0.6584867075664622], [0.6098484848484849, 0.803680981595092, 0.7169491525423729, 0.7155555555555555, 0.6584867075664622], [0.6098484848484849, 0.803680981595092, 0.7169491525423729, 0.7155555555555555, 0.6584867075664622], [0.5416666666666666, 0.8834355828220859, 0.73050847457627122, 0.7900552486187845, 0.6426966292134831], [0.5416666666666666, 0.8834355828220859, 0.73050847457627122, 0.7900552486187845, 0.6426966292134831], [0.5416666666666666, 0.8834355828220859, 0.73050847457627122, 0.7900552486187845, 0.6426966292134831], [0.5416666666666666, 0.8834355828220859, 0.73050847457627122, 0.7900552486187845, 0.6426966292134831], [0.5416666666666666, 0.8834355828220859, 0.73050847457627122, 0.7900552486187845, 0.6426966292134831]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.1.0.5.MS_input.csv 3.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.1.0.5.MS_input.csv 3.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.2.5.0.5.MS_input.csv 3.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.4.3.0.5.MS_input.csv 3.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.2.3.0.5.MS_input.csv 3.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.3.2.0.5.MS_input.csv 3.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.4.5.0.5.MS_input.csv 3.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.4.0.5.MS_input.csv 3.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.4.1.0.5.MS_input.csv 3.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.5.1.0.5.MS_input.csv 3.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.2.0.5.MS_input.csv 3.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.3.3.0.5.MS_input.csv 3.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.5.2.0.5.MS_input.csv 3.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.2.2.0.5.MS_input.csv 3.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.3.1.0.5.MS_input.csv 3.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.4.4.0.5.MS_input.csv 3.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.3.0.5.MS_input.csv 3.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.3.5.0.5.MS_input.csv 3.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.5.4.0.5.MS_input.csv 3.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.1.5.0.5.MS_input.csv 3.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.3.4.0.5.MS_input.csv 3.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 3.3.5.3.0.5.MS_input.csv 3.3.5.3.0.5.MS_output.list 5 3
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6653846153846154, 0.7606060606060606, 0.71864406779661016, 0.6865079365079365, 0.6757812499999999], [0.6653846153846154, 0.7606060606060606, 0.71864406779661016, 0.6865079365079365, 0.6757812499999999], [0.6653846153846154, 0.7606060606060606, 0.71864406779661016, 0.6865079365079365, 0.6757812499999999], [0.6653846153846154, 0.7606060606060606, 0.71864406779661016, 0.6865079365079365, 0.6757812499999999], [0.5615384615384615, 0.8757575757575757, 0.73728813559322037, 0.7807486631016043, 0.6532438478747203], [0.5615384615384615, 0.8757575757575757, 0.73728813559322037, 0.7807486631016043, 0.6532438478747203], [0.5615384615384615, 0.8757575757575757, 0.73728813559322037, 0.7807486631016043, 0.6532438478747203], [0.5615384615384615, 0.8757575757575757, 0.73728813559322037, 0.7807486631016043, 0.6532438478747203], [0.5615384615384615, 0.8757575757575757, 0.73728813559322037, 0.7807486631016043, 0.6532438478747203]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.1.0.5.MS_input.csv 4.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.2.0.5.MS_input.csv 4.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.3.4.0.5.MS_input.csv 4.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.5.1.0.5.MS_input.csv 4.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.4.0.5.MS_input.csv 4.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.3.2.0.5.MS_input.csv 4.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.4.5.0.5.MS_input.csv 4.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.5.0.5.MS_input.csv 4.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.3.3.0.5.MS_input.csv 4.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.5.2.0.5.MS_input.csv 4.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.3.0.5.MS_input.csv 4.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.3.1.0.5.MS_input.csv 4.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.4.4.0.5.MS_input.csv 4.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.2.1.0.5.MS_input.csv 4.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.2.5.0.5.MS_input.csv 4.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.5.4.0.5.MS_input.csv 4.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.1.1.0.5.MS_input.csv 4.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.2.4.0.5.MS_input.csv 4.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.1.4.3.0.5.MS_input.csv 4.1.4.3.0.5.MS_output.list 4 3
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5584905660377358, 0.8123076923076923, 0.69830508474576269, 0.7081339712918661, 0.6244725738396624], [0.5584905660377358, 0.8123076923076923, 0.69830508474576269, 0.7081339712918661, 0.6244725738396624], [0.5584905660377358, 0.8123076923076923, 0.69830508474576269, 0.7081339712918661, 0.6244725738396624], [0.5584905660377358, 0.8123076923076923, 0.69830508474576269, 0.7081339712918661, 0.6244725738396624], [0.5584905660377358, 0.8123076923076923, 0.69830508474576269, 0.7081339712918661, 0.6244725738396624], [0.4867924528301887, 0.8830769230769231, 0.70508474576271185, 0.7724550898203593, 0.5972222222222223], [0.4867924528301887, 0.8830769230769231, 0.70508474576271185, 0.7724550898203593, 0.5972222222222223], [0.4867924528301887, 0.8830769230769231, 0.70508474576271185, 0.7724550898203593, 0.5972222222222223], [0.4867924528301887, 0.8830769230769231, 0.70508474576271185, 0.7724550898203593, 0.5972222222222223], [0.4867924528301887, 0.8830769230769231, 0.70508474576271185, 0.7724550898203593, 0.5972222222222223]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.1.0.5.MS_input.csv 4.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.2.0.5.MS_input.csv 4.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.3.4.0.5.MS_input.csv 4.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.4.2.0.5.MS_input.csv 4.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.1.0.5.MS_input.csv 4.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.2.4.0.5.MS_input.csv 4.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.5.2.0.5.MS_input.csv 4.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.2.3.0.5.MS_input.csv 4.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.4.1.0.5.MS_input.csv 4.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.4.5.0.5.MS_input.csv 4.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.5.0.5.MS_input.csv 4.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.3.3.0.5.MS_input.csv 4.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.5.3.0.5.MS_input.csv 4.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.2.2.0.5.MS_input.csv 4.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.3.2.0.5.MS_input.csv 4.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.4.4.0.5.MS_input.csv 4.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.3.0.5.MS_input.csv 4.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.2.5.0.5.MS_input.csv 4.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.5.1.0.5.MS_input.csv 4.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.1.4.0.5.MS_input.csv 4.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.3.5.0.5.MS_input.csv 4.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.5.4.0.5.MS_input.csv 4.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.2.5.5.0.5.MS_input.csv 4.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6106870229007634, 0.7621951219512195, 0.69491525423728817, 0.6722689075630253, 0.6400000000000001], [0.6106870229007634, 0.7621951219512195, 0.69491525423728817, 0.6722689075630253, 0.6400000000000001], [0.6106870229007634, 0.7621951219512195, 0.69491525423728817, 0.6722689075630253, 0.6400000000000001], [0.6106870229007634, 0.7621951219512195, 0.69491525423728817, 0.6722689075630253, 0.6400000000000001], [0.5114503816793893, 0.8109756097560976, 0.67796610169491522, 0.6836734693877551, 0.5851528384279475], [0.5114503816793893, 0.8109756097560976, 0.67796610169491522, 0.6836734693877551, 0.5851528384279475], [0.5114503816793893, 0.8109756097560976, 0.67796610169491522, 0.6836734693877551, 0.5851528384279475], [0.5114503816793893, 0.8109756097560976, 0.67796610169491522, 0.6836734693877551, 0.5851528384279475], [0.5114503816793893, 0.8109756097560976, 0.67796610169491522, 0.6836734693877551, 0.5851528384279475]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.1.0.5.MS_input.csv 4.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.2.1.0.5.MS_input.csv 4.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.2.5.0.5.MS_input.csv 4.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.5.4.0.5.MS_input.csv 4.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.2.2.0.5.MS_input.csv 4.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.2.4.0.5.MS_input.csv 4.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.5.3.0.5.MS_input.csv 4.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.1.0.5.MS_input.csv 4.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.3.2.0.5.MS_input.csv 4.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.5.1.0.5.MS_input.csv 4.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.2.3.0.5.MS_input.csv 4.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.3.3.0.5.MS_input.csv 4.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.4.4.0.5.MS_input.csv 4.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.3.0.5.MS_input.csv 4.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.4.1.0.5.MS_input.csv 4.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.4.2.0.5.MS_input.csv 4.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.5.0.5.MS_input.csv 4.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.3.4.0.5.MS_input.csv 4.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.4.5.0.5.MS_input.csv 4.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.2.0.5.MS_input.csv 4.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.3.1.0.5.MS_input.csv 4.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.4.3.0.5.MS_input.csv 4.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.1.4.0.5.MS_input.csv 4.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.3.5.0.5.MS_input.csv 4.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.5.2.0.5.MS_input.csv 4.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 4.3.5.5.0.5.MS_input.csv 4.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6833976833976834, 0.7915407854984894, 0.74406779661016953, 0.7195121951219512, 0.700990099009901], [0.6833976833976834, 0.7915407854984894, 0.74406779661016953, 0.7195121951219512, 0.700990099009901], [0.6833976833976834, 0.7915407854984894, 0.74406779661016953, 0.7195121951219512, 0.700990099009901], [0.6833976833976834, 0.7915407854984894, 0.74406779661016953, 0.7195121951219512, 0.700990099009901], [0.5714285714285714, 0.9123867069486404, 0.76271186440677963, 0.8361581920903954, 0.6788990825688073], [0.5714285714285714, 0.9123867069486404, 0.76271186440677963, 0.8361581920903954, 0.6788990825688073], [0.5714285714285714, 0.9123867069486404, 0.76271186440677963, 0.8361581920903954, 0.6788990825688073], [0.5714285714285714, 0.9123867069486404, 0.76271186440677963, 0.8361581920903954, 0.6788990825688073], [0.5714285714285714, 0.9123867069486404, 0.76271186440677963, 0.8361581920903954, 0.6788990825688073]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.5.1.0.5.MS_input.csv 999.999.5.1.0.5.MS_output.list 5 1
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.1.0.5.MS_input.csv 5.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.4.0.5.MS_input.csv 5.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.4.1.0.5.MS_input.csv 5.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.4.4.0.5.MS_input.csv 5.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.2.0.5.MS_input.csv 5.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.3.1.0.5.MS_input.csv 5.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.4.3.0.5.MS_input.csv 5.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.5.0.5.MS_input.csv 5.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.3.5.0.5.MS_input.csv 5.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.5.2.0.5.MS_input.csv 5.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.1.0.5.MS_input.csv 5.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.2.5.0.5.MS_input.csv 5.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.5.4.0.5.MS_input.csv 5.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.2.2.0.5.MS_input.csv 5.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.2.4.0.5.MS_input.csv 5.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.5.3.0.5.MS_input.csv 5.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.2.1.0.5.MS_input.csv 5.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.3.3.0.5.MS_input.csv 5.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.5.1.0.5.MS_input.csv 5.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.2.3.0.5.MS_input.csv 5.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.3.4.0.5.MS_input.csv 5.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.4.5.0.5.MS_input.csv 5.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.1.3.0.5.MS_input.csv 5.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.3.2.0.5.MS_input.csv 5.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.4.2.0.5.MS_input.csv 5.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.1.5.5.0.5.MS_input.csv 5.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5945945945945946, 0.8018018018018018, 0.71114864864864868, 0.7, 0.6430062630480168], [0.5945945945945946, 0.8018018018018018, 0.71114864864864868, 0.7, 0.6430062630480168], [0.5945945945945946, 0.8018018018018018, 0.71114864864864868, 0.7, 0.6430062630480168], [0.5945945945945946, 0.8018018018018018, 0.71114864864864868, 0.7, 0.6430062630480168], [0.5366795366795367, 0.8918918918918919, 0.73648648648648651, 0.7942857142857143, 0.6405529953917051], [0.5366795366795367, 0.8918918918918919, 0.73648648648648651, 0.7942857142857143, 0.6405529953917051], [0.5366795366795367, 0.8918918918918919, 0.73648648648648651, 0.7942857142857143, 0.6405529953917051], [0.5366795366795367, 0.8918918918918919, 0.73648648648648651, 0.7942857142857143, 0.6405529953917051], [0.5366795366795367, 0.8918918918918919, 0.73648648648648651, 0.7942857142857143, 0.6405529953917051]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.1.0.5.MS_input.csv 5.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.2.0.5.MS_input.csv 5.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.3.1.0.5.MS_input.csv 5.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.4.4.0.5.MS_input.csv 5.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.2.2.0.5.MS_input.csv 5.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.2.4.0.5.MS_input.csv 5.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.4.2.0.5.MS_input.csv 5.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.2.1.0.5.MS_input.csv 5.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.3.2.0.5.MS_input.csv 5.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.5.1.0.5.MS_input.csv 5.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.4.0.5.MS_input.csv 5.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.4.1.0.5.MS_input.csv 5.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.4.5.0.5.MS_input.csv 5.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.5.0.5.MS_input.csv 5.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.3.3.0.5.MS_input.csv 5.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.5.2.0.5.MS_input.csv 5.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.1.0.5.MS_input.csv 5.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.3.4.0.5.MS_input.csv 5.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.5.3.0.5.MS_input.csv 5.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.1.3.0.5.MS_input.csv 5.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.3.5.0.5.MS_input.csv 5.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.5.4.0.5.MS_input.csv 5.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.2.3.0.5.MS_input.csv 5.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.2.5.0.5.MS_input.csv 5.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.4.3.0.5.MS_input.csv 5.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.2.5.5.0.5.MS_input.csv 5.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5880149812734082, 0.8111455108359134, 0.71016949152542375, 0.7201834862385321, 0.6474226804123712], [0.5880149812734082, 0.8111455108359134, 0.71016949152542375, 0.7201834862385321, 0.6474226804123712], [0.5880149812734082, 0.8111455108359134, 0.71016949152542375, 0.7201834862385321, 0.6474226804123712], [0.5880149812734082, 0.8111455108359134, 0.71016949152542375, 0.7201834862385321, 0.6474226804123712], [0.5318352059925093, 0.8947368421052632, 0.73050847457627122, 0.8068181818181818, 0.6410835214446953], [0.5318352059925093, 0.8947368421052632, 0.73050847457627122, 0.8068181818181818, 0.6410835214446953], [0.5318352059925093, 0.8947368421052632, 0.73050847457627122, 0.8068181818181818, 0.6410835214446953], [0.5318352059925093, 0.8947368421052632, 0.73050847457627122, 0.8068181818181818, 0.6410835214446953], [0.5318352059925093, 0.8947368421052632, 0.73050847457627122, 0.8068181818181818, 0.6410835214446953]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.1.1.0.5.MS_input.csv 5.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.2.1.0.5.MS_input.csv 5.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.2.4.0.5.MS_input.csv 5.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.4.2.0.5.MS_input.csv 5.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.2.3.0.5.MS_input.csv 5.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.3.2.0.5.MS_input.csv 5.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.4.4.0.5.MS_input.csv 5.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.1.1.0.5.MS_input.csv 5.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.2.5.0.5.MS_input.csv 5.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.5.4.0.5.MS_input.csv 5.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.2.2.0.5.MS_input.csv 5.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.3.5.0.5.MS_input.csv 5.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.5.1.0.5.MS_input.csv 5.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.1.4.0.5.MS_input.csv 5.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.3.1.0.5.MS_input.csv 5.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.4.5.0.5.MS_input.csv 5.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.1.2.0.5.MS_input.csv 5.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.3.4.0.5.MS_input.csv 5.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.5.3.0.5.MS_input.csv 5.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.1.5.0.5.MS_input.csv 5.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.3.3.0.5.MS_input.csv 5.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 5.3.5.2.0.5.MS_input.csv 5.3.5.2.0.5.MS_output.list 5 2
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6068702290076335, 0.7621951219512195, 0.6932203389830508, 0.6708860759493671, 0.6372745490981964], [0.6068702290076335, 0.7621951219512195, 0.6932203389830508, 0.6708860759493671, 0.6372745490981964], [0.6068702290076335, 0.7621951219512195, 0.6932203389830508, 0.6708860759493671, 0.6372745490981964], [0.6068702290076335, 0.7621951219512195, 0.6932203389830508, 0.6708860759493671, 0.6372745490981964], [0.5305343511450382, 0.8384146341463414, 0.70169491525423733, 0.7239583333333334, 0.6123348017621145], [0.5305343511450382, 0.8384146341463414, 0.70169491525423733, 0.7239583333333334, 0.6123348017621145], [0.5305343511450382, 0.8384146341463414, 0.70169491525423733, 0.7239583333333334, 0.6123348017621145], [0.5305343511450382, 0.8384146341463414, 0.70169491525423733, 0.7239583333333334, 0.6123348017621145], [0.5305343511450382, 0.8384146341463414, 0.70169491525423733, 0.7239583333333334, 0.6123348017621145]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.5.1.0.5.MS_input.csv 999.999.5.1.0.5.MS_output.list 5 1
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.1.0.5.MS_input.csv 6.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.2.0.5.MS_input.csv 6.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.3.2.0.5.MS_input.csv 6.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.4.2.0.5.MS_input.csv 6.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.3.0.5.MS_input.csv 6.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.3.5.0.5.MS_input.csv 6.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.5.2.0.5.MS_input.csv 6.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.5.0.5.MS_input.csv 6.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.3.4.0.5.MS_input.csv 6.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.5.4.0.5.MS_input.csv 6.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.1.0.5.MS_input.csv 6.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.2.5.0.5.MS_input.csv 6.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.5.1.0.5.MS_input.csv 6.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.1.4.0.5.MS_input.csv 6.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.3.3.0.5.MS_input.csv 6.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.5.3.0.5.MS_input.csv 6.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.2.1.0.5.MS_input.csv 6.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.2.4.0.5.MS_input.csv 6.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.4.5.0.5.MS_input.csv 6.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.2.3.0.5.MS_input.csv 6.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.4.1.0.5.MS_input.csv 6.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.1.4.4.0.5.MS_input.csv 6.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6628787878787878, 0.774390243902439, 0.72466216216216217, 0.7028112449799196, 0.6822612085769979], [0.6628787878787878, 0.774390243902439, 0.72466216216216217, 0.7028112449799196, 0.6822612085769979], [0.6628787878787878, 0.774390243902439, 0.72466216216216217, 0.7028112449799196, 0.6822612085769979], [0.6628787878787878, 0.774390243902439, 0.72466216216216217, 0.7028112449799196, 0.6822612085769979], [0.5643939393939394, 0.8871951219512195, 0.7432432432432432, 0.8010752688172043, 0.6622222222222223], [0.5643939393939394, 0.8871951219512195, 0.7432432432432432, 0.8010752688172043, 0.6622222222222223], [0.5643939393939394, 0.8871951219512195, 0.7432432432432432, 0.8010752688172043, 0.6622222222222223], [0.5643939393939394, 0.8871951219512195, 0.7432432432432432, 0.8010752688172043, 0.6622222222222223], [0.5643939393939394, 0.8871951219512195, 0.7432432432432432, 0.8010752688172043, 0.6622222222222223]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.1.0.5.MS_input.csv 6.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.2.2.0.5.MS_input.csv 6.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.2.4.0.5.MS_input.csv 6.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.4.3.0.5.MS_input.csv 6.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.5.0.5.MS_input.csv 6.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.4.1.0.5.MS_input.csv 6.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.4.5.0.5.MS_input.csv 6.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.2.0.5.MS_input.csv 6.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.3.2.0.5.MS_input.csv 6.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.5.2.0.5.MS_input.csv 6.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.2.1.0.5.MS_input.csv 6.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.3.1.0.5.MS_input.csv 6.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.4.2.0.5.MS_input.csv 6.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.4.0.5.MS_input.csv 6.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.3.3.0.5.MS_input.csv 6.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.5.1.0.5.MS_input.csv 6.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.3.0.5.MS_input.csv 6.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.3.4.0.5.MS_input.csv 6.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.5.4.0.5.MS_input.csv 6.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.1.1.0.5.MS_input.csv 6.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.2.5.0.5.MS_input.csv 6.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.4.4.0.5.MS_input.csv 6.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.2.3.0.5.MS_input.csv 6.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.3.5.0.5.MS_input.csv 6.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.5.3.0.5.MS_input.csv 6.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.2.5.5.0.5.MS_input.csv 6.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5907335907335908, 0.7673716012084593, 0.68983050847457628, 0.6652173913043479, 0.6257668711656442], [0.5907335907335908, 0.7673716012084593, 0.68983050847457628, 0.6652173913043479, 0.6257668711656442], [0.5907335907335908, 0.7673716012084593, 0.68983050847457628, 0.6652173913043479, 0.6257668711656442], [0.5907335907335908, 0.7673716012084593, 0.68983050847457628, 0.6652173913043479, 0.6257668711656442], [0.525096525096525, 0.8640483383685801, 0.71525423728813564, 0.7513812154696132, 0.6181818181818182], [0.525096525096525, 0.8640483383685801, 0.71525423728813564, 0.7513812154696132, 0.6181818181818182], [0.525096525096525, 0.8640483383685801, 0.71525423728813564, 0.7513812154696132, 0.6181818181818182], [0.525096525096525, 0.8640483383685801, 0.71525423728813564, 0.7513812154696132, 0.6181818181818182], [0.525096525096525, 0.8640483383685801, 0.71525423728813564, 0.7513812154696132, 0.6181818181818182]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.1.0.5.MS_input.csv 6.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.3.0.5.MS_input.csv 6.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.3.1.0.5.MS_input.csv 6.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.4.3.0.5.MS_input.csv 6.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.2.3.0.5.MS_input.csv 6.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.3.5.0.5.MS_input.csv 6.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.5.4.0.5.MS_input.csv 6.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.4.0.5.MS_input.csv 6.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.3.2.0.5.MS_input.csv 6.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.4.5.0.5.MS_input.csv 6.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.2.1.0.5.MS_input.csv 6.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.2.4.0.5.MS_input.csv 6.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.5.1.0.5.MS_input.csv 6.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.2.2.0.5.MS_input.csv 6.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.3.4.0.5.MS_input.csv 6.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.5.3.0.5.MS_input.csv 6.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.5.0.5.MS_input.csv 6.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.2.5.0.5.MS_input.csv 6.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.4.4.0.5.MS_input.csv 6.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.1.0.5.MS_input.csv 6.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.3.3.0.5.MS_input.csv 6.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.5.2.0.5.MS_input.csv 6.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.1.2.0.5.MS_input.csv 6.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.4.1.0.5.MS_input.csv 6.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.4.2.0.5.MS_input.csv 6.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 6.3.5.5.0.5.MS_input.csv 6.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5547169811320755, 0.8276923076923077, 0.70508474576271185, 0.7241379310344828, 0.6282051282051282], [0.5622641509433962, 0.7938461538461539, 0.68983050847457628, 0.6898148148148148, 0.6195426195426196], [0.5622641509433962, 0.7938461538461539, 0.68983050847457628, 0.6898148148148148, 0.6195426195426196], [0.5622641509433962, 0.7938461538461539, 0.68983050847457628, 0.6898148148148148, 0.6195426195426196], [0.5622641509433962, 0.7938461538461539, 0.68983050847457628, 0.6898148148148148, 0.6195426195426196], [0.5094339622641509, 0.8738461538461538, 0.71016949152542375, 0.7670454545454546, 0.6122448979591837], [0.5094339622641509, 0.8738461538461538, 0.71016949152542375, 0.7670454545454546, 0.6122448979591837], [0.5094339622641509, 0.8738461538461538, 0.71016949152542375, 0.7670454545454546, 0.6122448979591837], [0.5094339622641509, 0.8738461538461538, 0.71016949152542375, 0.7670454545454546, 0.6122448979591837], [0.5094339622641509, 0.8738461538461538, 0.71016949152542375, 0.7670454545454546, 0.6122448979591837]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.5.1.0.5.MS_input.csv 999.999.5.1.0.5.MS_output.list 5 1
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.1.0.5.MS_input.csv 7.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.2.0.5.MS_input.csv 7.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.3.1.0.5.MS_input.csv 7.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.4.3.0.5.MS_input.csv 7.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.4.0.5.MS_input.csv 7.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.4.1.0.5.MS_input.csv 7.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.5.1.0.5.MS_input.csv 7.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.2.2.0.5.MS_input.csv 7.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.3.2.0.5.MS_input.csv 7.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.4.4.0.5.MS_input.csv 7.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.2.1.0.5.MS_input.csv 7.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.3.3.0.5.MS_input.csv 7.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.4.5.0.5.MS_input.csv 7.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.2.3.0.5.MS_input.csv 7.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.3.5.0.5.MS_input.csv 7.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.5.2.0.5.MS_input.csv 7.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.5.0.5.MS_input.csv 7.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.3.4.0.5.MS_input.csv 7.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.5.4.0.5.MS_input.csv 7.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.3.0.5.MS_input.csv 7.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.2.5.0.5.MS_input.csv 7.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.5.3.0.5.MS_input.csv 7.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.1.1.0.5.MS_input.csv 7.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.2.4.0.5.MS_input.csv 7.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.4.2.0.5.MS_input.csv 7.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.1.5.5.0.5.MS_input.csv 7.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.66796875, 0.7559523809523809, 0.71790540540540537, 0.6758893280632411, 0.6719056974459724], [0.66796875, 0.7559523809523809, 0.71790540540540537, 0.6758893280632411, 0.6719056974459724], [0.66796875, 0.7559523809523809, 0.71790540540540537, 0.6758893280632411, 0.6719056974459724], [0.66796875, 0.7559523809523809, 0.71790540540540537, 0.6758893280632411, 0.6719056974459724], [0.55078125, 0.8660714285714286, 0.72972972972972971, 0.7580645161290323, 0.6380090497737557], [0.55078125, 0.8660714285714286, 0.72972972972972971, 0.7580645161290323, 0.6380090497737557], [0.55078125, 0.8660714285714286, 0.72972972972972971, 0.7580645161290323, 0.6380090497737557], [0.55078125, 0.8660714285714286, 0.72972972972972971, 0.7580645161290323, 0.6380090497737557], [0.55078125, 0.8660714285714286, 0.72972972972972971, 0.7580645161290323, 0.6380090497737557]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.1.1.0.5.MS_input.csv 7.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.1.3.0.5.MS_input.csv 7.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.2.5.0.5.MS_input.csv 7.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.5.2.0.5.MS_input.csv 7.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.2.2.0.5.MS_input.csv 7.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.4.1.0.5.MS_input.csv 7.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.4.3.0.5.MS_input.csv 7.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.1.1.0.5.MS_input.csv 7.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.3.4.0.5.MS_input.csv 7.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.5.1.0.5.MS_input.csv 7.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.2.3.0.5.MS_input.csv 7.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.3.5.0.5.MS_input.csv 7.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.4.5.0.5.MS_input.csv 7.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.1.4.0.5.MS_input.csv 7.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.3.2.0.5.MS_input.csv 7.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.4.2.0.5.MS_input.csv 7.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.2.1.0.5.MS_input.csv 7.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.2.4.0.5.MS_input.csv 7.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.5.4.0.5.MS_input.csv 7.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.1.5.0.5.MS_input.csv 7.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.3.1.0.5.MS_input.csv 7.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.2.4.4.0.5.MS_input.csv 7.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5877862595419847, 0.8140243902439024, 0.71355932203389827, 0.7162790697674418, 0.6457023060796646], [0.5877862595419847, 0.8140243902439024, 0.71355932203389827, 0.7162790697674418, 0.6457023060796646], [0.5877862595419847, 0.8140243902439024, 0.71355932203389827, 0.7162790697674418, 0.6457023060796646], [0.5877862595419847, 0.8140243902439024, 0.71355932203389827, 0.7162790697674418, 0.6457023060796646], [0.5076335877862596, 0.8414634146341463, 0.6932203389830508, 0.7189189189189189, 0.5950782997762863], [0.5076335877862596, 0.8414634146341463, 0.6932203389830508, 0.7189189189189189, 0.5950782997762863], [0.5076335877862596, 0.8414634146341463, 0.6932203389830508, 0.7189189189189189, 0.5950782997762863], [0.5076335877862596, 0.8414634146341463, 0.6932203389830508, 0.7189189189189189, 0.5950782997762863], [0.5076335877862596, 0.8414634146341463, 0.6932203389830508, 0.7189189189189189, 0.5950782997762863]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.1.0.5.MS_input.csv 7.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.4.0.5.MS_input.csv 7.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.3.4.0.5.MS_input.csv 7.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.5.4.0.5.MS_input.csv 7.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.1.0.5.MS_input.csv 7.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.2.4.0.5.MS_input.csv 7.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.4.3.0.5.MS_input.csv 7.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.2.3.0.5.MS_input.csv 7.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.4.1.0.5.MS_input.csv 7.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.4.2.0.5.MS_input.csv 7.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.2.1.0.5.MS_input.csv 7.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.3.1.0.5.MS_input.csv 7.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.4.4.0.5.MS_input.csv 7.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.3.0.5.MS_input.csv 7.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.3.5.0.5.MS_input.csv 7.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.5.3.0.5.MS_input.csv 7.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.5.0.5.MS_input.csv 7.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.3.3.0.5.MS_input.csv 7.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.5.1.0.5.MS_input.csv 7.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.2.2.0.5.MS_input.csv 7.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.3.2.0.5.MS_input.csv 7.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.4.5.0.5.MS_input.csv 7.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.1.2.0.5.MS_input.csv 7.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.2.5.0.5.MS_input.csv 7.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.5.2.0.5.MS_input.csv 7.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 7.3.5.5.0.5.MS_input.csv 7.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5555555555555556, 0.834375, 0.70677966101694911, 0.7389162561576355, 0.6342494714587738], [0.5925925925925926, 0.796875, 0.70338983050847459, 0.7111111111111111, 0.6464646464646464], [0.5925925925925926, 0.796875, 0.70338983050847459, 0.7111111111111111, 0.6464646464646464], [0.5925925925925926, 0.796875, 0.70338983050847459, 0.7111111111111111, 0.6464646464646464], [0.5925925925925926, 0.796875, 0.70338983050847459, 0.7111111111111111, 0.6464646464646464], [0.5111111111111111, 0.8375, 0.68813559322033901, 0.7263157894736842, 0.6], [0.5111111111111111, 0.8375, 0.68813559322033901, 0.7263157894736842, 0.6], [0.5111111111111111, 0.8375, 0.68813559322033901, 0.7263157894736842, 0.6], [0.5111111111111111, 0.8375, 0.68813559322033901, 0.7263157894736842, 0.6], [0.5111111111111111, 0.8375, 0.68813559322033901, 0.7263157894736842, 0.6]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.1.0.5.MS_input.csv 8.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.1.0.5.MS_input.csv 8.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.2.5.0.5.MS_input.csv 8.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.5.4.0.5.MS_input.csv 8.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.2.0.5.MS_input.csv 8.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.3.1.0.5.MS_input.csv 8.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.5.1.0.5.MS_input.csv 8.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.4.0.5.MS_input.csv 8.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.3.2.0.5.MS_input.csv 8.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.5.2.0.5.MS_input.csv 8.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.5.0.5.MS_input.csv 8.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.3.5.0.5.MS_input.csv 8.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.5.3.0.5.MS_input.csv 8.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.1.3.0.5.MS_input.csv 8.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.2.4.0.5.MS_input.csv 8.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.4.5.0.5.MS_input.csv 8.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.2.2.0.5.MS_input.csv 8.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.3.4.0.5.MS_input.csv 8.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.4.3.0.5.MS_input.csv 8.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.2.1.0.5.MS_input.csv 8.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.3.3.0.5.MS_input.csv 8.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.4.4.0.5.MS_input.csv 8.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.2.3.0.5.MS_input.csv 8.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.4.1.0.5.MS_input.csv 8.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.4.2.0.5.MS_input.csv 8.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.1.5.5.0.5.MS_input.csv 8.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5900383141762452, 0.797583081570997, 0.70608108108108103, 0.6968325791855203, 0.6390041493775934], [0.5977011494252874, 0.8006042296072508, 0.71114864864864868, 0.7027027027027027, 0.6459627329192548], [0.5977011494252874, 0.8006042296072508, 0.71114864864864868, 0.7027027027027027, 0.6459627329192548], [0.5977011494252874, 0.8006042296072508, 0.71114864864864868, 0.7027027027027027, 0.6459627329192548], [0.5977011494252874, 0.8006042296072508, 0.71114864864864868, 0.7027027027027027, 0.6459627329192548], [0.524904214559387, 0.8700906344410876, 0.71790540540540537, 0.7611111111111111, 0.6213151927437641], [0.524904214559387, 0.8700906344410876, 0.71790540540540537, 0.7611111111111111, 0.6213151927437641], [0.524904214559387, 0.8700906344410876, 0.71790540540540537, 0.7611111111111111, 0.6213151927437641], [0.524904214559387, 0.8700906344410876, 0.71790540540540537, 0.7611111111111111, 0.6213151927437641], [0.524904214559387, 0.8700906344410876, 0.71790540540540537, 0.7611111111111111, 0.6213151927437641]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.1.0.5.MS_input.csv 8.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.2.3.0.5.MS_input.csv 8.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.4.1.0.5.MS_input.csv 8.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.5.3.0.5.MS_input.csv 8.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.2.1.0.5.MS_input.csv 8.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.3.4.0.5.MS_input.csv 8.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.5.4.0.5.MS_input.csv 8.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.2.0.5.MS_input.csv 8.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.2.5.0.5.MS_input.csv 8.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.5.1.0.5.MS_input.csv 8.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.3.0.5.MS_input.csv 8.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.3.3.0.5.MS_input.csv 8.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.4.5.0.5.MS_input.csv 8.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.4.0.5.MS_input.csv 8.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.3.2.0.5.MS_input.csv 8.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.4.2.0.5.MS_input.csv 8.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.5.0.5.MS_input.csv 8.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.3.5.0.5.MS_input.csv 8.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.5.2.0.5.MS_input.csv 8.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.5.5.0.5.MS_input.csv 8.2.5.5.0.5.MS_output.list 5 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.1.1.0.5.MS_input.csv 8.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.2.4.0.5.MS_input.csv 8.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.4.3.0.5.MS_input.csv 8.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.2.2.0.5.MS_input.csv 8.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.3.1.0.5.MS_input.csv 8.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.2.4.4.0.5.MS_input.csv 8.2.4.4.0.5.MS_output.list 4 4
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6590909090909091, 0.7668711656441718, 0.71864406779661016, 0.696, 0.6770428015564202], [0.6590909090909091, 0.7668711656441718, 0.71864406779661016, 0.696, 0.6770428015564202], [0.6590909090909091, 0.7668711656441718, 0.71864406779661016, 0.696, 0.6770428015564202], [0.6590909090909091, 0.7668711656441718, 0.71864406779661016, 0.696, 0.6770428015564202], [0.5378787878787878, 0.8650306748466258, 0.71864406779661016, 0.7634408602150538, 0.6311111111111111], [0.5378787878787878, 0.8650306748466258, 0.71864406779661016, 0.7634408602150538, 0.6311111111111111], [0.5378787878787878, 0.8650306748466258, 0.71864406779661016, 0.7634408602150538, 0.6311111111111111], [0.5378787878787878, 0.8650306748466258, 0.71864406779661016, 0.7634408602150538, 0.6311111111111111], [0.5378787878787878, 0.8650306748466258, 0.71864406779661016, 0.7634408602150538, 0.6311111111111111]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.1.1.0.5.MS_input.csv 8.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.1.2.0.5.MS_input.csv 8.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.3.1.0.5.MS_input.csv 8.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.4.4.0.5.MS_input.csv 8.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.2.1.0.5.MS_input.csv 8.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.2.5.0.5.MS_input.csv 8.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.5.4.0.5.MS_input.csv 8.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.2.2.0.5.MS_input.csv 8.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.3.2.0.5.MS_input.csv 8.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.4.3.0.5.MS_input.csv 8.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.1.1.0.5.MS_input.csv 8.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.2.4.0.5.MS_input.csv 8.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.4.5.0.5.MS_input.csv 8.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.1.5.0.5.MS_input.csv 8.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.3.3.0.5.MS_input.csv 8.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.5.1.0.5.MS_input.csv 8.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.1.3.0.5.MS_input.csv 8.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.3.5.0.5.MS_input.csv 8.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.5.3.0.5.MS_input.csv 8.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.2.3.0.5.MS_input.csv 8.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.3.4.0.5.MS_input.csv 8.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 8.3.5.2.0.5.MS_input.csv 8.3.5.2.0.5.MS_output.list 5 2
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6045627376425855, 0.8348623853211009, 0.73220338983050848, 0.7464788732394366, 0.6680672268907563], [0.596958174904943, 0.8103975535168195, 0.71525423728813564, 0.7168949771689498, 0.6514522821576764], [0.596958174904943, 0.8103975535168195, 0.71525423728813564, 0.7168949771689498, 0.6514522821576764], [0.596958174904943, 0.8103975535168195, 0.71525423728813564, 0.7168949771689498, 0.6514522821576764], [0.596958174904943, 0.8103975535168195, 0.71525423728813564, 0.7168949771689498, 0.6514522821576764], [0.5019011406844106, 0.8379204892966361, 0.68813559322033901, 0.7135135135135136, 0.5892857142857142], [0.5019011406844106, 0.8379204892966361, 0.68813559322033901, 0.7135135135135136, 0.5892857142857142], [0.5019011406844106, 0.8379204892966361, 0.68813559322033901, 0.7135135135135136, 0.5892857142857142], [0.5019011406844106, 0.8379204892966361, 0.68813559322033901, 0.7135135135135136, 0.5892857142857142], [0.5019011406844106, 0.8379204892966361, 0.68813559322033901, 0.7135135135135136, 0.5892857142857142]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.1.0.5.MS_input.csv 9.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.2.3.0.5.MS_input.csv 9.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.4.1.0.5.MS_input.csv 9.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.4.2.0.5.MS_input.csv 9.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.2.2.0.5.MS_input.csv 9.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.3.4.0.5.MS_input.csv 9.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.5.3.0.5.MS_input.csv 9.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.1.0.5.MS_input.csv 9.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.2.4.0.5.MS_input.csv 9.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.5.2.0.5.MS_input.csv 9.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.4.0.5.MS_input.csv 9.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.3.5.0.5.MS_input.csv 9.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.5.1.0.5.MS_input.csv 9.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.2.0.5.MS_input.csv 9.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.3.1.0.5.MS_input.csv 9.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.4.3.0.5.MS_input.csv 9.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.3.0.5.MS_input.csv 9.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.2.5.0.5.MS_input.csv 9.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.5.4.0.5.MS_input.csv 9.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.1.5.0.5.MS_input.csv 9.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.3.3.0.5.MS_input.csv 9.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.4.5.0.5.MS_input.csv 9.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.2.1.0.5.MS_input.csv 9.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.3.2.0.5.MS_input.csv 9.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.4.4.0.5.MS_input.csv 9.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.1.5.5.0.5.MS_input.csv 9.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6119402985074627, 0.8179012345679012, 0.72466216216216217, 0.7354260089686099, 0.6680244399185336], [0.6119402985074627, 0.8179012345679012, 0.72466216216216217, 0.7354260089686099, 0.6680244399185336], [0.6119402985074627, 0.8179012345679012, 0.72466216216216217, 0.7354260089686099, 0.6680244399185336], [0.6119402985074627, 0.8179012345679012, 0.72466216216216217, 0.7354260089686099, 0.6680244399185336], [0.5335820895522388, 0.8765432098765432, 0.72128378378378377, 0.7814207650273224, 0.6341463414634148], [0.5335820895522388, 0.8765432098765432, 0.72128378378378377, 0.7814207650273224, 0.6341463414634148], [0.5335820895522388, 0.8765432098765432, 0.72128378378378377, 0.7814207650273224, 0.6341463414634148], [0.5335820895522388, 0.8765432098765432, 0.72128378378378377, 0.7814207650273224, 0.6341463414634148], [0.5335820895522388, 0.8765432098765432, 0.72128378378378377, 0.7814207650273224, 0.6341463414634148]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.1.0.5.MS_input.csv 9.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.3.0.5.MS_input.csv 9.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.3.5.0.5.MS_input.csv 9.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.5.2.0.5.MS_input.csv 9.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.2.2.0.5.MS_input.csv 9.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.4.1.0.5.MS_input.csv 9.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.5.1.0.5.MS_input.csv 9.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.2.3.0.5.MS_input.csv 9.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.3.1.0.5.MS_input.csv 9.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.4.5.0.5.MS_input.csv 9.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.5.0.5.MS_input.csv 9.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.2.5.0.5.MS_input.csv 9.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.4.2.0.5.MS_input.csv 9.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.1.0.5.MS_input.csv 9.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.2.4.0.5.MS_input.csv 9.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.4.3.0.5.MS_input.csv 9.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.2.1.0.5.MS_input.csv 9.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.3.3.0.5.MS_input.csv 9.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.5.3.0.5.MS_input.csv 9.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.4.0.5.MS_input.csv 9.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.3.2.0.5.MS_input.csv 9.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.4.4.0.5.MS_input.csv 9.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.1.2.0.5.MS_input.csv 9.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.3.4.0.5.MS_input.csv 9.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.5.4.0.5.MS_input.csv 9.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.2.5.5.0.5.MS_input.csv 9.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5708812260536399, 0.7933130699088146, 0.69491525423728817, 0.6866359447004609, 0.6234309623430963], [0.5708812260536399, 0.7933130699088146, 0.69491525423728817, 0.6866359447004609, 0.6234309623430963], [0.5708812260536399, 0.7933130699088146, 0.69491525423728817, 0.6866359447004609, 0.6234309623430963], [0.5708812260536399, 0.7933130699088146, 0.69491525423728817, 0.6866359447004609, 0.6234309623430963], [0.47126436781609193, 0.8297872340425532, 0.67118644067796607, 0.6871508379888268, 0.5590909090909091], [0.47126436781609193, 0.8297872340425532, 0.67118644067796607, 0.6871508379888268, 0.5590909090909091], [0.47126436781609193, 0.8297872340425532, 0.67118644067796607, 0.6871508379888268, 0.5590909090909091], [0.47126436781609193, 0.8297872340425532, 0.67118644067796607, 0.6871508379888268, 0.5590909090909091], [0.47126436781609193, 0.8297872340425532, 0.67118644067796607, 0.6871508379888268, 0.5590909090909091]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.1.0.5.MS_input.csv 9.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.1.0.5.MS_input.csv 9.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.2.4.0.5.MS_input.csv 9.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.5.4.0.5.MS_input.csv 9.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.2.0.5.MS_input.csv 9.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.3.5.0.5.MS_input.csv 9.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.5.1.0.5.MS_input.csv 9.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.5.0.5.MS_input.csv 9.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.2.5.0.5.MS_input.csv 9.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.5.2.0.5.MS_input.csv 9.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.4.0.5.MS_input.csv 9.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.4.1.0.5.MS_input.csv 9.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.4.3.0.5.MS_input.csv 9.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.1.3.0.5.MS_input.csv 9.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.3.3.0.5.MS_input.csv 9.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.4.5.0.5.MS_input.csv 9.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.2.2.0.5.MS_input.csv 9.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.3.2.0.5.MS_input.csv 9.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.4.4.0.5.MS_input.csv 9.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.2.1.0.5.MS_input.csv 9.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.3.1.0.5.MS_input.csv 9.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.4.2.0.5.MS_input.csv 9.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.2.3.0.5.MS_input.csv 9.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.3.4.0.5.MS_input.csv 9.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.5.3.0.5.MS_input.csv 9.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 9.3.5.5.0.5.MS_input.csv 9.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6177606177606177, 0.8066465256797583, 0.72372881355932206, 0.7142857142857143, 0.6625258799171843], [0.6525096525096525, 0.7673716012084593, 0.7169491525423729, 0.6869918699186992, 0.6693069306930693], [0.6525096525096525, 0.7673716012084593, 0.7169491525423729, 0.6869918699186992, 0.6693069306930693], [0.6525096525096525, 0.7673716012084593, 0.7169491525423729, 0.6869918699186992, 0.6693069306930693], [0.6525096525096525, 0.7673716012084593, 0.7169491525423729, 0.6869918699186992, 0.6693069306930693], [0.5637065637065637, 0.8640483383685801, 0.73220338983050848, 0.7643979057591623, 0.648888888888889], [0.5637065637065637, 0.8640483383685801, 0.73220338983050848, 0.7643979057591623, 0.648888888888889], [0.5637065637065637, 0.8640483383685801, 0.73220338983050848, 0.7643979057591623, 0.648888888888889], [0.5637065637065637, 0.8640483383685801, 0.73220338983050848, 0.7643979057591623, 0.648888888888889], [0.5637065637065637, 0.8640483383685801, 0.73220338983050848, 0.7643979057591623, 0.648888888888889]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+[-1. -1. -1. ...,  1.  1.  1.]
+train_y_outer
+parameter_list
+[{'pos_k': '1', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '1', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '2', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '3', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '4', 'neg_j': '5', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '1', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '2', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '3', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '4', 'prob_cut': '0.5'}, {'pos_k': '5', 'neg_j': '5', 'prob_cut': '0.5'}]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.1.0.5.MS_input.csv 10.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.3.0.5.MS_input.csv 10.1.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.3.5.0.5.MS_input.csv 10.1.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.5.4.0.5.MS_input.csv 10.1.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.5.0.5.MS_input.csv 10.1.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.3.4.0.5.MS_input.csv 10.1.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.5.3.0.5.MS_input.csv 10.1.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.2.1.0.5.MS_input.csv 10.1.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.2.4.0.5.MS_input.csv 10.1.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.5.2.0.5.MS_input.csv 10.1.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.2.3.0.5.MS_input.csv 10.1.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.3.3.0.5.MS_input.csv 10.1.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.4.5.0.5.MS_input.csv 10.1.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.4.0.5.MS_input.csv 10.1.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.4.1.0.5.MS_input.csv 10.1.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.4.2.0.5.MS_input.csv 10.1.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.1.0.5.MS_input.csv 10.1.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.2.5.0.5.MS_input.csv 10.1.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.5.1.0.5.MS_input.csv 10.1.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.2.2.0.5.MS_input.csv 10.1.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.3.1.0.5.MS_input.csv 10.1.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.4.3.0.5.MS_input.csv 10.1.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.1.2.0.5.MS_input.csv 10.1.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.3.2.0.5.MS_input.csv 10.1.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.4.4.0.5.MS_input.csv 10.1.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.1.5.5.0.5.MS_input.csv 10.1.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.696969696969697, 0.7530487804878049, 0.72804054054054057, 0.6943396226415094, 0.6956521739130435], [0.696969696969697, 0.7530487804878049, 0.72804054054054057, 0.6943396226415094, 0.6956521739130435], [0.696969696969697, 0.7530487804878049, 0.72804054054054057, 0.6943396226415094, 0.6956521739130435], [0.696969696969697, 0.7530487804878049, 0.72804054054054057, 0.6943396226415094, 0.6956521739130435], [0.5568181818181818, 0.8201219512195121, 0.70270270270270274, 0.7135922330097088, 0.625531914893617], [0.5568181818181818, 0.8201219512195121, 0.70270270270270274, 0.7135922330097088, 0.625531914893617], [0.5568181818181818, 0.8201219512195121, 0.70270270270270274, 0.7135922330097088, 0.625531914893617], [0.5568181818181818, 0.8201219512195121, 0.70270270270270274, 0.7135922330097088, 0.625531914893617], [0.5568181818181818, 0.8201219512195121, 0.70270270270270274, 0.7135922330097088, 0.625531914893617]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.1.0.5.MS_input.csv 10.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.3.0.5.MS_input.csv 10.2.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.4.1.0.5.MS_input.csv 10.2.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.4.2.0.5.MS_input.csv 10.2.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.2.0.5.MS_input.csv 10.2.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.2.5.0.5.MS_input.csv 10.2.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.4.5.0.5.MS_input.csv 10.2.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.2.2.0.5.MS_input.csv 10.2.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.3.1.0.5.MS_input.csv 10.2.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.4.3.0.5.MS_input.csv 10.2.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.1.0.5.MS_input.csv 10.2.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.2.4.0.5.MS_input.csv 10.2.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.5.2.0.5.MS_input.csv 10.2.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.4.0.5.MS_input.csv 10.2.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.3.2.0.5.MS_input.csv 10.2.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.4.4.0.5.MS_input.csv 10.2.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.1.5.0.5.MS_input.csv 10.2.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.3.5.0.5.MS_input.csv 10.2.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.5.4.0.5.MS_input.csv 10.2.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.2.1.0.5.MS_input.csv 10.2.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.3.4.0.5.MS_input.csv 10.2.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.5.1.0.5.MS_input.csv 10.2.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.2.3.0.5.MS_input.csv 10.2.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.3.3.0.5.MS_input.csv 10.2.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.5.3.0.5.MS_input.csv 10.2.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.2.5.5.0.5.MS_input.csv 10.2.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.6150943396226415, 0.8, 0.7169491525423729, 0.7149122807017544, 0.6612576064908722], [0.6150943396226415, 0.8, 0.7169491525423729, 0.7149122807017544, 0.6612576064908722], [0.6150943396226415, 0.8, 0.7169491525423729, 0.7149122807017544, 0.6612576064908722], [0.6150943396226415, 0.8, 0.7169491525423729, 0.7149122807017544, 0.6612576064908722], [0.5433962264150943, 0.8707692307692307, 0.72372881355932206, 0.7741935483870968, 0.638580931263858], [0.5433962264150943, 0.8707692307692307, 0.72372881355932206, 0.7741935483870968, 0.638580931263858], [0.5433962264150943, 0.8707692307692307, 0.72372881355932206, 0.7741935483870968, 0.638580931263858], [0.5433962264150943, 0.8707692307692307, 0.72372881355932206, 0.7741935483870968, 0.638580931263858], [0.5433962264150943, 0.8707692307692307, 0.72372881355932206, 0.7741935483870968, 0.638580931263858]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.1.0.5.MS_input.csv 10.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.2.2.0.5.MS_input.csv 10.3.2.2.0.5.MS_output.list 2 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.3.5.0.5.MS_input.csv 10.3.3.5.0.5.MS_output.list 3 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.4.4.0.5.MS_input.csv 10.3.4.4.0.5.MS_output.list 4 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.2.3.0.5.MS_input.csv 10.3.2.3.0.5.MS_output.list 2 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.3.3.0.5.MS_input.csv 10.3.3.3.0.5.MS_output.list 3 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.4.2.0.5.MS_input.csv 10.3.4.2.0.5.MS_output.list 4 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.5.0.5.MS_input.csv 10.3.1.5.0.5.MS_output.list 1 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.3.2.0.5.MS_input.csv 10.3.3.2.0.5.MS_output.list 3 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.5.1.0.5.MS_input.csv 10.3.5.1.0.5.MS_output.list 5 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.3.0.5.MS_input.csv 10.3.1.3.0.5.MS_output.list 1 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.3.4.0.5.MS_input.csv 10.3.3.4.0.5.MS_output.list 3 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.4.3.0.5.MS_input.csv 10.3.4.3.0.5.MS_output.list 4 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.4.0.5.MS_input.csv 10.3.1.4.0.5.MS_output.list 1 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.4.1.0.5.MS_input.csv 10.3.4.1.0.5.MS_output.list 4 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.5.2.0.5.MS_input.csv 10.3.5.2.0.5.MS_output.list 5 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.2.1.0.5.MS_input.csv 10.3.2.1.0.5.MS_output.list 2 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.2.5.0.5.MS_input.csv 10.3.2.5.0.5.MS_output.list 2 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.5.4.0.5.MS_input.csv 10.3.5.4.0.5.MS_output.list 5 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.2.0.5.MS_input.csv 10.3.1.2.0.5.MS_output.list 1 2
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.2.4.0.5.MS_input.csv 10.3.2.4.0.5.MS_output.list 2 4
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.5.3.0.5.MS_input.csv 10.3.5.3.0.5.MS_output.list 5 3
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.1.1.0.5.MS_input.csv 10.3.1.1.0.5.MS_output.list 1 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.3.1.0.5.MS_input.csv 10.3.3.1.0.5.MS_output.list 3 1
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.4.5.0.5.MS_input.csv 10.3.4.5.0.5.MS_output.list 4 5
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 10.3.5.5.0.5.MS_input.csv 10.3.5.5.0.5.MS_output.list 5 5
+[[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0.5984555984555985, 0.743202416918429, 0.6796610169491526, 0.6458333333333334, 0.62124248496994], [0.5984555984555985, 0.743202416918429, 0.6796610169491526, 0.6458333333333334, 0.62124248496994], [0.5984555984555985, 0.743202416918429, 0.6796610169491526, 0.6458333333333334, 0.62124248496994], [0.5212355212355212, 0.8459214501510574, 0.70338983050847459, 0.7258064516129032, 0.6067415730337079], [0.5212355212355212, 0.8459214501510574, 0.70338983050847459, 0.7258064516129032, 0.6067415730337079], [0.5212355212355212, 0.8459214501510574, 0.70338983050847459, 0.7258064516129032, 0.6067415730337079], [0.5212355212355212, 0.8459214501510574, 0.70338983050847459, 0.7258064516129032, 0.6067415730337079], [0.5212355212355212, 0.8459214501510574, 0.70338983050847459, 0.7258064516129032, 0.6067415730337079], [0.4517374517374517, 0.8459214501510574, 0.67288135593220344, 0.6964285714285714, 0.5480093676814988], [0.4517374517374517, 0.8459214501510574, 0.67288135593220344, 0.6964285714285714, 0.5480093676814988], [0.4517374517374517, 0.8459214501510574, 0.67288135593220344, 0.6964285714285714, 0.5480093676814988], [0.4517374517374517, 0.8459214501510574, 0.67288135593220344, 0.6964285714285714, 0.5480093676814988], [0.4517374517374517, 0.8459214501510574, 0.67288135593220344, 0.6964285714285714, 0.5480093676814988]]
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py 999.999.4.2.0.5.MS_input.csv 999.999.4.2.0.5.MS_output.list 4 2
+len of motifDict: 9
+len of motifDict: 9
+python /users/PHS0293/ohu0404/project/motif_selection_paper/Dr_Juedes/MSDC_wrapper.py /users/PHS0293/ohu0404/project/motif_selection_paper/Motif_Selection/HSF.Motif_Selection_Paper.csv HSF.final_selected_motif.list 4 2
+
+-----------------------
+Resources requested:
+mem=24gb
+nodes=1:ppn=8
+-----------------------
+Resources used:
+cput=00:17:24
+walltime=00:10:33
+mem=0.177GB
+vmem=17.464GB
+-----------------------
+Resource units charged (estimate):
+0.140 RUs
+-----------------------

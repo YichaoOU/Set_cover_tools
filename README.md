@@ -72,7 +72,7 @@ Note that Evams imports `conf.py` from the same directory. You can add `Evams` t
 
 In `example.conf`, please change input to individual files in the Data folder.
 
-Configuration files used in this paper are provided in the **conf_paper** folder.
+Configuration files (`.conf`) used in this paper are provided in the **conf_paper** folder. In the same folder, running log files including CPU time and memory used are also provided.
 
 `-jid` is job ID. An output folder will be created using job ID, in which all results will be put.
 
