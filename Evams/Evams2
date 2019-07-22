@@ -1,6 +1,20 @@
-#!/usr/bin/python -W ignore::DeprecationWarning
+#!/usr/bin/env python
 from __future__ import division
-#### dataset is csv format, each row is a seq, each col is a motif; it is a boolean matrix, representing whether the motif is occurred on the sequence or not. The last column is the class, indicating foreground and background label. ####
+
+"""Performs nested-cross validation
+
+Input
+-----
+
+csv format, each row is a seq, each col is a motif
+
+It is a boolean matrix, representing whether the motif 
+is occurred on the sequence or not. The last column is 
+the class, indicating foreground and background label.
+
+
+
+"""
 import shutil
 import uuid
 import argparse
@@ -11,9 +25,7 @@ with warnings.catch_warnings():
 	import sklearn as sk
 	from sklearn.model_selection import StratifiedKFold as cv
 import re
-
-# import joblib
-from Emotif.utils import conf
+import conf
 import numpy as np
 from grid_search import grid_search
 import logging
